@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block body %}
+<div class="container">
+    <video class="animate__animated animate__fadeIn" autoplay muted loop
+        src="{{ url_for('static', filename='videos/home-video.mp4') }}"></video>
+
+    <div class="columns">
+        <div class="column">
+            Haberler
+        </div>
+        <div class="column">
+            Yayınlar
+        </div>
+    </div>
+</div>
+{% endblock %}

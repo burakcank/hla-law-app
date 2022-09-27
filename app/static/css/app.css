@@ -1,0 +1,20 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+#header-logo {
+    max-width: 18rem;
+}
+
+.navbar-start .is-active {
+    background-color: darkred !important;
+    color: white !important;
+}
+
+.navbar-item:hover {
+    animation: pulse;
+    animation-duration: 1s;
+}
+
+.footer {
+    color: grey;
+    background-color: #333333;
+}
