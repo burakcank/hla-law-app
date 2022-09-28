@@ -1,14 +1,54 @@
 <footer class="footer">
-    <div class="content has-text-centered">
+    <div class="container">
         <div class="columns">
-            <div class="column">
-                First column
+            <div class="column is-one-third">
+                <span class="icon">
+                    <i class="fa-brands fa-linkedin"></i>
+                </span>
+                <span class="icon">
+                    <i class="fa-solid fa-square-phone"></i>
+                </span>
+                <span class="icon">
+                    <i class="fa-solid fa-square-envelope"></i>
+                </span>
             </div>
-            <div class="column">
-                Second column
+
+            <div class="column is-one-third">
+                <a href="/language/tr">{{ _("Turkish") }}</a>
+                <a href="/language/en">{{ _("English") }}</a>
             </div>
-            <div class="column">
-                Third column
+
+            <div class="column is-one-third">
+                <span class="icon-text">
+                    <span class="icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </span>
+                    <span>
+                        AND Pastel T3 Blok K: 18 D:160
+                        Kartal / İstanbul 34870, Türkiye
+                    </span>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="container has-text-centered">
+        <div class="columns">
+            <div class="column is-one-third">
+                <img id="footer-logo" src="{{ url_for('static', filename='images/footer-logo.svg') }}"
+                    alt="footer-logo">
+            </div>
+
+            <div class="column is-one-third">
+                <i class="fa-regular fa-copyright"></i> 2022 İstanbul
+                <br>
+                Kullanım Koşulları - Gizlilik Politikası
+            </div>
+
+            <div class="column is-one-third">
+                Ne idüğü belirsiz biri tarafından tasarlandı.
             </div>
         </div>
     </div>

@@ -1,7 +1,28 @@
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
 
+
+body,
+html {
+    height: 100vh;
+}
+
+.body-content {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    flex-grow: 0;
+}
+
 #header-logo {
-    max-width: 18rem;
+    min-width: 12rem;
+    max-width: 16rem;
+}
+
+.navbar-item img {
+    max-height: 3rem;
 }
 
 .navbar-start .is-active {
@@ -9,12 +30,8 @@
     color: white !important;
 }
 
-.navbar-item:hover {
-    animation: pulse;
-    animation-duration: 1s;
-}
-
 .footer {
-    color: grey;
+    color: lightgray;
     background-color: #333333;
+    flex-grow: 0;
 }

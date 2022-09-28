@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% set active_page = "career" %}
+
+{% block body %}
+<div class="container">
+    <img src="{{ url_for('static', filename='images/career.png') }}" alt="career-image">
+    <p class="block">{{ _("Helvacı Laik Aşar olarak; hukuk hizmeti vermenin ötesinde disiplinler üstü fikirler yaratarak
+        daha iyi bir
+        geleceği mümkün kılmak için kolektif bir şekilde düşünüyor, tecrübe ve bilgi birikimimizi birleştirerek
+        çalışıyoruz. Bunun için de girişimcilik, kamu ve hukuk iş birliğine yönelik faaliyetler yürütüyor ve bu tarz
+        faaliyetleri destekliyoruz.") }}</p>
+    <br>
+    <p class="block">{{ _("Daha iyi bir gelecek fikri için bizimle çalışan ekip arkadaşlarımızın da aynı felsefeye sahip
+        olmasına önem
+        veriyor ve onlarla beraber bu fikrimizi daha ileriye taşımak için çabalıyoruz.") }}</p>
+    <br>
+    <p class="block">{{ _("Müvekkillerimizin faaliyet gösterdikleri alanlara ilgi duyan, sektörel gelişmeleri yakından
+        takip eden,
+        dijitalleşmeye ve inovatif düşünmeye yatkın, disiplinler ve kurumlar arası iş birliği fikrine açık, kurum
+        kültürümüze uyum sağlayabilecek avukat, stajyer avukat ve hukuk fakültesi öğrencileri ile bir arada çalışmaktan
+        büyük bir memnuniyet duyacağız.") }}</p>
+    <p class="block">{{ _("İyi ve akıcı bir şekilde yazılı ve sözlü İngilizce dilini kullanma yeteneğine sahip adayların
+        CV ve
+        motivasyon mektuplarını info@hla-law.com adresimize göndermelerini rica etmekteyiz. ") }}</p>
+    <p class="block">{{ _("Kişisel verilerinizin işlenmesi hakkında “Çalışan Adayı ve Stajyer Adayı Aydınlatma Metni”
+        (“Aydınlatma
+        Metni”) için tıklayınız.") }}</p>
+    <p class="block">{{ _("Kişisel verilerimin tarafıma bildirilen “Gizlilik ve Çerez Politikası”nda (“Gizlilik
+        Politikası”) açıklanan
+        şart ve koşullarda işlenmesini kabul ediyorum.") }}</p>
+</div>
+{% endblock %}

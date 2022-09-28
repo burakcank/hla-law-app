@@ -1,1 +1,4 @@
 flask
+flask-babel
+flask-session
+python-dotenv
