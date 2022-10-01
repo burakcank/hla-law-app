@@ -164,3 +164,6 @@ cython_debug/
 
 # flask-session
 flask_session/
+
+# css files are generated with from sass
+app/static/css/

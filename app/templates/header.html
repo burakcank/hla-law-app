@@ -1,38 +1,35 @@
 {% set navigation_bar = [
-("/", "homepage", _("Home")),
-("/about", "about", _("About")),
-("/areas", "areas", _("Fields")),
-("/team", "team", _("Team")),
-("/news", "news", _("News")),
-("/career", "career", _("Career")),
-("/contact", "contact", _("Contact")),
+("/", "homepage", _("Anasayfa")),
+("/about", "about", _("Hakkımızda")),
+("/areas", "areas", _("Çalışma Alanlarımız")),
+("/team", "team", _("Ekibimiz")),
+("/news", "news", _("Haberler")),
+("/career", "career", _("Kariyer")),
+("/contact", "contact", _("İletişim")),
 ] %}
 {% set active_page = active_page|default("homepage") %}
 
 <header>
-    <div class="container">
-        <nav class="navbar is-spaced has-shadow" role="navigation" aria-label="main navigation">
-            <div class="navbar-brand">
-                <a class="navbar-item" href="#">
-                    <img id="header-logo" src="{{ url_for('static', filename='images/header-logo.svg') }}"
-                        alt="header-logo">
-                </a>
+    <nav class="navbar is-spaced has-shadow" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <figure class="navbar-item">
+                <img id="header-logo" src="{{ url_for('static', filename='images/header-logo.svg') }}"
+                    alt="header-logo">
+            </figure>
 
-                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
-                    data-target="navbarBasicExample">
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                </a>
-            </div>
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasic">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
 
-            <div id="navbarBasicExample" class="navbar-menu">
-                <div class="navbar-start">
-                    {% for href, id, caption in navigation_bar %}
-                    <a href="{{ href|e }}" class="navbar-item {{ 'is-active' if id == active_page }}">{{ caption }}</a>
-                    {% endfor %}
-                </div>
+        <div id="navbarBasic" class="navbar-menu">
+            <div class="navbar-start">
+                {% for href, id, caption in navigation_bar %}
+                <a href="{{ href|e }}" class="navbar-item {{ 'is-active' if id == active_page }}">{{ caption }}</a>
+                {% endfor %}
             </div>
-        </nav>
-    </div>
+        </div>
+    </nav>
 </header>

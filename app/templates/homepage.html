@@ -2,16 +2,15 @@
 {% set active_page = "homepage" %}
 
 {% block body %}
+<video class="animate__animated animate__fadeIn" autoplay muted loop
+    src="{{ url_for('static', filename='videos/home-video.mp4') }}"></video>
 <div class="container">
-    <video class="animate__animated animate__fadeIn" autoplay muted loop
-        src="{{ url_for('static', filename='videos/home-video.mp4') }}"></video>
-
     <div class="columns">
         <div class="column">
-            {{ _("News") }}
+            {{ _("Haberler") }}
         </div>
         <div class="column">
-            {{ _("Publications") }}
+            {{ _("Yayınlar") }}
         </div>
     </div>
 </div>

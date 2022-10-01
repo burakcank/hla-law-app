@@ -4,6 +4,75 @@
 {% block body %}
 <div class="container">
     <img src="{{ url_for('static', filename='images/areas.png') }}" alt="about-image">
-    <p>Çalışma alanlarımız</p>
+    <p class="title has-text-centered">{{ _("Çalışma Alanlarımız") }}</p>
+
+    <div class="tile is-ancestor">
+        <div class="tile is-parent draw">
+            <a class="tile is-child box">
+                <p class="subtitle">{{ _("Bilişim ve İnternet Teknolojileri Hukuku") }}</p>
+            </a>
+        </div>
+        <div class="tile is-parent">
+            <a class="tile is-child box">
+                <p class="subtitle">{{ _("Finans Teknolojileri Hukuku") }}</p>
+            </a>
+        </div>
+        <div class="tile is-parent">
+            <a class="tile is-child box">
+                <p class="subtitle">{{ _("Elektronik Ticaret Hukuku") }}</p>
+            </a>
+        </div>
+    </div>
+    <div class="tile is-ancestor">
+        <div class="tile is-parent">
+            <a class="tile is-child box">
+                <p class="subtitle">{{ _("Kişisel Veri Hukuku") }}</p>
+            </a>
+        </div>
+        <div class="tile is-parent">
+            <a class="tile is-child box">
+                <p class="subtitle">{{ _("Fikri Mülkiyet Hukuku") }}</p>
+            </a>
+        </div>
+        <div class="tile is-parent">
+            <a class="tile is-child box">
+                <p class="subtitle">{{ _("Şirketler ve Ticaret Hukuku") }}</p>
+            </a>
+        </div>
+    </div>
+    <div class="tile is-ancestor">
+        <div class="tile is-parent">
+            <a class="tile is-child box">
+                <p class="subtitle">{{ _("Sözleşmeler Hukuku") }}</p>
+            </a>
+        </div>
+        <div class="tile is-parent">
+            <a class="tile is-child box">
+                <p class="subtitle">{{ _("İdare ve Vergi Hukuku") }}</p>
+            </a>
+        </div>
+        <div class="tile is-parent">
+            <a class="tile is-child box">
+                <p class="subtitle">{{ _("İş ve Sosyal Güvenlik Hukuku") }}</p>
+            </a>
+        </div>
+    </div>
+    <div class="tile is-ancestor">
+        <div class="tile is-parent">
+            <a class="tile is-child box">
+                <p class="subtitle">{{ _("Uluslararası İlişkiler Hukuku") }}</p>
+            </a>
+        </div>
+        <div class="tile is-parent">
+            <a class="tile is-child box">
+                <p class="subtitle">{{ _("Gayrimenkul ve Kat Mülkiyeti Hukuku") }}</p>
+            </a>
+        </div>
+        <div class="tile is-parent">
+            <a class="tile is-child box">
+                <p class="subtitle">{{ _("Yabancılar ve Vatandaşlık Hukuku") }}</p>
+            </a>
+        </div>
+    </div>
 </div>
 {% endblock %}

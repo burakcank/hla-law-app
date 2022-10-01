@@ -1,0 +1,96 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+@import "https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css";
+@import "http://fonts.cdnfonts.com/css/century-gothic";
+
+* {
+    font-family: 'Century Gothic', sans-serif;
+    font-size: small;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.body-content {
+    flex-grow: 1;
+}
+
+video {
+    width: 100vw;
+    height: auto;
+    max-height: 30rem;
+    object-fit: cover;
+}
+
+#header-logo {
+    height: 3.5rem;
+}
+
+
+.navbar-brand {
+    .navbar-item {
+        padding: 0;
+
+        img {
+            max-height: unset;
+        }
+    }
+}
+
+.navbar-start {
+    a {
+        border-radius: 0px !important;
+
+        &:hover {
+            color: white;
+            background-color: darkred;
+            transition: all 0.5s ease-out;
+
+        }
+    }
+
+    .is-active {
+        background-color: darkred !important;
+        color: white !important;
+    }
+
+    .navbar-item {
+        padding: 0.8rem;
+    }
+}
+
+.footer {
+    color: #999;
+    background-color: #333333;
+}
+
+.icons-section {
+    i {
+        padding: 0 1rem;
+        transition: all .2s;
+        cursor: pointer;
+
+        &:hover {
+            color: darkred;
+            transform: scale(1.5);
+        }
+    }
+}
+
+a {
+    color: #A11;
+
+    &:hover {
+        color: white;
+    }
+}
+
+.tile .is-child:hover {
+    background-color: #60daaa;
+}
+
+.people {
+    object-fit: cover !important;
+}
