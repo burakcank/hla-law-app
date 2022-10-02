@@ -1,9 +1,91 @@
 {% extends "base.html" %}
 {% set active_page = "contact" %}
 
+{% set API_KEY = config["GOOGLE_MAPS_API_KEY"] %}
+
 {% block body %}
+<img class="page-image" src="{{ url_for('static', filename='images/contact.png') }}" alt="page-image">
+
 <div class="container">
-    <img src="{{ url_for('static', filename='images/contact.png') }}" alt="contact-image">
-    <p>Ekibimiz</p>
+    <h1 class="subtitle is-3 has-text-centered">{{ _("İletişim") }}</h1>
+    <div class="columns">
+        <div class="column">
+            <!-- <iframe width="600" height="450" style="border:0" loading="lazy" allowfullscreen
+                referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed/v1/place?key={{API_KEY}}
+            &q=AND Pastel T3 Blok K: 18 D:160 Kartal / İstanbul 34870, Türkiye">
+            </iframe> -->
+            <iframe width="600" height="450" style="border:0" loading="lazy" allowfullscreen
+                referrerpolicy="no-referrer-when-downgrade"
+                src="{{ url_for('static', filename='images/fake-googlemaps.png') }}">
+            </iframe>
+        </div>
+        <div class="column has-text-centered">
+            <div class="block" id="address">
+                <h1 class="subtitle is-5 has-text-centered">{{ _("Adres") }}</h1>
+                <i class="fa-solid fa-location-dot"></i>
+                <br>
+                AND Pastel T3 Blok K: 18 D:160
+                Kartal / İstanbul 34870, Türkiye
+            </div>
+            <div class="block" id="phone">
+                <h1 class="subtitle is-5 has-text-centered">{{ _("Telefon") }}</h1>
+                +90 216 706 44 52
+            </div>
+            <div class="block" id="email">
+                <h1 class="subtitle is-5 has-text-centered">{{ _("E-Posta") }}</h1>
+                info@hla-law.com
+            </div>
+        </div>
+    </div>
+
+    <h1 class="subtitle is-4 has-text-centered">{{ _("Bize Ulaşın") }}</h1>
+    <div class="columns">
+        <div class="column">
+            <div class="field">
+                <label class="label">{{ _("Adınız Soyadınız") }}</label>
+                <div class="control">
+                    <input class="input" type="text">
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label">{{ _("E-Posta Adresiniz") }}</label>
+                <div class="control">
+                    <input class="input" type="email" value="">
+                </div>
+                <!-- <p class="help">{{_("Geçersiz e-posta adresi")}}</p> -->
+            </div>
+
+            <div class="field">
+                <label class="label">{{ _("Cep Telefonunuz") }}</label>
+                <div class="control">
+                    <input class="input" type="text">
+                </div>
+            </div>
+
+            <div class="field">
+                <div class="control">
+                    <label class="checkbox">
+                        <input type="checkbox">
+                        {{ _("Kişisel verilerimin Aydınlatma Metni’nde açıklanan şart ve koşullarda işlenmesini kabul
+                        ediyorum.") }}
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="field">
+                <label class="label">{{ _("Talebiniz") }}</label>
+                <div class="control">
+                    <textarea class="textarea"></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="field is-grouped">
+        <div class="control">
+            <button class="button is-link">{{ _("Gönder") }}</button>
+        </div>
+    </div>
 </div>
 {% endblock %}

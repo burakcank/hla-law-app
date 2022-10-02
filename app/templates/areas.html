@@ -2,77 +2,34 @@
 {% set active_page = "areas" %}
 
 {% block body %}
+<img class="page-image" src="{{ url_for('static', filename='images/areas.png') }}" alt="page-image">
 <div class="container">
-    <img src="{{ url_for('static', filename='images/areas.png') }}" alt="about-image">
-    <p class="title has-text-centered">{{ _("Çalışma Alanlarımız") }}</p>
+    <p class="subtitle is-3 has-text-centered">{{ _("Çalışma Alanlarımız") }}</p>
 
-    <div class="tile is-ancestor">
-        <div class="tile is-parent draw">
-            <a class="tile is-child box">
-                <p class="subtitle">{{ _("Bilişim ve İnternet Teknolojileri Hukuku") }}</p>
-            </a>
+    <div class="columns is-multiline">
+        {% for area in areas %}
+        <div class="column is-4 fields">
+            <p class="subtitle is-6 draw js-modal-trigger" data-target="modal-area-{{ area['id']}}">
+                <span>{{ area["icon"]|safe }}</span>
+                {{ area["name"] }}
+            </p>
         </div>
-        <div class="tile is-parent">
-            <a class="tile is-child box">
-                <p class="subtitle">{{ _("Finans Teknolojileri Hukuku") }}</p>
-            </a>
+
+        <div id="modal-area-{{ area['id'] }}" class="modal">
+            <div class="modal-background"></div>
+            <div class="modal-card">
+                <header class="modal-card-head">
+                    <p class="modal-card-title">{{ area["name"] }}</p>
+                    <button class="delete" aria-label="close"></button>
+                </header>
+                <section class="modal-card-body">
+                    {% for paragraph in area["paragraphs"] %}
+                    <p>{{ paragraph }}</p>
+                    {% endfor %}
+                </section>
+            </div>
         </div>
-        <div class="tile is-parent">
-            <a class="tile is-child box">
-                <p class="subtitle">{{ _("Elektronik Ticaret Hukuku") }}</p>
-            </a>
-        </div>
-    </div>
-    <div class="tile is-ancestor">
-        <div class="tile is-parent">
-            <a class="tile is-child box">
-                <p class="subtitle">{{ _("Kişisel Veri Hukuku") }}</p>
-            </a>
-        </div>
-        <div class="tile is-parent">
-            <a class="tile is-child box">
-                <p class="subtitle">{{ _("Fikri Mülkiyet Hukuku") }}</p>
-            </a>
-        </div>
-        <div class="tile is-parent">
-            <a class="tile is-child box">
-                <p class="subtitle">{{ _("Şirketler ve Ticaret Hukuku") }}</p>
-            </a>
-        </div>
-    </div>
-    <div class="tile is-ancestor">
-        <div class="tile is-parent">
-            <a class="tile is-child box">
-                <p class="subtitle">{{ _("Sözleşmeler Hukuku") }}</p>
-            </a>
-        </div>
-        <div class="tile is-parent">
-            <a class="tile is-child box">
-                <p class="subtitle">{{ _("İdare ve Vergi Hukuku") }}</p>
-            </a>
-        </div>
-        <div class="tile is-parent">
-            <a class="tile is-child box">
-                <p class="subtitle">{{ _("İş ve Sosyal Güvenlik Hukuku") }}</p>
-            </a>
-        </div>
-    </div>
-    <div class="tile is-ancestor">
-        <div class="tile is-parent">
-            <a class="tile is-child box">
-                <p class="subtitle">{{ _("Uluslararası İlişkiler Hukuku") }}</p>
-            </a>
-        </div>
-        <div class="tile is-parent">
-            <a class="tile is-child box">
-                <p class="subtitle">{{ _("Gayrimenkul ve Kat Mülkiyeti Hukuku") }}</p>
-            </a>
-        </div>
-        <div class="tile is-parent">
-            <a class="tile is-child box">
-                <p class="subtitle">{{ _("Yabancılar ve Vatandaşlık Hukuku") }}</p>
-            </a>
-        </div>
+        {% endfor %}
     </div>
 </div>
 {% endblock %}

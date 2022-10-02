@@ -15,6 +15,7 @@ class Config:
     SESSION_TYPE = "filesystem"
     JWT_SECRET_KEY = environ.get("JWT_SECRET_KEY")
     PASSWORD_HASH_ROUNDS = int(environ.get("PASSWORD_HASH_ROUNDS", 10))
+    GOOGLE_MAPS_API_KEY = environ.get("GOOGLE_MAPS_API_KEY")
 
     LANGUAGES = {
         "en": "English",

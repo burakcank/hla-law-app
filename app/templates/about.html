@@ -2,9 +2,9 @@
 {% set active_page = "about" %}
 
 {% block body %}
-<img src="{{ url_for('static', filename='images/about.png') }}" alt="about-image">
+<img class="page-image" src="{{ url_for('static', filename='images/about.png') }}" alt="page-image">
 <div class="container">
-    <h1 class="subtitle has-text-centered">{{ _("Hakkımızda") }}</h1>
+    <h1 class="subtitle is-3 has-text-centered">{{ _("Hakkımızda") }}</h1>
     <p class="block">{{ _("Helvacı Laik Aşar olarak, dinamik ve dijitalleşmeye uyum sağlamış profesyonel kadromuz ile
         ulusal ve
         uluslararası faaliyet gösteren yerli ve yabancı müvekkillerimiz için etkin, çözüm odaklı ve nitelikli hizmet

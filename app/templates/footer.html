@@ -31,8 +31,8 @@
             <div class="column is-one-third">
                 <i class="fa-regular fa-copyright"></i> 2022 İstanbul
                 <br>
-                <a href="{{ url_for('legal_notice') }}">{{ _("Kullanım Koşulları") }}</a> - <a
-                    href="{{ url_for('legal_notice') }}">{{ _("Gizlilik Politikası") }}</a>
+                <a href="{{ url_for('serve_document', doc_type='legal_notice') }}">{{ _("Kullanım Koşulları") }}</a> -
+                <a href="{{ url_for('serve_document', doc_type='privacy_policy') }}">{{ _("Gizlilik Politikası") }}</a>
             </div>
 
             <div class="column is-one-third">

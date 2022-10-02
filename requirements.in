@@ -3,3 +3,5 @@ flask-babel
 flask-session
 python-dotenv
 libsass
+aspose-words
+beautifulsoup4
