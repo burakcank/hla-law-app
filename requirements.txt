@@ -4,17 +4,46 @@
 #
 #    pip-compile
 #
+aspose-words==22.9.0
+    # via -r requirements.in
+babel==2.10.3
+    # via flask-babel
+beautifulsoup4==4.11.1
+    # via -r requirements.in
+cachelib==0.9.0
+    # via flask-session
 click==8.1.3
     # via flask
 flask==2.2.2
+    # via
+    #   -r requirements.in
+    #   flask-babel
+    #   flask-session
+flask-babel==2.0.0
+    # via -r requirements.in
+flask-session==0.4.0
     # via -r requirements.in
 itsdangerous==2.1.2
     # via flask
 jinja2==3.1.2
-    # via flask
+    # via
+    #   flask
+    #   flask-babel
+libsass==0.21.0
+    # via -r requirements.in
 markupsafe==2.1.1
     # via
     #   jinja2
     #   werkzeug
+python-dotenv==0.21.0
+    # via -r requirements.in
+pytz==2022.4
+    # via
+    #   babel
+    #   flask-babel
+six==1.16.0
+    # via libsass
+soupsieve==2.3.2.post1
+    # via beautifulsoup4
 werkzeug==2.2.2
     # via flask
