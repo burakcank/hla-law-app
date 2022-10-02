@@ -20,7 +20,6 @@ app.config.from_object("config.DevConfig")
 
 babel = Babel(app)
 Session(app)
-gmaps = googlemaps.Client(app.config["GOOGLE_MAPS_API_KEY"])
 
 
 @app.route("/")
@@ -80,11 +79,11 @@ def serve_document(doc_type):
         doc_name = f"Kariyer Aydınlatma Metni {lang}"
         strip_paragraphs = [0, 1, -3, -2, -1]
 
-    html_file = pathlib.Path(f"app/static/files/html/{doc_name}.html")
+    html_file = pathlib.Path(f"{app.root_path}/static/files/html/{doc_name}.html")
     if not html_file.is_file():
-        doc = aw.Document(f"app/static/files/{doc_name}.docx")
-        doc.save(f"app/static/files/html/{doc_name}.html")
-    with open(f"app/static/files/html/{doc_name}.html") as html_file:
+        doc = aw.Document(f"{app.root_path}/static/files/{doc_name}.docx")
+        doc.save(f"{app.root_path}/static/files/html/{doc_name}.html")
+    with open(f"{app.root_path}/static/files/html/{doc_name}.html") as html_file:
         soup = BeautifulSoup(html_file)
 
     # Remove the watermark from aspose.
