@@ -2,24 +2,30 @@
 {% set active_page = "about" %}
 
 {% block body %}
-<img class="page-image" src="{{ url_for('static', filename='images/about.png') }}" alt="page-image">
+<img class="page-image" src="{{ url_for('static', filename='images/about.png') }}" alt="page-image" />
 <div class="container">
     <h1 class="subtitle is-3 has-text-centered">{{ _("Hakkımızda") }}</h1>
-    <p class="block">{{ _("Helvacı Laik Aşar olarak, dinamik ve dijitalleşmeye uyum sağlamış profesyonel kadromuz ile
-        ulusal ve
-        uluslararası faaliyet gösteren yerli ve yabancı müvekkillerimiz için etkin, çözüm odaklı ve nitelikli hizmet
-        vermekteyiz.") }}</p>
     <p class="block">
-        {{ _("Bilişim ve internet teknolojileri hukuku başta olmak üzere; şirketler ve ticaret hukuku, sözleşmeler
-        hukuku, iş ve sosyal güvenlik hukuku, fikri mülkiyet hukuku, gayrimenkul ve inşaat hukuku gibi birçok alanda
-        müvekkillerimize danışmanlık hizmeti veriyor ve müvekkillerimizin kurumsallaşma süreçlerini yürütüyoruz. Bununla
-        beraber, bireysel ve kurumsal müvekkillerimizi; dava, tahkim ve icra takibi süreçlerinde temsil ediyoruz.") }}
+        {{ _("Helvacı Laik Aşar olarak, dinamik ve dijitalleşmeye uyum sağlamış
+        profesyonel kadromuz ile ulusal ve uluslararası faaliyet gösteren yerli ve
+        yabancı müvekkillerimiz için etkin, çözüm odaklı ve nitelikli hizmet
+        vermekteyiz.") }}
     </p>
     <p class="block">
-        {{ _("Ayrıca ödeme hizmetleri, e-ticaret, eğitim teknolojileri, yeni nesil medya, internet teknolojileri, veri
-        analizi ve güvenliği gibi birçok farklı sektörde faaliyet gösteren müvekkillerimizin finansal teknolojiler
-        (fintek) hukuku, kişisel veri hukuku ve elektronik ticaret hukuku alanlarında mevzuata uyum süreçlerinin
-        tamamlanmasında aktif rol oynuyoruz.") }}
+        {{ _("Bilişim ve internet teknolojileri hukuku başta olmak üzere; şirketler
+        ve ticaret hukuku, sözleşmeler hukuku, iş ve sosyal güvenlik hukuku, fikri
+        mülkiyet hukuku, gayrimenkul ve inşaat hukuku gibi birçok alanda
+        müvekkillerimize danışmanlık hizmeti veriyor ve müvekkillerimizin
+        kurumsallaşma süreçlerini yürütüyoruz. Bununla beraber, bireysel ve kurumsal
+        müvekkillerimizi; dava, tahkim ve icra takibi süreçlerinde temsil
+        ediyoruz.") }}
+    </p>
+    <p class="block">
+        {{ _("Ayrıca ödeme hizmetleri, e-ticaret, eğitim teknolojileri, yeni nesil
+        medya, internet teknolojileri, veri analizi ve güvenliği gibi birçok farklı
+        sektörde faaliyet gösteren müvekkillerimizin finansal teknolojiler (fintek)
+        hukuku, kişisel veri hukuku ve elektronik ticaret hukuku alanlarında
+        mevzuata uyum süreçlerinin tamamlanmasında aktif rol oynuyoruz.") }}
     </p>
 
     <div class="tile">
@@ -29,27 +35,26 @@
                     <i>{{ _("Başarı ve çözüm odaklı hukuk hizmeti") }}</i>
                 </div>
                 <div class="block">
-                    {{ _("Bireysel ve kurumsal müvekkillerimizin ihtiyaçlarına odaklanan bir yaklaşımla, en uygun ve
-                    geniş
-                    kapsamlı
-                    hukuk
-                    hizmetini vermek için çalışıyoruz. Ticari ve sektörel bilgi birikimimizi; yaratıcı, hızlı ve
-                    yenilikçi
-                    çözümlerle destekleyerek müvekkillerimiz için en etkin ve faydalı sonucu hedefliyoruz.") }}
+                    {{ _("Bireysel ve kurumsal müvekkillerimizin ihtiyaçlarına odaklanan
+                    bir yaklaşımla, en uygun ve geniş kapsamlı hukuk hizmetini vermek için
+                    çalışıyoruz. Ticari ve sektörel bilgi birikimimizi; yaratıcı, hızlı ve
+                    yenilikçi çözümlerle destekleyerek müvekkillerimiz için en etkin ve
+                    faydalı sonucu hedefliyoruz.") }}
                 </div>
             </div>
         </div>
         <div class="tile">
             <div class="box">
                 <div class="block">
-                    <i>{{ _("Yenilikçi ve kolektif düşünceyi merkeze alan bir felsefe") }}</i>
+                    <i>{{ _("Yenilikçi ve kolektif düşünceyi merkeze alan bir felsefe")
+                        }}</i>
                 </div>
                 <div class="block">
-                    {{ _("Yenilikçi ve kolektif düşünce anlayışını benimseyerek teknoloji, girişimcilik ve iş dünyası
-                    ile kamu
-                    kurumlarının iş birliğine yönelik faaliyetlere önem veriyoruz. Disiplinler üstü fikirler yaratmayı
-                    hedefliyor;
-                    bu hedefimizin, hukuki danışmanlık hizmeti verme anlayışını değiştireceğine inanıyoruz.") }}
+                    {{ _("Yenilikçi ve kolektif düşünce anlayışını benimseyerek teknoloji,
+                    girişimcilik ve iş dünyası ile kamu kurumlarının iş birliğine yönelik
+                    faaliyetlere önem veriyoruz. Disiplinler üstü fikirler yaratmayı
+                    hedefliyor; bu hedefimizin, hukuki danışmanlık hizmeti verme
+                    anlayışını değiştireceğine inanıyoruz.") }}
                 </div>
             </div>
         </div>
@@ -59,17 +64,12 @@
                     <i>{{ _("Dinamik ve uzman kadro") }}</i>
                 </div>
                 <div class="block">
-                    {{ _("Dijitalleşme ile yenilikçi düşünceyi merkeze alan; müvekkillerimizin faaliyet gösterdikleri
-                    alanlar
-                    ile
-                    ilgili
-                    ticari, ekonomik ve sektörel gelişmeleri takip eden; değişen ihtiyaçlara yönelik hızlı geri dönüş
-                    yapabilme
-                    ve
-                    cevap verebilme kabiliyetine sahip; şeffaf, hesap verilebilir ve ulaşılabilir olmaktan asla taviz
-                    vermeyen
-                    uzman
-                    kadromuz ile hizmet vermekteyiz.") }}
+                    {{ _("Dijitalleşme ile yenilikçi düşünceyi merkeze alan;
+                    müvekkillerimizin faaliyet gösterdikleri alanlar ile ilgili ticari,
+                    ekonomik ve sektörel gelişmeleri takip eden; değişen ihtiyaçlara
+                    yönelik hızlı geri dönüş yapabilme ve cevap verebilme kabiliyetine
+                    sahip; şeffaf, hesap verilebilir ve ulaşılabilir olmaktan asla taviz
+                    vermeyen uzman kadromuz ile hizmet vermekteyiz.") }}
                 </div>
             </div>
         </div>

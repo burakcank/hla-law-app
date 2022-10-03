@@ -2,36 +2,44 @@
     <div class="container has-text-centered">
         <div class="columns is-align-items-center">
             <div class="column is-one-third icons-section">
-                <i class="fa-brands fa-linkedin fa-xl"></i>
-                <i class="fa-solid fa-square-phone fa-xl"></i>
-                <i class="fa-solid fa-square-envelope fa-xl"></i>
+                <a href="https://www.linkedin.com/company/helvac%C4%B1-laik-a%C5%9Far/about/?viewAsMember=true">
+                    <i class="fa-brands fa-linkedin fa-xl"></i>
+                </a>
+                <a href="tel:+902167064452">
+                    <i class="fa-solid fa-square-phone fa-xl"></i>
+                </a>
+                <a href="mailto:info@hla-law.com">
+                    <i class="fa-solid fa-square-envelope fa-xl"></i>
+                </a>
             </div>
 
             <div class="column is-one-third language-selector">
-                <a href="/language/tr"></i>{{ _("Türkçe") }}</a> - <a href="/language/en"></i>{{ _("İngilizce") }}</a>
+                <a href="/language/tr">{{ _("Türkçe") }}</a> -
+                <a href="/language/en">{{ _("İngilizce") }}</a>
             </div>
 
             <div class="column is-one-third">
                 <i class="fa-solid fa-location-dot"></i>
-                <br>
+                <br />
                 AND Pastel T3 Blok K: 18 D:160
-                <br>
+                <br />
                 Kartal / İstanbul 34870, Türkiye
             </div>
         </div>
 
-        <hr>
+        <div class="hr-div"></div>
 
         <div class="columns is-align-items-center">
             <div class="column is-one-third">
                 <img id="footer-logo" src="{{ url_for('static', filename='images/footer-logo.svg') }}"
-                    alt="footer-logo">
+                    alt="footer-logo" />
             </div>
 
             <div class="column is-one-third">
                 <i class="fa-regular fa-copyright"></i> 2022 İstanbul
-                <br>
-                <a href="{{ url_for('serve_document', doc_type='legal_notice') }}">{{ _("Kullanım Koşulları") }}</a> -
+                <br />
+                <a href="{{ url_for('serve_document', doc_type='legal_notice') }}">{{ _("Kullanım Koşulları") }}</a>
+                -
                 <a href="{{ url_for('serve_document', doc_type='privacy_policy') }}">{{ _("Gizlilik Politikası") }}</a>
             </div>
 

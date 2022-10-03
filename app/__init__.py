@@ -1,7 +1,6 @@
 import pathlib
 
 import aspose.words as aw
-import googlemaps
 from bs4 import BeautifulSoup
 from flask import Flask, redirect, render_template, session, url_for
 from flask_babel import Babel, request
