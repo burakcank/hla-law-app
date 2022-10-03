@@ -1,3 +1,4 @@
+from flask import url_for
 from flask_babel import gettext
 
 areas = [
@@ -143,6 +144,115 @@ areas = [
             gettext(
                 "Türkiye, yakın coğrafyasında ve kendi dinamikleri çerçevesinde yaşanan değişikliklerin etkisiyle göç alan bir ülke konumuna gelmiştir. Bu nedenle yabancıların Türkiye’deki hukuki statüleri ve hak ile yükümlülüklerinin belirlenmesi önemli bir hal almıştır. Helvacı Laik Aşar olarak; Türkiye’de bulunan yabancıların hak ve yükümlülüklerini ilgilendiren her türlü idari ve hukuki gelişmeyi takip etmekteyiz. Yabancıların Türkiye’de; oturma izni, çalışma izni, vatandaşlık ve gayrimenkul sahibi olması gibi konularda da bireysel ve kurumsal müvekkillerimize danışmanlık hizmeti vermekteyiz."
             )
+        ],
+    },
+]
+
+team = [
+    {
+        "id": 1,
+        "name": "Av. Muhammed M. Helvacı",
+        "title": gettext("Kurucu Avukat"),
+        "city": "İstanbul",
+        "img": url_for("static", filename="images/MMH.jpeg"),
+        "email": "muhammed.helvaci@hla-law.com",
+        "foreign-language": gettext("İngilizce"),
+        "linkedin-url": "",
+        "url": "/resume/mmh",
+        "areas": [
+            gettext("Elektronik Ticaret Hukuku"),
+            gettext("Finans Teknolojileri Hukuku"),
+            gettext("İdare ve Vergi Hukuku"),
+            gettext("İş ve Sosyal Güvenlik Hukuku"),
+            gettext("Kişisel Veri Hukuku"),
+            gettext("Şirketler ve Ticaret Hukuku"),
+            gettext("Sözleşmeler Hukuku"),
+        ],
+        "biography": [
+            gettext(
+                "Dijitalleşen dünyayı aktif olarak takip eden Muhammed; finans teknolojileri, elektronik ticaret ve kişisel veri hukuku alanlarında çalışmalar yapmaktadır. Helvacı Laik Aşar’dan önce ; e-ticaret, eğitim, medya, turizm, lojistik, inşaat, üretim gibi çeşitli sektörlerde faaliyet göstermekte olan şirketlere danışmanlık hizmeti sağlamış ve uyuşmazlık aşamalarında temsil etmiştir."
+            ),
+            gettext(
+                "Bilişim ve internet teknolojileri hukukunun yanı sıra; sözleşmeler hukuku, şirketler ve ticaret hukuku, iş ve sosyal güvenlik hukuku, idare ve vergi hukuku alanlarında danışmanlık, dava ve uyuşmazlık çözüm yöntemleri aşamalarında avukatlık hizmeti vermeye devam etmektedir. Muhammed, yüksek lisans eğitimine devam etmekte olup çalışmalarını bilişim suçları üzerine yoğunlaştırmaktadır. İş, hukuk ve sosyal girişimcilik alanlarında faaliyet gösteren sivil toplum kuruluşlarında aktif olarak yer almaktadır."
+            ),
+        ],
+        "education": [
+            gettext("İstanbul Üniversitesi, Kamu Hukuku Yüksek Lisans"),
+            gettext("İstanbul Üniversitesi, Yönetim Bilişim Sistemleri"),
+            gettext("İstanbul Üniversitesi, Hukuk Fakültesi"),
+            gettext("Kadıköy Anadolu Lisesi"),
+        ],
+    },
+    {
+        "id": 2,
+        "name": "Av. Mustafa Tayfun Laik",
+        "title": gettext("Kurucu Avukat"),
+        "city": "İstanbul",
+        "img": url_for("static", filename="images/MTL.jpeg"),
+        "email": "mustafa.laik@hla-law.com",
+        "foreign-language": gettext("İngilizce"),
+        "linkedin-url": "",
+        "url": "/resume/mtl",
+        "areas": [
+            gettext("Bilişim ve İnternet Teknolojileri Hukuku"),
+            gettext("Elektronik Ticaret Hukuku"),
+            gettext("Finans Teknolojileri Hukuku"),
+            gettext("İş ve Sosyal Güvenlik Hukuku"),
+            gettext("Kişisel Veri Hukuku"),
+            gettext("Uluslararası Kuruluşlar ve STK"),
+            gettext("Yabancılar ve Vatandaşlık Hukuku"),
+        ],
+        "biography": [
+            gettext(
+                "Mustafa; finansal teknolojiler, kişisel verilerin korunması ve elektronik ticaret alanlarında çalışmalar yapmaktadır."
+            ),
+            gettext(
+                "Helvacı Laik Aşar’ın kuruluşu öncesinde, ödeme ve elektronik para hizmetleri alanında Türkiye’nin ve Avrupa’nın önde gelen start-up’larından birisinde kariyerine başlayan Mustafa; uluslararası kuruluş ve sivil toplum örgütleri ile de yakından çalışmak fırsatı yakalamış ve bunların Türk hukukuna uyum süreçlerinde danışmanlık hizmeti vermiştir. Bu kapsamda daha çok; bilişim ve internet teknolojileri hukuku, iş ve sosyal güvenlik hukuku, uluslararası kuruluşlar, sivil toplum örgütleri, yabancılar ve vatandaşlık hukuku alanlarında danışmanlık ve dava avukatlığı yapmaktadır."
+            ),
+            gettext(
+                "İş, girişimcilik ve hukuk dünyasını bir araya getiren, girişimcilik ekosistemini ve özellikle sosyal girişimciliği destekleyen sivil toplum kuruluşlarında yönetici ve üye olarak aktif görev almaktadır."
+            ),
+        ],
+        "education": [
+            gettext("İstanbul Üniversitesi, Yönetim Bilişim Sistemleri"),
+            gettext("İstanbul Üniversitesi, Hukuk Fakültesi"),
+            gettext("Kadıköy Anadolu Lisesi"),
+        ],
+    },
+    {
+        "id": 3,
+        "name": "Av. Doğukan Aşar",
+        "title": gettext("Kurucu Avukat"),
+        "city": "İstanbul",
+        "img": url_for("static", filename="images/DA.jpeg"),
+        "email": "muhammed.helvaci@hla-law.com",
+        "foreign-language": gettext("İngilizce"),
+        "linkedin-url": "",
+        "url": "/resume/da",
+        "areas": [
+            gettext("Elektronik Ticaret Hukuku"),
+            gettext("Fikri Mülkiyet Hukuku"),
+            gettext("Finans Teknolojileri Hukuku"),
+            gettext("Gayrimenkul ve Kat Mülkiyeti Hukuku"),
+            gettext("Kişisel Veri Hukuku"),
+            gettext("Şirketler ve Ticaret Hukuku"),
+            gettext("Sözleşmeler Hukuku"),
+        ],
+        "biography": [
+            gettext(
+                "Doğukan; bilişim ve internet teknolojileri ile fikri mülkiyet hukuku alanlarında çalışmalar yapmaktadır. Kariyeri boyunca ödeme hizmetleri, e-ticaret, medya, eğitim, tekstil ve gayrimenkul alanlarında, ulusal ve uluslararası faaliyet göstermekte olan şirketlere avukatlık ve danışmanlık hizmeti sunmuştur."
+            ),
+            gettext(
+                "Doğukan; finansal teknolojiler hukuku, kişisel veri hukuku ve elektronik ticaret hukuku alanlarında, kurumsal müvekkillerinin hukuka uyum süreçlerini yürütürken; gayrimenkul hukuku, şirketler ve ticaret hukuku, sözleşmeler hukuku ve fikri mülkiyet hukuku alanlarında, davalarda edinmiş olduğu uygulamaya yönelik tecrübelerinden faydalanarak, danışmanlık, dava ve uyuşmazlık çözüm yöntemleri aşamalarında avukatlık hizmeti vermeye devam etmektedir."
+            ),
+            gettext(
+                "Doğukan; girişimcilik ve iş alanında faaliyet gösteren sivil toplum kuruluşlarında yönetici ve üye sıfatları ile aktif olarak çalışmalar yapmaktadır."
+            ),
+        ],
+        "education": [
+            gettext("İstanbul Üniversitesi, Yönetim Bilişim Sistemleri"),
+            gettext("İstanbul Üniversitesi, Hukuk Fakültesi"),
+            gettext("Hayrullah Kefoğlu Anadolu Lisesi"),
         ],
     },
 ]

@@ -6,46 +6,24 @@
 
 <div class="container">
     <h1 class="subtitle is-3 has-text-centered">{{ _("Ekibimiz") }}</h1>
-    <div class="columns">
+    <div class="columns team">
+        {% for member in team %}
         <div class="column is-one-third">
             <div class="card">
-                <div class="card-image">
-                    <figure class="image is-4by5">
-                        <img id="people1" src="{{ url_for('static', filename='images/MMH.jpeg') }}" alt="" />
-                    </figure>
-                </div>
-                <div class="card-content">
-                    <p>Av. Muhammed M. Helvacı</p>
-                    <i>İstanbul, Kurucu Avukat</i>
-                </div>
+                <a href="{{ member['url'] }}">
+                    <div class="card-image">
+                        <figure class="image is-4by5">
+                            <img id="member{{ member.id }}" src="{{ member['img'] }}" alt="member-image" />
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <p>{{ member["name"] }}</p>
+                        <i>{{ member["title"] }}</i>
+                    </div>
+                </a>
             </div>
         </div>
-        <div class="column is-one-third">
-            <div class="card">
-                <div class="card-image">
-                    <figure class="image is-4by5">
-                        <img id="people2" src="{{ url_for('static', filename='images/MTL.jpeg') }}" alt="" />
-                    </figure>
-                </div>
-                <div class="card-content">
-                    <p>Av. Mustafa Tayfun Laik</p>
-                    <i>İstanbul, Kurucu Avukat</i>
-                </div>
-            </div>
-        </div>
-        <div class="column is-one-third">
-            <div class="card">
-                <div class="card-image">
-                    <figure class="image is-4by5">
-                        <img id="people3" src="{{ url_for('static', filename='images/DA.jpeg') }}" alt="" />
-                    </figure>
-                </div>
-                <div class="card-content">
-                    <p>Av. Doğukan Aşar</p>
-                    <i>İstanbul, Kurucu Avukat</i>
-                </div>
-            </div>
-        </div>
+        {% endfor %}
     </div>
 </div>
 {% endblock %}

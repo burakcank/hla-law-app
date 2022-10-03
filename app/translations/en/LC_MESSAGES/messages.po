@@ -1,0 +1,670 @@
+# English translations for PROJECT.
+# Copyright (C) 2022 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2022-10-03 23:18+0300\n"
+"PO-Revision-Date: 2022-10-03 23:23+0300\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: app/data.py:7 app/data.py:197
+msgid "Bilişim ve İnternet Teknolojileri Hukuku"
+msgstr "IT and Internet Technologies Law"
+
+#: app/data.py:10
+msgid ""
+"Ulusal ve uluslararası gelişmeleri, gerek teknik anlamda gerekse hukuken "
+"ilgili mevzuatlar kapsamında takip ederek çalışan özel ekibimiz ile "
+"günden güne gelişen ve büyüyen bilişim ve internet teknolojileri "
+"alanında, hukuki danışmanlık hizmeti sunmaktayız. Danışmanlık "
+"hizmetimizin yanında, karşılaşmış oldukları uyuşmazlıklarda "
+"müvekkillerimizi, arabuluculuk, dava ve diğer uyuşmazlık çözüm yöntemleri"
+" aşamalarında etkin bir şekilde temsil etmekteyiz."
+msgstr "We provide legal consultancy services in the field of IT and internet technologies, which are developing and growing day by day, with our special team that works by following national and international developments both technically and legally within the scope of relevant legislation. Alongside of our consultancy service, we effectively represent our clients in the stages of mediation, litigation, and other dispute resolution methods. "
+
+#: app/data.py:17 app/data.py:164 app/data.py:199 app/data.py:235
+msgid "Finans Teknolojileri Hukuku"
+msgstr "Fin-tech Law"
+
+#: app/data.py:20
+msgid ""
+"Teknoloji ile finans ve bankacılık hizmetlerinin görülmesini amaçlayan "
+"teknoloji kuruluşları, ülkemizde faaliyetlerini yoğunlaştırmış ve bu "
+"kapsamda gerekli hukuksal zeminler oluşturulmuştur. 27.06.2013 tarihli "
+"Resmî Gazete'de yayımlanan 6493 Sayılı Ödeme ve Menkul Kıymet Mutabakat "
+"Sistemleri, Ödeme Hizmetleri ve Elektronik Para Kuruluşları Hakkında "
+"Kanun (“Kanun”) uyarınca, ödeme hizmetleri sunan ve elektronik para "
+"ihracı faaliyetleri yürüten kuruluşların bu Kanun kapsamında uyum "
+"süreçlerinin gerçekleştirilmesi gerekmektedir."
+msgstr "Technology institutions aiming to provide financial and banking services with technology have intensified their activities in our country and necessary legal grounds have been established in this context. As per The Law on Payment and Securities Settlement Systems, Payment Services and Electronic Money Institutions numbered 6493 published in the Official Gazette dated 27.06.2013 (the “Law"), organizations providing the payment services and carrying out electronic money issuance activities must comply with this Law."
+
+#: app/data.py:23
+msgid ""
+"Helvacı Laik Aşar olarak, ülkemizde ödeme hizmetleri ve elektronik para "
+"ihracı faaliyetleri yürüten yerli ve yabancı kuruluşların; Kanun ve "
+"ilgili tebliğ ve yönetmelikler kapsamındaki uyum süreçlerini "
+"gerçekleştirmekteyiz. Bu kapsamda, Kanun’un düzenlediği alanlarda "
+"faaliyet gösteren kuruluşlara yönelik olarak; ürün ve faaliyetlerinin "
+"Kanun ve ilgili diğer mevzuata uygun hale getirilmesi için gerekli yol "
+"haritasının oluşturulması; BDDK (Bankacılık Düzenleme Ve Denetleme "
+"Kurumu)ve TCMB (Türkiye Cumhuriyeti Merkez Bankası) nezdinde faaliyet "
+"izni başvurusu için gerekli her türlü belgenin hazırlanarak başvuru "
+"sürecinin yürütülmesi; alınacak hizmetlere ve gerçekleştirilecek iş "
+"modeline yönelik sözleşmelerin hazırlanması gibi hizmetler sunmaktayız."
+msgstr "As Helvacı Laik Aşar, we actualize the compliance processes of local and foreign organizations carrying out payment services and electronic money issuance activities in our country; within the scope of the Law and relevant other regulations. In this context, for organizations operating in the areas regulated by the Law; we provide services such as creating the necessary roadmap to align their products and activities in accordance with the Law and relevant other legislation; Preparing all kinds of documents required for the application for an operating permit within the scope of BRSA (Banking Regulation and Supervision Agency) and the CBTR  (Central Bank of The Turkish Republic) and conducting the application process; the preparation of contracts for the services to be received and the business model to be realized."
+
+#: app/data.py:30 app/data.py:163 app/data.py:198 app/data.py:233
+msgid "Elektronik Ticaret Hukuku"
+msgstr "E-commerce Law"
+
+#: app/data.py:33
+msgid ""
+"Elektronik ticaret sektörü, tüm dünyada olduğu gibi ülkemizde de "
+"pazardaki payı açısından çok önemli bir konuma gelmiştir. Bu durum, "
+"teknolojinin de katkılarıyla, birçok düzenlemeyi ve hukuki gerekliliği de"
+" beraberinde getirmiştir. Helvacı Laik Aşar olarak, ülkemizde ödeme "
+"hizmetleri ve elektronik para ihracı faaliyetleri yürüten yerli ve "
+"yabancı kuruluşların; Kanun ve ilgili tebliğ ve yönetmelikler "
+"kapsamındaki uyum süreçlerini gerçekleştirmekteyiz."
+msgstr "The E-commerce sector has reached a very important position in terms of its market share in our country as well as in the rest of the world. This situation, has brought many regulations and legal requirements in train, with the contribution of technology."
+
+#: app/data.py:36
+msgid ""
+"Helvacı Laik Aşar olarak, e-ticaret sektöründe faaliyet gösteren "
+"şirketlerin ilgili hukuki düzenlemelere yönelik uyum süreçlerini "
+"yürütmekteyiz. Aracı hizmet sağlayıcılarının, hizmet sağlayıcıları ve "
+"tüketicilerle olan hukuki ve ticari ilişkilerinde kendilerine destek "
+"veriyor, tarafların yükümlülüklerini yerine getirmelerini sağlıyor ve "
+"böylece tüketicilerin internet üzerinden güvenilir alışveriş yapmalarına "
+"katkı sunuyoruz."
+msgstr "As Helvacı Laik Aşar, we carry out the compliance processes of intermediary service providers in business of the e-commerce sector within the scope of the regulations regarding E-commerce. We guide intermediary service providers during the relationships between the consumers and the service providers; enable the parties to fulfil obligations and thus we contribute to the consumers making reliable online shopping."
+
+#: app/data.py:39
+msgid ""
+"Bu kapsamda; e-ticaret faaliyeti yürütecek şirketlerin yapılandırılması, "
+"finansmanı ve e-ticaret faaliyetlerinin gerçekleştirilmesi için gerekli "
+"tüm sözleşmelerin ve belgelerin hazırlanması, revize edilmesi; 6563 "
+"sayılı Elektronik Ticaretin Düzenlenmesi Hakkında Kanun ve ilgili "
+"düzenlemeler nezdindeki yükümlülüklerine uyumun sağlanması; tüketicilerle"
+" olan ilişkilerden ve tüketici hukukundan kaynaklanan uyuşmazlıkların "
+"takibi; fikri mülkiyet haklarının korunmasına yönelik başvuruların "
+"yapılması ve gerekli önlemlerin alınması; 6698 Sayılı Kişisel Verilerin "
+"Korunması Kanunu’na uyumun sağlanması; internet alan adı alınması hizmeti"
+" kapsamındaki süreçlerin yürütülmesi, tüketicilere yönelik olarak "
+"internet sitesi için gerekli sözleşme ve belgelerin hazırlanması ve "
+"benzeri birçok konuda müvekkillerimize danışmanlık hizmeti sunmaktayız."
+msgstr "In this context; we provide consultancy services to our clients on many subjects such as in the preparation and revision of all contracts and documents required for the structuring, financing and realization of e-commerce activities of companies that will be carried out in the e-commerce sector, providing compliance processes with the obligations under the Law on the Regulation of Electronic Commerce Numbered 6563 and related regulations, following-up of disputes arising from relations with consumers and consumer law, making applications for the protection of intellectual property rights and taking,  due precautions, providing compliance processes with the Personal Data Protection Law Numbered 6698, execution of processes within the scope of an internet domain name, and preparation of necessary contracts and documents for the website for consumers."
+
+#: app/data.py:46 app/data.py:167 app/data.py:201 app/data.py:237
+msgid "Kişisel Veri Hukuku"
+msgstr "Personal Data Law"
+
+#: app/data.py:49
+msgid ""
+"Kişisel verilerin korunmasına ilişkin ulusal ve uluslararası gelişmeleri "
+"yakından takip eden ekibimiz ile müvekkillerimizin, 6698 sayılı Kişisel "
+"Verilerin Korunması Hakkında Kanun ve ilgili mevzuata uyum süreçlerini "
+"yürütmekteyiz. Bu kapsamda, öncelikle müvekkillerimizin kişisel veri "
+"işleme süreçlerinin analizini yaparak mevcut durumlarının tespit "
+"edilmesi, akabinde ise veri envanterinin hazırlanması, Veri Sorumluları "
+"Sicil Bilgi Sistemi’ne kayıt sürecinin yürütülmesi, veri işleme, saklama,"
+" anonim hale getirme ve imha politikalarının ve aydınlatma metinleri ile "
+"açık rıza beyan formlarının hazırlanması, gerekli idari ve teknik "
+"tedbirlerin alınması, veri sahiplerinin başvurularının cevaplanması, "
+"herhangi bir ihlal durumunda gerekli bildirimlerin yapılması, üçüncü "
+"kişiler ile imzalanacak sözleşmelerin hazırlanması ve revize edilmesi, "
+"ticari iletilere ilişkin uyum sürecinin tamamlanması, ulusal ve "
+"uluslararası gelişmelerin müvekkillerimize raporlanması ve şirket içi "
+"farkındalığı artırmak adına eğitim verilmesi gibi konularda "
+"müvekkillerimize hukuki danışmanlık sunmaktayız."
+msgstr "With our team who follow the nationally and internationally legal improvements regarding personal data protection, we conduct the compliance process of our clients in the scope of the Personal Data Protection Law Numbered 6698 and relevant legislation. In this context, we principally analyze the personal data processing activities of our clients and determine their current status. In the next process, we provide legal consultancy to our clients on issues such as the preparation of data inventory, the execution of the registration process in the Data Controllers Registry Information System, data processing, storage, anonymization, destruction policies, privacy notices and preparation of explicit consent forms, taking the necessary administrative and technical measures, answering the applications of the data owners, making the necessary notifications in case of any violation, preparing and revising the contracts to be signed with third parties, completing the compliance process regarding commercial electronic messages, reporting national and international developments to our clients. "
+
+#: app/data.py:56 app/data.py:234
+msgid "Fikri Mülkiyet Hukuku"
+msgstr "Intellectual Property Law"
+
+#: app/data.py:59
+msgid ""
+"Helvacı Laik Aşar olarak, müvekkillerimize başta 5846 sayılı Fikir ve "
+"Sanat Eserleri Kanunu olmak üzere ilgili tüm mevzuat kapsamında fikri ve "
+"sınai haklarından en etkin şekilde yararlanmaları ve bu haklarını "
+"koruyabilmeleri için hukuki danışmanlık hizmeti sunmaktayız."
+msgstr "As Helvacı Laik Aşar, we provide legal consultancy services to our clients to make the most effective use of and protect intellectual property rights within the scope of the Law of Intellectual and Artistic Works Numbered 5846 and all related legislation."
+
+#: app/data.py:62
+msgid ""
+"Fikri Mülkiyet Hukuku kapsamında; patent, faydalı model, marka, telif "
+"hakları, coğrafi işaretler, tasarım, internet alan adları, müzik, "
+"fotoğrafik eserler, edebiyat, mimari ve artistik eserler, sinematografik "
+"eserler, televizyon program formatları ve bilgisayar yazılımı ile veri "
+"tabanı gibi konuları kapsayacak şekilde danışmanlık hizmeti vermekteyiz. "
+"Bu çerçevede; fikri mülkiyet haklarına ilişkin sözleşmelerinin "
+"hazırlanması ve revize edilmesi ve fikri mülkiyet haklarının kullanılması"
+" ile devir işlemlerinin gerçekleştirilmesi gibi faaliyetleri "
+"yürütmekteyiz."
+msgstr "Within the scope of Intellectual Property Law, we provide consultancy services to our clients including subjects such as patents, utility models, trademarks, copyrights, geographical indications, design, internet domain names, music, photographic works, literature, architectural and artistic works, cinematographic works, television program formats and computer software and databases. In this context, we carry out activities such as preparation and revision of intellectual property rights contracts, the exercise of intellectual property rights and realization of transfer transactions of intellectual property rights."
+
+#: app/data.py:65
+msgid ""
+"Ayrıca, müvekkillerimizin haklarının ihlal edildiği durumlarda tecavüzün "
+"önlenmesi, haksız rekabet, maddi ve manevi tazminat gibi davalarda "
+"müvekkillerimizi uyuşmazlık aşamalarında temsil etmekteyiz."
+msgstr "Besides, in case of violation of our client’s intellectual property rights, we represent our clients in the stage of intellectual property infringement cases, unfair competition and material and nonmaterial damage claims."
+
+#: app/data.py:72 app/data.py:168 app/data.py:238
+msgid "Şirketler ve Ticaret Hukuku"
+msgstr "Corporate and Commercial Law"
+
+#: app/data.py:75
+msgid ""
+"Ulusal ve uluslararası düzeyde faaliyet gösteren veya göstermeyi "
+"hedefleyen müvekkillerimize, şirket kuruluş ve sona erme işlemleri, "
+"şirket ana sözleşmesinin hazırlanması ve incelenmesi, hissedarlık, hisse "
+"devir veya iştirak sözleşmelerinin hazırlanması ve incelenmesi, genel "
+"kurul ve yönetim kurulu toplantılarının gerçekleştirilmesi, şirketlerin "
+"şube açılış işlemlerinin gerçekleştirilmesi, şirket imza sirküleri ile iç"
+" yönergelerinin hazırlanması, şirketin taraf olacağı alım-satım, kira, "
+"bayilik, acentelik, tedarik, dağıtım, franchise ve benzeri her türlü "
+"ticari sözleşmenin hazırlanması ve revize edilmesi, faaliyet alanlarına "
+"ilişkin mevzuata uyumun sağlanması ve faaliyet alanlarına ilişkin her "
+"türlü güncel gelişmenin raporlanması gibi konularda danışmanlık hizmeti "
+"sunmakta ve müvekkillerimizin kurumsallaşma süreçlerini yürütmekteyiz. "
+"Diğer taraftan, müvekkillerimizi; aralarında akdetmiş oldukları "
+"sözleşmeler, genel kurul toplantıları ve kararlarından ve 6102 sayılı "
+"Türk Ticaret Kanunu ile ilgili mevzuattan doğan haksız rekabete dayalı "
+"tazminat davaları, ortaklığın feshi gibi uyuşmazlıklarda arabuluculuk ve "
+"dava aşamalarında temsil etmekteyiz."
+msgstr "We conduct the institutionalization processes of our clients and provide legal consultancy services to our clients which operate or aim to operate nationally and internationally including subjects such as procedure of establishment and dissolution of a company, preparation and examination of the articles of association, preparation and examination of shareholders’ agreements, share transfer/purchase agreements or share subscription agreements, organizing the general assembly meetings and board of directors meeting, holding the establishments processes of the companies’ branch,, preparation of company’s signature circular and internal directives, preparation and revision of all kinds of commercial contracts such as purchase-sale, lease, dealership, agency, supply, distribution, franchise and similar, carrying out the compliance process with the legislation regarding their fields of activity and reporting all kinds of current developments in their fields of activity. On the other hand, we represent our clients in the mediation and litigation stages in disputes arising from the agreements executed between them, the general assembly meetings and minutes, the termination of the partnership, unfair competition, and the Turkish Commercial Code Numbered 6102."
+
+#: app/data.py:82 app/data.py:169 app/data.py:239
+msgid "Sözleşmeler Hukuku"
+msgstr "Contract Law"
+
+#: app/data.py:85
+msgid ""
+"Helvacı Laik Aşar olarak; sözleşmelerin usul ve maddi hukuk kuralları "
+"gereğince uygulanabilirliği ve müvekkillerimizin talepleri doğrultusunda;"
+" taraf iradelerinin sağlıklı bir şekilde ifade edilmesi, sözleşmesel "
+"ilişkinin doğru bir şekilde tanımlanması, karşılıklı borç ve "
+"yükümlülüklerin belirlenmesi, sözleşmeye aykırı hareket edilmesi halinde "
+"doğacak sorumluluk ve sonuçların belirlenmesi açısından sözleşme "
+"müzakerelerinin yürütülmesi, sözleşmelerin hazırlanması ve revize "
+"edilmesi, sözleşmelere ilişkin hukuki risk analizlerinin yapılması ve "
+"raporlanması süreçlerinde danışmanlık hizmeti sunmakta ve "
+"müvekkillerimizi taraf oldukları sözleşmelerden doğan uyuşmazlıklarda "
+"temsil etmekteyiz."
+msgstr "As Helvacı Laik Aşar, we provide consultancy services in line with the applicability of the contracts in accordance with the procedural and substantive law rules and the demands of our clients; expressing the will of the parties in a healthily and clearly, defining the contractual relationship correctly, determining the mutual debts and obligations in a clear way, carrying out the contract negotiations with regards to determining responsibilities and consequences may arise in case of breach of the contract, preparing and revising contracts, conducting and reporting legal risk analyzes regarding contracts, and we represent our clients in disputes arising from the contracts they are parties to."
+
+#: app/data.py:92 app/data.py:165
+msgid "İdare ve Vergi Hukuku"
+msgstr "Administrative and Tax Law"
+
+#: app/data.py:95
+msgid ""
+"Gerçek ve tüzel kişi müvekkillerimizi, idari otoriteler ile olan hukuki "
+"ilişkilerinde etkin bir şekilde temsil etmekteyiz. Bu kapsamda "
+"müvekkillerimize; idari düzenleme, tebliğ, kararname, rehber, kılavuz, "
+"karar, idari işlemler ve idari eylemler, imar, kamulaştırma ve kamu "
+"ihaleleri gibi konularda gerekli idari başvuruların yapılması aşamasında "
+"danışmanlık hizmeti vermekteyiz. Ayrıca, ilk derece mahkemelerinde ve "
+"Danıştay’da görülecek davalarda temsil etmekteyiz."
+msgstr "We effectively represent our real person or legal entity clients in their legal relations with the Turkish administrative authorities. In this context, we provide consultancy services in the stage of making applications on issues such as administrative regulations, communique, decrees, guides, decisions, administrative transactions and administrative actions, zoning, expropriation, and public tenders. Accordingly, we provide legal consultancy in the stage of cancellation and damages actions before the administrative courts of the first instance and the State Council."
+
+#: app/data.py:98
+msgid ""
+"Vergi hukuku kapsamında ise, tahakkuk eden vergiler, bu vergiler "
+"kapsamında doğan vergi suçları, harç ve cezalarına ilişkin olarak hukuki "
+"danışmanlık hizmeti vermekte olduğumuz gibi aynı zamanda müvekkillerimizi"
+" doğacak uyuşmazlıklarda temsil etmekteyiz."
+msgstr "Within the scope of tax law, we provide legal consultancy services regarding accrued taxes, tax crimes, fees and tax penalties, as well as representing our clients in disputes that may arise from these issues."
+
+#: app/data.py:105 app/data.py:166 app/data.py:200
+msgid "İş ve Sosyal Güvenlik Hukuku"
+msgstr "Labor and Social Insurance Law"
+
+#: app/data.py:108
+msgid ""
+"Helvacı Laik Aşar olarak; müvekkillerimizin çalışanlarına sağladıkları "
+"çalışma koşullarının hukuka uygunluğunun denetlenmesi ve hukuka uygun "
+"hale getirilmesi; çalışanları ile girdikleri her türlü hukuki ilişki ve "
+"sürecin yürütülmesi ve muhtemel dava ile arabuluculuk süreçlerinde "
+"doğabilecek risklerin minimize edilmesi için önleyici hukuk hizmeti "
+"sağlamaktayız."
+msgstr "As Helvacı Laik Aşar, we take an active role in auditing the legality of the working conditions provided by our clients to their employees and making them in compliance with the regulations and in the execution of all kinds of legal relations and processes they enter with their employees."
+
+#: app/data.py:111
+msgid ""
+"Danışmanlık hizmetimiz ile müvekkillerimizin mevcut iş sözleşmelerinin "
+"hukuka uygunluk denetiminin yapılması, yeniden düzenlenmesi, imzalanması "
+"ve sona erdirilmesi; iş hukuku ikincil metinlerinin hazırlanması; "
+"müvekkillerimizin çalışanlarına iş hukuku eğitimlerinin verilmesi ve "
+"çalışanların disiplin süreçlerinin yürütülmesi; iş kazası, meslek "
+"hastalığı ve sair hallerde müvekkillerimizin haklarının korunması "
+"kapsamındaki süreçleri yürütüyor ve tüm bu konulardan doğan uyuşmazlık "
+"aşamalarında aktif bir şekilde rol alıyoruz."
+msgstr "We provide preventive law services to our clients in order to ensure that our clients' operations are carried out in accordance with the law and to minimize the risks that may arise in possible litigation and mediation processes that may arise in the future. With our consultancy service; we carry out the processes within the scope of auditing, re-arranging, signing and terminating the existing employment contracts of our clients; preparation of secondary texts on labour law; providing labour law training to our client’s employees and executing the disciplinary processes of the employees; protection of our client’s rights in cases of work accidents, occupational diseases and other cases, and we are actively involved in the dispute stages arising from all these issues."
+
+#: app/data.py:118
+msgid "Uluslararası İlişkiler Hukuku"
+msgstr "International Organizations and Non-Governmental Organizations (NGOs)"
+
+#: app/data.py:121
+msgid ""
+"Helvacı Laik Aşar olarak, sivil toplumun faaliyetlerinin desteklenmesinin"
+" ülkemiz ve dünyamızın geleceği için çok önemli olduğuna inanıyoruz. Bu "
+"inancımız doğrultusunda, ülkemizde faaliyet göstermek isteyen yerli ve "
+"yabancı sivil toplum kuruluşları ile, faaliyetlerinin hukuka uygun bir "
+"şekilde yürütülebilmesi için çalışıyoruz. Sivil Toplum Kuruluşlarının "
+"Türkiye’deki faaliyetlerinin Türk Hukuk sistemine uyum süreçleri, hukuken"
+" kurulabilmeleri ve devamlılıklarını sağlayabilmeleri için gerekli "
+"danışmanlık hizmetini sağlamaktayız. Sivil toplum kuruluşu olan "
+"müvekkillerimizin ihtiyaçları doğrultusunda, Dernekler Hukuku, İş hukuku,"
+" Kişisel Veri Hukuku, Şirketler Hukuku, Sözleşmeler Hukuku ve İdare "
+"Hukuku alanlarında mevzuata uyum süreçlerini yürütmekteyiz."
+msgstr "As Helvacı Laik Aşar, we believe that supporting the activities of civil societies is very important for the future of our country and our world. In accordance with this belief, we collaborate with local and foreign NGO’s that want to operate in our country to carry out their activities in accordance with the law. We provide the necessary consultancy services for Non-Governmental Organizations to ensure the compliance processes of their activities in Turkey with the Turkish Legal system, to be established legally and to ensure their continuity. In accordance with the needs of our clients as NGO’s, we conduct the compliance process in the fields of Association Law, Labor Law, Personal Data Law, Corporate Law, Contract Law, and Administrative Law."
+
+#: app/data.py:128 app/data.py:236
+msgid "Gayrimenkul ve Kat Mülkiyeti Hukuku"
+msgstr "Real Estate Law"
+
+#: app/data.py:131
+msgid ""
+"Helvacı Laik Aşar olarak, müvekkillerimiz için, gayrimenkullerin hukuki "
+"incelemesinin yapılması ve raporlanması, gayrimenkul satış vaadi ve "
+"satış, kira, üst hakkı, intifa hakkı ve inşaat gibi gayrimenkul "
+"sözleşmelerinin hazırlanması ve revize edilmesi ve 634 sayılı Kat "
+"Mülkiyeti Kanunu kapsamında hukuki danışmanlık hizmeti vermekteyiz."
+msgstr "As Helvacı Laik Aşar, we provide consultancy services to our clients within the scope of making and reporting legal review of properties, preparation and revision of property preliminary purchase and sale agreements, construction right agreements, lease agreements and, construction agreements pursuant to Property Ownership Law numbered 634."
+
+#: app/data.py:134
+msgid ""
+"Müvekkillerimize sunmuş olduğumuz hukuki danışmanlık hizmeti yanında "
+"müvekkillerimizi; tapu iptali ve tescili, tahliye, tapu kaydının "
+"düzeltilmesi, müdahalenin önlenmesi ve haksız işgal tazminatı, ortaklığın"
+" giderilmesi, kamulaştırma ve benzeri hukuki uyuşmazlıklar ile 634 sayılı"
+" Kat Mülkiyeti Kanunu kapsamındaki uyuşmazlıklarda, mahkemeler ve ilgili "
+"kamu kurum ve kuruluşları nezdinde temsil etmekteyiz."
+msgstr "Besides, we represent our clients before the courts and relevant public institutions and organizations within the scope of cancellation and registration of title deeds, eviction, correction of title deed registration, prevention of interference and compensation for unfair occupation, elimination of partnership, expropriation and similar legal disputes and disputes within the scope of the Property Ownership Law Numbered 634."
+
+#: app/data.py:141 app/data.py:203
+msgid "Yabancılar ve Vatandaşlık Hukuku"
+msgstr "Foreigners and Citizenship Law"
+
+#: app/data.py:144
+msgid ""
+"Türkiye, yakın coğrafyasında ve kendi dinamikleri çerçevesinde yaşanan "
+"değişikliklerin etkisiyle göç alan bir ülke konumuna gelmiştir. Bu "
+"nedenle yabancıların Türkiye’deki hukuki statüleri ve hak ile "
+"yükümlülüklerinin belirlenmesi önemli bir hal almıştır. Helvacı Laik Aşar"
+" olarak; Türkiye’de bulunan yabancıların hak ve yükümlülüklerini "
+"ilgilendiren her türlü idari ve hukuki gelişmeyi takip etmekteyiz. "
+"Yabancıların Türkiye’de; oturma izni, çalışma izni, vatandaşlık ve "
+"gayrimenkul sahibi olması gibi konularda da bireysel ve kurumsal "
+"müvekkillerimize danışmanlık hizmeti vermekteyiz."
+msgstr "Turkey has become a country of migration due to the changes experienced in its recent geography and within the framework of its own dynamics. For this reason, it has become very important to determine the legal status, rights and obligations of foreigners who live in Turkey. As Helvacı Laik Aşar, we follow all kinds of administrative and legal improvements related to the rights and obligations of foreigners in Turkey. We also provide consultancy services to our individual and corporate clients on issues such as residence permit, work permit, citizenship and, real estate ownership of foreigners in Turkey."
+
+#: app/data.py:155
+msgid "Kurucu Avukat"
+msgstr "Founding Lawyer"
+
+#: app/data.py:159 app/data.py:193 app/data.py:229 app/templates/footer.html:18
+msgid "İngilizce"
+msgstr "English"
+
+#: app/data.py:172
+msgid ""
+"Dijitalleşen dünyayı aktif olarak takip eden Muhammed; finans "
+"teknolojileri, elektronik ticaret ve kişisel veri hukuku alanlarında "
+"çalışmalar yapmaktadır. Helvacı Laik Aşar’dan önce ; e-ticaret, eğitim, "
+"medya, turizm, lojistik, inşaat, üretim gibi çeşitli sektörlerde faaliyet"
+" göstermekte olan şirketlere danışmanlık hizmeti sağlamış ve uyuşmazlık "
+"aşamalarında temsil etmiştir."
+msgstr "Muhammed, who actively follows the digitalized world; works in the fields of fin-tech law, e-commerce law and personal data law. Prior to Helvacı Laik Aşar, he provided consultancy services to companies operating in various sectors such as e-commerce, education, media, tourism, logistics, construction, production and represented them in dispute stages."
+
+#: app/data.py:175
+msgid ""
+"Bilişim ve internet teknolojileri hukukunun yanı sıra; sözleşmeler "
+"hukuku, şirketler ve ticaret hukuku, iş ve sosyal güvenlik hukuku, idare "
+"ve vergi hukuku alanlarında danışmanlık, dava ve uyuşmazlık çözüm "
+"yöntemleri aşamalarında avukatlık hizmeti vermeye devam etmektedir. "
+"Muhammed, yüksek lisans eğitimine devam etmekte olup çalışmalarını "
+"bilişim suçları üzerine yoğunlaştırmaktadır. İş, hukuk ve sosyal "
+"girişimcilik alanlarında faaliyet gösteren sivil toplum kuruluşlarında "
+"aktif olarak yer almaktadır."
+msgstr "In addition to IT and internet technologies law; he continues to provide legal services in the fields of contract law, corporate and commercial law, labour and social insurance law, and administrative and tax law. Muhammed continues his master degree education and focuses his studies on cyber-crimes. He is actively involved in NGO’s operating in the fields of business, law and social entrepreneurship."
+
+#: app/data.py:180
+msgid "İstanbul Üniversitesi, Kamu Hukuku Yüksek Lisans"
+msgstr "Istanbul University, Faculty of Law, Public Law, LL.M."
+
+#: app/data.py:181 app/data.py:217 app/data.py:253
+msgid "İstanbul Üniversitesi, Yönetim Bilişim Sistemleri"
+msgstr "Istanbul University, Management Information Systems, LL.B."
+
+#: app/data.py:182 app/data.py:218 app/data.py:254
+msgid "İstanbul Üniversitesi, Hukuk Fakültesi"
+msgstr "Istanbul University, Faculty of Law, LL.B."
+
+#: app/data.py:183 app/data.py:219
+msgid "Kadıköy Anadolu Lisesi"
+msgstr "Kadıkoy Anatolian High School"
+
+#: app/data.py:202
+msgid "Uluslararası Kuruluşlar ve STK"
+msgstr "International Organizations and Non-Governmental Organizations (NGOs)"
+
+#: app/data.py:206
+msgid ""
+"Mustafa; finansal teknolojiler, kişisel verilerin korunması ve elektronik"
+" ticaret alanlarında çalışmalar yapmaktadır."
+msgstr "Mustafa focuses on the fields of financial technologies, data protection and e-commerce."
+
+#: app/data.py:209
+msgid ""
+"Helvacı Laik Aşar’ın kuruluşu öncesinde, ödeme ve elektronik para "
+"hizmetleri alanında Türkiye’nin ve Avrupa’nın önde gelen start-"
+"up’larından birisinde kariyerine başlayan Mustafa; uluslararası kuruluş "
+"ve sivil toplum örgütleri ile de yakından çalışmak fırsatı yakalamış ve "
+"bunların Türk hukukuna uyum süreçlerinde danışmanlık hizmeti vermiştir. "
+"Bu kapsamda daha çok; bilişim ve internet teknolojileri hukuku, iş ve "
+"sosyal güvenlik hukuku, uluslararası kuruluşlar, sivil toplum örgütleri, "
+"yabancılar ve vatandaşlık hukuku alanlarında danışmanlık ve dava "
+"avukatlığı yapmaktadır."
+msgstr "Prior to establishing Helvacı Laik Aşar, Mustafa worked for “iyzico”, one of the leading start-up companies operating in payments and e-money services in Turkey and Europe. Mustafa also had the chance to provide consultancy for several international NGOs, organizations, and companies during their all the stages of the compliance stage in Turkish Law. In this context; He provides consultancy and litigation services in the fields of IT and internet technologies law, labour and social insurance law, international organizations and non-governmental organizations (NGO’s), foreigners and citizenship law."
+
+#: app/data.py:212
+msgid ""
+"İş, girişimcilik ve hukuk dünyasını bir araya getiren, girişimcilik "
+"ekosistemini ve özellikle sosyal girişimciliği destekleyen sivil toplum "
+"kuruluşlarında yönetici ve üye olarak aktif görev almaktadır."
+msgstr "Mustafa takes an active role as an executive in NGOs that bring together the world of business, entrepreneurship, and law and support the entrepreneurial ecosystem and especially social entrepreneurship."
+
+#: app/data.py:242
+msgid ""
+"Doğukan; bilişim ve internet teknolojileri ile fikri mülkiyet hukuku "
+"alanlarında çalışmalar yapmaktadır. Kariyeri boyunca ödeme hizmetleri, "
+"e-ticaret, medya, eğitim, tekstil ve gayrimenkul alanlarında, ulusal ve "
+"uluslararası faaliyet göstermekte olan şirketlere avukatlık ve "
+"danışmanlık hizmeti sunmuştur."
+msgstr "Doğukan focuses on the fields of IT and internet technologies and intellectual property. Throughout his career, he has provided legal services to companies operating nationally and internationally in the fields of payment services, e-commerce, media, education, textile and real estate."
+
+#: app/data.py:245
+msgid ""
+"Doğukan; finansal teknolojiler hukuku, kişisel veri hukuku ve elektronik "
+"ticaret hukuku alanlarında, kurumsal müvekkillerinin hukuka uyum "
+"süreçlerini yürütürken; gayrimenkul hukuku, şirketler ve ticaret hukuku, "
+"sözleşmeler hukuku ve fikri mülkiyet hukuku alanlarında, davalarda "
+"edinmiş olduğu uygulamaya yönelik tecrübelerinden faydalanarak, "
+"danışmanlık, dava ve uyuşmazlık çözüm yöntemleri aşamalarında avukatlık "
+"hizmeti vermeye devam etmektedir."
+msgstr "Doğukan; while running the legal compliance processes of his corporate clients in the fields of fin-tech law, personal data law and e-commerce law; He continues to provide legal services in the stages of consultancy, litigation and dispute resolution methods, benefiting from his practical experience in litigation, in the fields of real estate law, corporate and commercial law, contract law and intellectual property law."
+
+#: app/data.py:248
+msgid ""
+"Doğukan; girişimcilik ve iş alanında faaliyet gösteren sivil toplum "
+"kuruluşlarında yönetici ve üye sıfatları ile aktif olarak çalışmalar "
+"yapmaktadır."
+msgstr "Doğukan is actively working as a chairman and member in NGOs operating in the field of entrepreneurship and business."
+
+#: app/data.py:255
+msgid "Hayrullah Kefoğlu Anadolu Lisesi"
+msgstr "Hayrullah Kefoglu Anatolian High School"
+
+#: app/templates/about.html:7 app/templates/header.html:3
+msgid "Hakkımızda"
+msgstr "About us"
+
+#: app/templates/about.html:9
+msgid ""
+"Helvacı Laik Aşar olarak, dinamik ve dijitalleşmeye uyum sağlamış\n"
+"        profesyonel kadromuz ile ulusal ve uluslararası faaliyet gösteren"
+" yerli ve\n"
+"        yabancı müvekkillerimiz için etkin, çözüm odaklı ve nitelikli "
+"hizmet\n"
+"        vermekteyiz."
+msgstr "As Helvacı Laik Aşar; we provide effective, solution-oriented, and qualified services for our local and foreign clients operating nationally and internationally with our dynamic and professional team who have adapted to digitalization."
+
+#: app/templates/about.html:15
+msgid ""
+"Bilişim ve internet teknolojileri hukuku başta olmak üzere; şirketler\n"
+"        ve ticaret hukuku, sözleşmeler hukuku, iş ve sosyal güvenlik "
+"hukuku, fikri\n"
+"        mülkiyet hukuku, gayrimenkul ve inşaat hukuku gibi birçok alanda\n"
+"        müvekkillerimize danışmanlık hizmeti veriyor ve müvekkillerimizin"
+"\n"
+"        kurumsallaşma süreçlerini yürütüyoruz. Bununla beraber, bireysel "
+"ve kurumsal\n"
+"        müvekkillerimizi; dava, tahkim ve icra takibi süreçlerinde temsil"
+"\n"
+"        ediyoruz."
+msgstr "We provide consultancy services and carry out institutionalization processes for our clients with our team specialized in many fields such as IT and internet technologies law, corporate and commercial law, contract law, labour and social insurance law, intellectual property law, real estate law. Additionally, we represent our individual and corporate clients in litigation, arbitration, and enforcement proceedings."
+
+#: app/templates/about.html:24
+msgid ""
+"Ayrıca ödeme hizmetleri, e-ticaret, eğitim teknolojileri, yeni nesil\n"
+"        medya, internet teknolojileri, veri analizi ve güvenliği gibi "
+"birçok farklı\n"
+"        sektörde faaliyet gösteren müvekkillerimizin finansal "
+"teknolojiler (fintek)\n"
+"        hukuku, kişisel veri hukuku ve elektronik ticaret hukuku "
+"alanlarında\n"
+"        mevzuata uyum süreçlerinin tamamlanmasında aktif rol oynuyoruz."
+msgstr "Furthermore, we are taking an active role in all stages of compliance processes of our clients operating in many different sectors such as payment services, e-commerce, educational technologies, new-generation media, internet technologies, and data analysis and security in the fields of fin-tech law, personal data law and e-commerce law."
+
+#: app/templates/about.html:35
+msgid "Başarı ve çözüm odaklı hukuk hizmeti"
+msgstr "Success and solution-oriented legal service"
+
+#: app/templates/about.html:38
+msgid ""
+"Bireysel ve kurumsal müvekkillerimizin ihtiyaçlarına odaklanan\n"
+"                    bir yaklaşımla, en uygun ve geniş kapsamlı hukuk "
+"hizmetini vermek için\n"
+"                    çalışıyoruz. Ticari ve sektörel bilgi birikimimizi; "
+"yaratıcı, hızlı ve\n"
+"                    yenilikçi çözümlerle destekleyerek müvekkillerimiz "
+"için en etkin ve\n"
+"                    faydalı sonucu hedefliyoruz."
+msgstr "We endeavor to provide the most appropriate and comprehensive legal service with an approach that focuses on the needs of our individual and corporate clients. We aim for the most effective result for our clients by supporting our commercial and sectoral knowledge with creative, fast, and innovative solutions."
+
+#: app/templates/about.html:49
+msgid "Yenilikçi ve kolektif düşünceyi merkeze alan bir felsefe"
+msgstr "A philosophy that centred on innovative and collective thinking"
+
+#: app/templates/about.html:53
+msgid ""
+"Yenilikçi ve kolektif düşünce anlayışını benimseyerek teknoloji,\n"
+"                    girişimcilik ve iş dünyası ile kamu kurumlarının iş "
+"birliğine yönelik\n"
+"                    faaliyetlere önem veriyoruz. Disiplinler üstü "
+"fikirler yaratmayı\n"
+"                    hedefliyor; bu hedefimizin, hukuki danışmanlık "
+"hizmeti verme\n"
+"                    anlayışını değiştireceğine inanıyoruz."
+msgstr "By adopting an innovative and collective attitude of mind, we attach importance to activities aimed at technology, entrepreneurship and cooperation between the business world and public institutions. We aim to create transdisciplinary ideas. We believe that this aim will change the understanding of providing legal consultancy services."
+
+#: app/templates/about.html:64
+msgid "Dinamik ve uzman kadro"
+msgstr "Dynamic and expert team"
+
+#: app/templates/about.html:67
+msgid ""
+"Dijitalleşme ile yenilikçi düşünceyi merkeze alan;\n"
+"                    müvekkillerimizin faaliyet gösterdikleri alanlar ile "
+"ilgili ticari,\n"
+"                    ekonomik ve sektörel gelişmeleri takip eden; değişen "
+"ihtiyaçlara\n"
+"                    yönelik hızlı geri dönüş yapabilme ve cevap verebilme"
+" kabiliyetine\n"
+"                    sahip; şeffaf, hesap verilebilir ve ulaşılabilir "
+"olmaktan asla taviz\n"
+"                    vermeyen uzman kadromuz ile hizmet vermekteyiz."
+msgstr "We have adopted being transparent, accountable, and accessible as our primary principle, with our expert team that focuses on digitalization and innovative thinking. By regularly following the commercial, economic, and sectoral developments related to the fields in which our clients operate, we can take quick actions towards their changing needs."
+
+#: app/templates/areas.html:7 app/templates/header.html:4
+msgid "Çalışma Alanlarımız"
+msgstr "Practice Areas"
+
+#: app/templates/career.html:9 app/templates/header.html:7
+msgid "Kariyer"
+msgstr "Careers"
+
+#: app/templates/career.html:11
+msgid ""
+"Helvacı Laik Aşar olarak; hukuk hizmeti vermenin ötesinde disiplinler\n"
+"        üstü fikirler yaratarak daha iyi bir geleceği mümkün kılmak için "
+"kolektif\n"
+"        bir şekilde düşünüyor, tecrübe ve bilgi birikimimizi "
+"birleştirerek\n"
+"        çalışıyoruz. Bunun için de girişimcilik, kamu ve hukuk iş "
+"birliğine yönelik\n"
+"        faaliyetler yürütüyor ve bu tarz faaliyetleri destekliyoruz."
+msgstr "As Helvacı Laik Aşar, beyond providing legal services, we think collectively and work by combining our experience and knowledge to create a better future by creating supradisciplinary ideas. Hence, we conduct activities for entrepreneurship, public and legal cooperation and support such activities."
+
+#: app/templates/career.html:18
+msgid ""
+"Daha iyi bir gelecek fikri için bizimle çalışan ekip arkadaşlarımızın\n"
+"        da aynı felsefeye sahip olmasına önem veriyor ve onlarla beraber "
+"bu\n"
+"        fikrimizi daha ileriye taşımak için çabalıyoruz."
+msgstr "For an idea of a better future, we attach importance that our teammates who work with us have the same philosophy and we endeavour to move this idea forward with them."
+
+#: app/templates/career.html:23
+msgid ""
+"Müvekkillerimizin faaliyet gösterdikleri alanlara ilgi duyan, sektörel\n"
+"        gelişmeleri yakından takip eden, dijitalleşmeye ve inovatif "
+"düşünmeye\n"
+"        yatkın, disiplinler ve kurumlar arası iş birliği fikrine açık, "
+"kurum\n"
+"        kültürümüze uyum sağlayabilecek avukat, stajyer avukat ve hukuk "
+"fakültesi\n"
+"        öğrencileri ile bir arada çalışmaktan büyük bir memnuniyet "
+"duyacağız."
+msgstr "We will be very glad to work with lawyers, trainee lawyers and law school students who are interested in the fields of our clients, follow sectoral developments closely, are prone to digitalization and innovative thinking, are open to the idea of ​​interdisciplinary and inter-institutional cooperation and can adapt to our corporate culture."
+
+#: app/templates/career.html:30
+msgid ""
+"İyi ve akıcı bir şekilde yazılı ve sözlü İngilizce dilini kullanma\n"
+"        yeteneğine sahip adayların CV ve motivasyon mektuplarını info"
+"@hla-law.com\n"
+"        adresimize göndermelerini rica etmekteyiz. "
+msgstr "We kindly request from candidates who have ability to use the written and spoken the English language fluently and well, send their CV and motivation letters to info@hla-law.com."
+
+#: app/templates/career.html:36
+msgid ""
+"Kişisel verilerinizin işlenmesi hakkında\n"
+"        <a href='/serve_document/career_notice'>Çalışan Adayı ve Stajyer "
+"Adayı Aydınlatma Metni (Aydınlatma Metni)</a>\n"
+"        için tıklayınız."
+msgstr "Please click for the <a href='/serve_document/career_notice'>Employee Candidate and Trainee Candidate Privacy Notice (Privacy Notice)</a> about the processing of your personal data."
+
+#: app/templates/career.html:41
+msgid ""
+"Kişisel verilerimin tarafıma bildirilen\n"
+"        <a href='/serve_document/privacy_policy'>Gizlilik ve Çerez "
+"Politikası'nda (Gizlilik Politikası)</a>\n"
+"        açıklanan şart ve koşullarda işlenmesini kabul ediyorum."
+msgstr "I accept the processing of my personal data in the terms and conditions described in <a href='/serve_document/privacy_policy'>Privacy and Cookie Notice (Privacy Notice)</a> notified to me."
+
+#: app/templates/contact.html:10 app/templates/header.html:8
+msgid "İletişim"
+msgstr "Contact"
+
+#: app/templates/contact.html:24
+msgid "Adres"
+msgstr "Address"
+
+#: app/templates/contact.html:31
+msgid "Telefon"
+msgstr "Phone"
+
+#: app/templates/contact.html:38
+msgid "E-Posta"
+msgstr "E-mail"
+
+#: app/templates/contact.html:48
+msgid "Bize Ulaşın"
+msgstr "Contact us"
+
+#: app/templates/contact.html:53
+msgid "Adınız Soyadınız"
+msgstr "Name Surname"
+
+#: app/templates/contact.html:60
+msgid "E-Posta Adresiniz"
+msgstr "E-mail Address"
+
+#: app/templates/contact.html:67
+msgid "Cep Telefonunuz"
+msgstr "Phone Number"
+
+#: app/templates/contact.html:77
+msgid ""
+"Kişisel verilerimin Aydınlatma Metni’nde açıklanan şart ve koşullarda "
+"işlenmesini\n"
+"                            kabul\n"
+"                            ediyorum."
+msgstr "I accept the processing of my personal data in the terms and conditions described in Privacy and Cookie Notice."
+
+#: app/templates/contact.html:86
+msgid "Talebiniz"
+msgstr "Request"
+
+#: app/templates/contact.html:95
+msgid "Gönder"
+msgstr "Send"
+
+#: app/templates/footer.html:17
+msgid "Türkçe"
+msgstr "Turkish"
+
+#: app/templates/footer.html:41
+msgid "Kullanım Koşulları"
+msgstr "Terms of Use Privacy and Cookie Notice"
+
+#: app/templates/footer.html:43
+msgid "Gizlilik Politikası"
+msgstr "Privacy Policy"
+
+#: app/templates/header.html:2
+msgid "Anasayfa"
+msgstr "Home"
+
+#: app/templates/header.html:5 app/templates/team.html:8
+msgid "Ekibimiz"
+msgstr "Our Team"
+
+#: app/templates/header.html:6 app/templates/news.html:8
+msgid "Haberler & Yayınlar"
+msgstr "News & Publications"
+
+#: app/templates/homepage.html:9
+msgid "Haberler"
+msgstr "News"
+
+#: app/templates/homepage.html:12
+msgid "Yayınlar"
+msgstr "Publications"
+
+#: app/templates/resume.html:27
+msgid "Çalışma Alanları"
+msgstr "Practice Areas"
+
+#: app/templates/resume.html:38
+msgid "Biyografi"
+msgstr "Biography"
+
+#: app/templates/resume.html:47
+msgid "Eğitim"
+msgstr "Education"

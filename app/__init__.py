@@ -4,6 +4,7 @@ import aspose.words as aw
 from bs4 import BeautifulSoup
 from flask import Flask, redirect, render_template, session, url_for
 from flask_babel import Babel, request
+from flask_mailman import Mail
 from flask_session import Session
 from sassutils.wsgi import SassMiddleware
 
@@ -19,6 +20,7 @@ app.config.from_object("config.DevConfig")
 
 babel = Babel(app)
 Session(app)
+Mail(app)
 
 
 @app.route("/")
@@ -40,7 +42,23 @@ def areas():
 
 @app.route("/team")
 def team():
-    return render_template("team.html")
+    from app.data import team
+
+    return render_template("team.html", team=team)
+
+
+@app.route("/resume/<member>")
+def resume(member):
+    from app.data import team
+
+    if member == "mmh":
+        member = team[0]
+    elif member == "mtl":
+        member = team[1]
+    elif member == "da":
+        member = team[2]
+
+    return render_template("resume.html", member=member)
 
 
 @app.route("/news")
@@ -92,6 +110,12 @@ def serve_document(doc_type):
     html_content = soup.body.div
 
     return render_template("document.html", html_content=html_content)
+
+
+@app.route("/send_mail")
+def send_mail():
+    mail_data = request.form.get_json()
+    return redirect(request.referrer)
 
 
 @babel.localeselector

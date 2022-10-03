@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% set active_page = "team" %}
+
+{% block body %}
+<div class="container section">
+    <div class="columns">
+        <div class="column is-3">
+            <div class="card-image">
+                <figure class="image is-4by5">
+                    <img id="member{{ member.id }}" src="{{ member['img'] }}" alt="member-image" />
+                </figure>
+            </div>
+        </div>
+        <div class="column is-9">
+            <p class="member-name">{{ member["name"] }}</p>
+            <p class="member-title">{{ member["title"] }}</p>
+            <p class="member-city">{{ member["city"] }}</p>
+            <p class="member-email">{{ member["email"] }}</p>
+            <p class="member-foreign-language">{{ member["foreign-language"] }}</p>
+            <p class="member-social-media">{{ member["social-media"] }}</p>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="block">
+        <h1 class="subtitle is-3">{{ _("Çalışma Alanları") }}</h1>
+        <ul>
+            {% for area in member["areas"] %}
+            <li>{{ area }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <hr>
+
+    <div class="block">
+        <h1 class="subtitle is-3">{{ _("Biyografi") }}</h1>
+        {% for section in member["biography"] %}
+        <p>{{ section }}</p>
+        {% endfor %}
+    </div>
+
+    <hr>
+
+    <div class="block">
+        <h1 class="subtitle is-3">{{ _("Eğitim") }}</h1>
+        <ul>
+            {% for education in member["education"] %}
+            <li>{{ education }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+{% endblock %}
