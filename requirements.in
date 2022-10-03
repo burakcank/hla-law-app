@@ -1,5 +1,6 @@
 flask
 flask-babel
+flask-mailman
 flask-session
 python-dotenv
 libsass
