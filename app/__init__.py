@@ -8,6 +8,8 @@ from flask_mailman import Mail
 from flask_session import Session
 from sassutils.wsgi import SassMiddleware
 
+from app.data import areas_data, team_data
+
 app = Flask(__name__)
 
 app.wsgi_app = SassMiddleware(
@@ -35,28 +37,22 @@ def about():
 
 @app.route("/areas")
 def areas():
-    from app.data import areas
-
-    return render_template("areas.html", areas=areas)
+    return render_template("areas.html", areas=areas_data)
 
 
 @app.route("/team")
 def team():
-    from app.data import team
-
-    return render_template("team.html", team=team)
+    return render_template("team.html", team=team_data)
 
 
 @app.route("/resume/<member>")
 def resume(member):
-    from app.data import team
-
     if member == "mmh":
-        member = team[0]
+        member = team_data[0]
     elif member == "mtl":
-        member = team[1]
+        member = team_data[1]
     elif member == "da":
-        member = team[2]
+        member = team_data[2]
 
     return render_template("resume.html", member=member)
 
