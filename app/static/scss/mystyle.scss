@@ -33,33 +33,59 @@ video {
 }
 
 .navbar {
-    .navbar-brand {
-        .navbar-item {
-            padding: 0;
+    font-size: 1.2vw;
 
-            img {
-                height: 3.5rem;
-                max-height: unset;
+    .navbar-brand {
+        align-items: center;
+
+        img {
+            height: 5vw;
+            max-height: 5rem;
+
+            @include touch {
+                height: 3rem;
+            }
+        }
+    }
+
+    .navbar-menu {
+        @include touch {
+            display: block;
+            position: absolute;
+            visibility: hidden;
+            opacity: 0;
+            width: 100%;
+            transition: visibility .5s, opacity .5s;
+
+            &.is-active {
+                opacity: 1;
+                visibility: visible;
             }
         }
     }
 
     .navbar-start {
         width: 100%;
-        justify-content: space-evenly;
 
         a {
             transition: all 0.3s $easing;
         }
 
         .navbar-item {
-            padding: 1rem;
+            padding: 1.2rem 0;
+            justify-content: center;
+            text-align: center;
+            flex-grow: 1;
         }
+    }
+
+    @include touch {
+        font-size: 1rem;
     }
 }
 
 .footer {
-    color: #AAA;
+    color: #aaa;
 
     .hr-div {
         border-top: 1px dashed #616161;
@@ -75,8 +101,9 @@ video {
     }
 
     img {
+        max-width: 20rem;
         filter: brightness(0.4);
-        transition: filter .5s;
+        transition: filter 0.5s;
 
         &:hover {
             filter: brightness(0.8);
@@ -84,11 +111,11 @@ video {
     }
 
     .icons-section {
-        i {
-            padding: 0 1rem;
-            transition: all .2s;
-            color: gray;
+        span {
+            color: #616161;
+            padding: 0 1.5rem;
             cursor: pointer;
+            transition: all 0.2s;
 
             &:hover {
                 transform: scale(1.5);
@@ -110,7 +137,7 @@ video {
         padding: 1rem;
         border-radius: 1rem;
         border: 2px solid transparent;
-        transition: all .5s;
+        transition: all 0.5s;
         cursor: pointer;
 
         span {
@@ -118,7 +145,7 @@ video {
         }
 
         &:hover {
-            border: .1rem solid $primary;
+            border: 0.1rem solid $primary;
         }
     }
 }
@@ -131,8 +158,7 @@ video {
     }
 
     .modal-card-head {
-        border-top-left-radius: 0px;
-        border-top-right-radius: 0px;
+        border-radius: 0px;
     }
 
     .modal-card-title {
@@ -140,26 +166,128 @@ video {
     }
 }
 
-
-.card-image {
-    overflow: hidden;
-    cursor: pointer;
-    background-color: darkred;
-    animation: fadeIn 2s;
-
-    figure {
-        transition: all .5s cubic-bezier(0.075, 0.82, 0.165, 1);
-
-        &:hover {
-            opacity: .7;
-        }
+.about-us-columns {
+    .column {
+        text-align: center;
+        padding: 1rem;
+        margin: 1rem;
     }
-
 }
 
 .team {
+    .card {
+        overflow: hidden;
+        margin: 2vw;
+
+        .card-image {
+            cursor: pointer;
+            background-color: $primary;
+            animation: fadeIn 2s;
+
+            figure {
+                transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+                &:hover {
+                    opacity: 0.9;
+                    transform: scale(1.01);
+                }
+            }
+        }
+
+        @include mobile {
+            width: 80vw;
+            height: auto;
+            margin: 0 auto;
+        }
+    }
+
     a {
-        color: black !important;
+        color: $davysgrey  !important;
+    }
+}
+
+.resume {
+    .member-name {
+        color: $primary;
+        margin-bottom: 0;
+    }
+
+    .member-title {
+        font-style: italic;
+        font-weight: 600;
+        color: gray;
+    }
+
+    .member-city {
+        color: darkgray;
+    }
+
+    .member-email {
+        i {
+            padding: 2rem 1rem 2rem 0;
+        }
+    }
+
+    .member-foreign-language-label {
+        font-weight: 800;
+    }
+
+    .member-foreign-language {
+        font-style: italic;
+        color: $davysgrey;
+    }
+
+    .member-social-media {
+        margin-top: 3rem;
+
+        i {
+            color: #616161;
+            cursor: pointer;
+            transition: all 0.2s;
+
+            &:hover {
+                transform: scale(1.5);
+                color: $primary;
+            }
+        }
+    }
+
+    ul {
+        margin-left: 1rem;
+        list-style: none;
+
+        li::before {
+            content: "\2022";
+            color: $primary;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+    }
+
+    .card-image {
+        overflow: hidden;
+
+        figure {
+            background-color: $primary;
+            animation: fadeIn 2s;
+
+            img {
+                transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+                &:hover {
+                    opacity: 0.9;
+                    transform: scale(1.01);
+                }
+            }
+        }
+
+        @include mobile {
+            width: 80vw;
+            height: auto;
+            margin: 0 auto;
+        }
     }
 }
 

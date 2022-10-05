@@ -2,7 +2,7 @@
 {% set active_page = "team" %}
 
 {% block body %}
-<div class="container section">
+<div class="container section resume">
     <div class="columns">
         <div class="column is-3">
             <div class="card-image">
@@ -12,12 +12,17 @@
             </div>
         </div>
         <div class="column is-9">
-            <p class="member-name">{{ member["name"] }}</p>
+            <p class="member-name subtitle is-3">{{ member["name"] }}</p>
             <p class="member-title">{{ member["title"] }}</p>
             <p class="member-city">{{ member["city"] }}</p>
-            <p class="member-email">{{ member["email"] }}</p>
+            <p class="member-email"><i class="fa-solid fa-envelope"></i>{{ member["email"] }}</p>
+            <p class="member-foreign-language-label">{{ _("Yabancı Dil") }}</p>
             <p class="member-foreign-language">{{ member["foreign-language"] }}</p>
-            <p class="member-social-media">{{ member["social-media"] }}</p>
+            <p class="member-social-media">
+                <a href="{{ member['linkedin-url'] }}">
+                    <i class="fab fa-linkedin fa-2xl"></i>
+                </a>
+            </p>
         </div>
     </div>
 
@@ -37,7 +42,7 @@
     <div class="block">
         <h1 class="subtitle is-3">{{ _("Biyografi") }}</h1>
         {% for section in member["biography"] %}
-        <p>{{ section }}</p>
+        <p class="block">{{ section }}</p>
         {% endfor %}
     </div>
 

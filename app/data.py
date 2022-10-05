@@ -156,7 +156,7 @@ team_data = [
         "img": "/static/images/mmh.jpeg",
         "email": "muhammed.helvaci@hla-law.com",
         "foreign-language": lazy_gettext("İngilizce"),
-        "linkedin-url": "",
+        "linkedin-url": "https://www.linkedin.com/in/muhammed-m-helvac%C4%B1-76685a174/",
         "url": "/resume/mmh",
         "areas": [
             lazy_gettext("Elektronik Ticaret Hukuku"),
@@ -190,7 +190,7 @@ team_data = [
         "img": "/static/images/mtl.jpeg",
         "email": "mustafa.laik@hla-law.com",
         "foreign-language": lazy_gettext("İngilizce"),
-        "linkedin-url": "",
+        "linkedin-url": "https://www.linkedin.com/in/mtayfunlaik/",
         "url": "/resume/mtl",
         "areas": [
             lazy_gettext("Bilişim ve İnternet Teknolojileri Hukuku"),
@@ -226,7 +226,7 @@ team_data = [
         "img": "/static/images/da.jpeg",
         "email": "dogukan.asar@hla-law.com",
         "foreign-language": lazy_gettext("İngilizce"),
-        "linkedin-url": "",
+        "linkedin-url": "https://www.linkedin.com/in/do%C4%9Fukan-a%C5%9Far-443068154/",
         "url": "/resume/da",
         "areas": [
             lazy_gettext("Elektronik Ticaret Hukuku"),
