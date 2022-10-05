@@ -4,7 +4,7 @@
 {% block body %}
 <img class="page-image" src="{{ url_for('static', filename='images/team.jpeg') }}" alt="page-image" />
 
-<div class="container">
+<div class="container section">
     <h1 class="subtitle is-3 has-text-centered">{{ _("Ekibimiz") }}</h1>
     <div class="columns team">
         {% for member in team %}

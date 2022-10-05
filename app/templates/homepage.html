@@ -2,8 +2,8 @@
 {% set active_page = "homepage" %}
 
 {% block body %}
-<video autoplay muted loop src="{{ url_for('static', filename='videos/home-video.mp4') }}"></video>
-<div class="container">
+<video class="page-image" autoplay muted loop src="{{ url_for('static', filename='videos/home-video.mp4') }}"></video>
+<div class="container section">
     <div class="columns">
         <div class="column">
             {{ _("Haberler") }}

@@ -15,20 +15,16 @@ body {
             }
         }
     }
-}
 
-video {
-    width: 100vw;
-    max-height: 30rem;
-    object-fit: cover;
-    animation: fadeIn 1s;
+    .section {
+        padding-top: 1rem;
+    }
 }
 
 .page-image {
     max-height: 25rem;
     width: 100vw;
     object-fit: cover;
-    margin-bottom: 1rem;
     animation: fadeIn 1s $easing;
 }
 
