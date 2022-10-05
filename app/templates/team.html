@@ -2,7 +2,7 @@
 {% set active_page = "team" %}
 
 {% block body %}
-<img class="page-image" src="{{ url_for('static', filename='images/team.png') }}" alt="page-image" />
+<img class="page-image" src="{{ url_for('static', filename='images/team.jpeg') }}" alt="page-image" />
 
 <div class="container">
     <h1 class="subtitle is-3 has-text-centered">{{ _("Ekibimiz") }}</h1>
@@ -12,8 +12,8 @@
             <div class="card">
                 <a href="{{ member['url'] }}">
                     <div class="card-image">
-                        <figure class="image is-4by5">
-                            <img id="member{{ member.id }}" src="{{ member['img'] }}" alt="member-image" />
+                        <figure class="image is-3by4">
+                            <img src="{{ member['img'] }}" alt="member-image" />
                         </figure>
                     </div>
                     <div class="card-content">
