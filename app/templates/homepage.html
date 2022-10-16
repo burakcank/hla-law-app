@@ -6,10 +6,28 @@
 <div class="container section">
     <div class="columns">
         <div class="column">
-            {{ _("Haberler") }}
-        </div>
-        <div class="column">
-            {{ _("Yayınlar") }}
+            <div class="subtitle is-3 has-text-centered">
+                {{ _("En Son Haberler") }}
+            </div>
+
+            <div class="news-section">
+                {% for new in news_data %}
+                <div class="news-card">
+                    <img src="{{ url_for('static', filename='images/placeholder.jpg') }}" alt="news-image">
+                    <div class="news-content">
+                        <div class="news-title">
+                            {{ new["title"] }}
+                        </div>
+                        <div class="news-date">
+                            {{ new["date"] }}
+                        </div>
+                        <div class="news-tag">
+                            {{ new["tag"] }}
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
         </div>
     </div>
 </div>

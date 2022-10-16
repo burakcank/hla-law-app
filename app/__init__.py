@@ -9,7 +9,7 @@ from flask_session import Session
 from sassutils.wsgi import SassMiddleware
 from sqlalchemy.orm import Session
 
-from app.data import areas_data, team_data
+from app.data import areas_data, news_data, team_data
 from app.db import engine
 from app.models import EmailRequest
 
@@ -30,7 +30,7 @@ mail = Mail(app)
 
 @app.route("/")
 def homepage():
-    return render_template("homepage.html")
+    return render_template("homepage.html", news_data=news_data)
 
 
 @app.route("/about")

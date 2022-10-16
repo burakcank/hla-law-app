@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-10-16 21:33+0300\n"
+"POT-Creation-Date: 2022-10-16 22:29+0300\n"
 "PO-Revision-Date: 2022-10-03 23:23+0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: tr\n"
@@ -649,11 +649,15 @@ msgstr ""
 msgid "Haberler & Yayınlar"
 msgstr ""
 
-#: app/templates/homepage.html:9 app/templates/news.html:11
+#: app/templates/homepage.html:10
+msgid "En Son Haberler"
+msgstr ""
+
+#: app/templates/news.html:11
 msgid "Haberler"
 msgstr ""
 
-#: app/templates/homepage.html:12 app/templates/news.html:14
+#: app/templates/news.html:14
 msgid "Yayınlar"
 msgstr ""
 
