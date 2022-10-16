@@ -229,6 +229,13 @@ body {
 }
 
 .resume {
+    .member-info-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
     .member-name {
         color: $primary;
         margin-bottom: 0;
@@ -238,10 +245,6 @@ body {
         font-style: italic;
         font-weight: 600;
         color: gray;
-    }
-
-    .member-city {
-        color: darkgray;
     }
 
     .member-email {
@@ -294,6 +297,7 @@ body {
         figure {
             background-color: $primary;
             animation: fadeIn 2s;
+            filter: grayscale(1);
 
             img {
                 transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);

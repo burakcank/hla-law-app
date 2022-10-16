@@ -173,3 +173,6 @@ app/static/files/html/
 
 # Ignore node_modules
 node_modules/
+
+# ignore sqlite
+sqlite.db

@@ -6,3 +6,4 @@ python-dotenv
 libsass
 aspose-words
 beautifulsoup4
+sqlalchemy

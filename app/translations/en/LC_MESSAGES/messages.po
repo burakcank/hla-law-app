@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-10-03 23:18+0300\n"
+"POT-Creation-Date: 2022-10-16 21:33+0300\n"
 "PO-Revision-Date: 2022-10-03 23:23+0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -18,11 +18,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.10.3\n"
 
-#: app/data.py:7 app/data.py:197
+#: app/data.py:6 app/data.py:196
 msgid "Bilişim ve İnternet Teknolojileri Hukuku"
 msgstr "IT and Internet Technologies Law"
 
-#: app/data.py:10
+#: app/data.py:9
 msgid ""
 "Ulusal ve uluslararası gelişmeleri, gerek teknik anlamda gerekse hukuken "
 "ilgili mevzuatlar kapsamında takip ederek çalışan özel ekibimiz ile "
@@ -40,11 +40,11 @@ msgstr ""
 "represent our clients in the stages of mediation, litigation, and other "
 "dispute resolution methods. "
 
-#: app/data.py:17 app/data.py:164 app/data.py:199 app/data.py:235
+#: app/data.py:16 app/data.py:163 app/data.py:198 app/data.py:234
 msgid "Finans Teknolojileri Hukuku"
 msgstr "Fin-tech Law"
 
-#: app/data.py:20
+#: app/data.py:19
 msgid ""
 "Teknoloji ile finans ve bankacılık hizmetlerinin görülmesini amaçlayan "
 "teknoloji kuruluşları, ülkemizde faaliyetlerini yoğunlaştırmış ve bu "
@@ -64,7 +64,7 @@ msgstr ""
 "payment services and carrying out electronic money issuance activities "
 "must comply with this Law."
 
-#: app/data.py:23
+#: app/data.py:22
 msgid ""
 "Helvacı Laik Aşar olarak, ülkemizde ödeme hizmetleri ve elektronik para "
 "ihracı faaliyetleri yürüten yerli ve yabancı kuruluşların; Kanun ve "
@@ -91,11 +91,11 @@ msgstr ""
 "application process; the preparation of contracts for the services to be "
 "received and the business model to be realized."
 
-#: app/data.py:30 app/data.py:163 app/data.py:198 app/data.py:233
+#: app/data.py:29 app/data.py:162 app/data.py:197 app/data.py:232
 msgid "Elektronik Ticaret Hukuku"
 msgstr "E-commerce Law"
 
-#: app/data.py:33
+#: app/data.py:32
 msgid ""
 "Elektronik ticaret sektörü, tüm dünyada olduğu gibi ülkemizde de "
 "pazardaki payı açısından çok önemli bir konuma gelmiştir. Bu durum, "
@@ -110,7 +110,7 @@ msgstr ""
 " situation, has brought many regulations and legal requirements in train,"
 " with the contribution of technology."
 
-#: app/data.py:36
+#: app/data.py:35
 msgid ""
 "Helvacı Laik Aşar olarak, e-ticaret sektöründe faaliyet gösteren "
 "şirketlerin ilgili hukuki düzenlemelere yönelik uyum süreçlerini "
@@ -128,7 +128,7 @@ msgstr ""
 "obligations and thus we contribute to the consumers making reliable "
 "online shopping."
 
-#: app/data.py:39
+#: app/data.py:38
 msgid ""
 "Bu kapsamda; e-ticaret faaliyeti yürütecek şirketlerin yapılandırılması, "
 "finansmanı ve e-ticaret faaliyetlerinin gerçekleştirilmesi için gerekli "
@@ -157,11 +157,11 @@ msgstr ""
 "preparation of necessary contracts and documents for the website for "
 "consumers."
 
-#: app/data.py:46 app/data.py:167 app/data.py:201 app/data.py:237
+#: app/data.py:45 app/data.py:166 app/data.py:200 app/data.py:236
 msgid "Kişisel Veri Hukuku"
 msgstr "Personal Data Law"
 
-#: app/data.py:49
+#: app/data.py:48
 msgid ""
 "Kişisel verilerin korunmasına ilişkin ulusal ve uluslararası gelişmeleri "
 "yakından takip eden ekibimiz ile müvekkillerimizin, 6698 sayılı Kişisel "
@@ -198,11 +198,11 @@ msgstr ""
 "messages, reporting national and international developments to our "
 "clients. "
 
-#: app/data.py:56 app/data.py:234
+#: app/data.py:55 app/data.py:233
 msgid "Fikri Mülkiyet Hukuku"
 msgstr "Intellectual Property Law"
 
-#: app/data.py:59
+#: app/data.py:58
 msgid ""
 "Helvacı Laik Aşar olarak, müvekkillerimize başta 5846 sayılı Fikir ve "
 "Sanat Eserleri Kanunu olmak üzere ilgili tüm mevzuat kapsamında fikri ve "
@@ -214,7 +214,7 @@ msgstr ""
 "property rights within the scope of the Law of Intellectual and Artistic "
 "Works Numbered 5846 and all related legislation."
 
-#: app/data.py:62
+#: app/data.py:61
 msgid ""
 "Fikri Mülkiyet Hukuku kapsamında; patent, faydalı model, marka, telif "
 "hakları, coğrafi işaretler, tasarım, internet alan adları, müzik, "
@@ -236,7 +236,7 @@ msgstr ""
 "property rights contracts, the exercise of intellectual property rights "
 "and realization of transfer transactions of intellectual property rights."
 
-#: app/data.py:65
+#: app/data.py:64
 msgid ""
 "Ayrıca, müvekkillerimizin haklarının ihlal edildiği durumlarda tecavüzün "
 "önlenmesi, haksız rekabet, maddi ve manevi tazminat gibi davalarda "
@@ -247,11 +247,11 @@ msgstr ""
 "infringement cases, unfair competition and material and nonmaterial "
 "damage claims."
 
-#: app/data.py:72 app/data.py:168 app/data.py:238
+#: app/data.py:71 app/data.py:167 app/data.py:237
 msgid "Şirketler ve Ticaret Hukuku"
 msgstr "Corporate and Commercial Law"
 
-#: app/data.py:75
+#: app/data.py:74
 msgid ""
 "Ulusal ve uluslararası düzeyde faaliyet gösteren veya göstermeyi "
 "hedefleyen müvekkillerimize, şirket kuruluş ve sona erme işlemleri, "
@@ -290,11 +290,11 @@ msgstr ""
 "assembly meetings and minutes, the termination of the partnership, unfair"
 " competition, and the Turkish Commercial Code Numbered 6102."
 
-#: app/data.py:82 app/data.py:169 app/data.py:239
+#: app/data.py:81 app/data.py:168 app/data.py:238
 msgid "Sözleşmeler Hukuku"
 msgstr "Contract Law"
 
-#: app/data.py:85
+#: app/data.py:84
 msgid ""
 "Helvacı Laik Aşar olarak; sözleşmelerin usul ve maddi hukuk kuralları "
 "gereğince uygulanabilirliği ve müvekkillerimizin talepleri doğrultusunda;"
@@ -319,11 +319,11 @@ msgstr ""
 "reporting legal risk analyzes regarding contracts, and we represent our "
 "clients in disputes arising from the contracts they are parties to."
 
-#: app/data.py:92 app/data.py:165
+#: app/data.py:91 app/data.py:164
 msgid "İdare ve Vergi Hukuku"
 msgstr "Administrative and Tax Law"
 
-#: app/data.py:95
+#: app/data.py:94
 msgid ""
 "Gerçek ve tüzel kişi müvekkillerimizi, idari otoriteler ile olan hukuki "
 "ilişkilerinde etkin bir şekilde temsil etmekteyiz. Bu kapsamda "
@@ -343,7 +343,7 @@ msgstr ""
 "and damages actions before the administrative courts of the first "
 "instance and the State Council."
 
-#: app/data.py:98
+#: app/data.py:97
 msgid ""
 "Vergi hukuku kapsamında ise, tahakkuk eden vergiler, bu vergiler "
 "kapsamında doğan vergi suçları, harç ve cezalarına ilişkin olarak hukuki "
@@ -354,11 +354,11 @@ msgstr ""
 "regarding accrued taxes, tax crimes, fees and tax penalties, as well as "
 "representing our clients in disputes that may arise from these issues."
 
-#: app/data.py:105 app/data.py:166 app/data.py:200
+#: app/data.py:104 app/data.py:165 app/data.py:199
 msgid "İş ve Sosyal Güvenlik Hukuku"
 msgstr "Labor and Social Insurance Law"
 
-#: app/data.py:108
+#: app/data.py:107
 msgid ""
 "Helvacı Laik Aşar olarak; müvekkillerimizin çalışanlarına sağladıkları "
 "çalışma koşullarının hukuka uygunluğunun denetlenmesi ve hukuka uygun "
@@ -373,7 +373,7 @@ msgstr ""
 "all kinds of legal relations and processes they enter with their "
 "employees."
 
-#: app/data.py:111
+#: app/data.py:110
 msgid ""
 "Danışmanlık hizmetimiz ile müvekkillerimizin mevcut iş sözleşmelerinin "
 "hukuka uygunluk denetiminin yapılması, yeniden düzenlenmesi, imzalanması "
@@ -396,11 +396,11 @@ msgstr ""
 " work accidents, occupational diseases and other cases, and we are "
 "actively involved in the dispute stages arising from all these issues."
 
-#: app/data.py:118
+#: app/data.py:117
 msgid "Uluslararası İlişkiler Hukuku"
 msgstr "International Organizations and Non-Governmental Organizations (NGOs)"
 
-#: app/data.py:121
+#: app/data.py:120
 msgid ""
 "Helvacı Laik Aşar olarak, sivil toplumun faaliyetlerinin desteklenmesinin"
 " ülkemiz ve dünyamızın geleceği için çok önemli olduğuna inanıyoruz. Bu "
@@ -426,11 +426,11 @@ msgstr ""
 "the fields of Association Law, Labor Law, Personal Data Law, Corporate "
 "Law, Contract Law, and Administrative Law."
 
-#: app/data.py:128 app/data.py:236
+#: app/data.py:127 app/data.py:235
 msgid "Gayrimenkul ve Kat Mülkiyeti Hukuku"
 msgstr "Real Estate Law"
 
-#: app/data.py:131
+#: app/data.py:130
 msgid ""
 "Helvacı Laik Aşar olarak, müvekkillerimiz için, gayrimenkullerin hukuki "
 "incelemesinin yapılması ve raporlanması, gayrimenkul satış vaadi ve "
@@ -444,7 +444,7 @@ msgstr ""
 "agreements, construction right agreements, lease agreements and, "
 "construction agreements pursuant to Property Ownership Law numbered 634."
 
-#: app/data.py:134
+#: app/data.py:133
 msgid ""
 "Müvekkillerimize sunmuş olduğumuz hukuki danışmanlık hizmeti yanında "
 "müvekkillerimizi; tapu iptali ve tescili, tahliye, tapu kaydının "
@@ -461,11 +461,11 @@ msgstr ""
 "disputes and disputes within the scope of the Property Ownership Law "
 "Numbered 634."
 
-#: app/data.py:141 app/data.py:203
+#: app/data.py:140 app/data.py:202
 msgid "Yabancılar ve Vatandaşlık Hukuku"
 msgstr "Foreigners and Citizenship Law"
 
-#: app/data.py:144
+#: app/data.py:143
 msgid ""
 "Türkiye, yakın coğrafyasında ve kendi dinamikleri çerçevesinde yaşanan "
 "değişikliklerin etkisiyle göç alan bir ülke konumuna gelmiştir. Bu "
@@ -487,15 +487,15 @@ msgstr ""
 "issues such as residence permit, work permit, citizenship and, real "
 "estate ownership of foreigners in Turkey."
 
-#: app/data.py:155
+#: app/data.py:154 app/data.py:188 app/data.py:224
 msgid "Kurucu Avukat"
 msgstr "Founding Lawyer"
 
-#: app/data.py:159 app/data.py:193 app/data.py:229 app/templates/footer.html:18
+#: app/data.py:158 app/data.py:192 app/data.py:228
 msgid "İngilizce"
 msgstr "English"
 
-#: app/data.py:172
+#: app/data.py:171
 msgid ""
 "Dijitalleşen dünyayı aktif olarak takip eden Muhammed; finans "
 "teknolojileri, elektronik ticaret ve kişisel veri hukuku alanlarında "
@@ -510,7 +510,7 @@ msgstr ""
 "various sectors such as e-commerce, education, media, tourism, logistics,"
 " construction, production and represented them in dispute stages."
 
-#: app/data.py:175
+#: app/data.py:174
 msgid ""
 "Bilişim ve internet teknolojileri hukukunun yanı sıra; sözleşmeler "
 "hukuku, şirketler ve ticaret hukuku, iş ve sosyal güvenlik hukuku, idare "
@@ -528,27 +528,27 @@ msgstr ""
 " cyber-crimes. He is actively involved in NGO’s operating in the fields "
 "of business, law and social entrepreneurship."
 
-#: app/data.py:180
+#: app/data.py:179
 msgid "İstanbul Üniversitesi, Kamu Hukuku Yüksek Lisans"
 msgstr "Istanbul University, Faculty of Law, Public Law, LL.M."
 
-#: app/data.py:181 app/data.py:217 app/data.py:253
+#: app/data.py:180 app/data.py:216 app/data.py:252
 msgid "İstanbul Üniversitesi, Yönetim Bilişim Sistemleri"
 msgstr "Istanbul University, Management Information Systems, LL.B."
 
-#: app/data.py:182 app/data.py:218 app/data.py:254
+#: app/data.py:181 app/data.py:217 app/data.py:253
 msgid "İstanbul Üniversitesi, Hukuk Fakültesi"
 msgstr "Istanbul University, Faculty of Law, LL.B."
 
-#: app/data.py:183 app/data.py:219
+#: app/data.py:182 app/data.py:218
 msgid "Kadıköy Anadolu Lisesi"
 msgstr "Kadıkoy Anatolian High School"
 
-#: app/data.py:202
+#: app/data.py:201
 msgid "Uluslararası Kuruluşlar ve STK"
 msgstr "International Organizations and Non-Governmental Organizations (NGOs)"
 
-#: app/data.py:206
+#: app/data.py:205
 msgid ""
 "Mustafa; finansal teknolojiler, kişisel verilerin korunması ve elektronik"
 " ticaret alanlarında çalışmalar yapmaktadır."
@@ -556,7 +556,7 @@ msgstr ""
 "Mustafa focuses on the fields of financial technologies, data protection "
 "and e-commerce."
 
-#: app/data.py:209
+#: app/data.py:208
 msgid ""
 "Helvacı Laik Aşar’ın kuruluşu öncesinde, ödeme ve elektronik para "
 "hizmetleri alanında Türkiye’nin ve Avrupa’nın önde gelen start-"
@@ -578,7 +578,7 @@ msgstr ""
 "law, international organizations and non-governmental organizations "
 "(NGO’s), foreigners and citizenship law."
 
-#: app/data.py:212
+#: app/data.py:211
 msgid ""
 "İş, girişimcilik ve hukuk dünyasını bir araya getiren, girişimcilik "
 "ekosistemini ve özellikle sosyal girişimciliği destekleyen sivil toplum "
@@ -588,7 +588,7 @@ msgstr ""
 "the world of business, entrepreneurship, and law and support the "
 "entrepreneurial ecosystem and especially social entrepreneurship."
 
-#: app/data.py:242
+#: app/data.py:241
 msgid ""
 "Doğukan; bilişim ve internet teknolojileri ile fikri mülkiyet hukuku "
 "alanlarında çalışmalar yapmaktadır. Kariyeri boyunca ödeme hizmetleri, "
@@ -602,7 +602,7 @@ msgstr ""
 "fields of payment services, e-commerce, media, education, textile and "
 "real estate."
 
-#: app/data.py:245
+#: app/data.py:244
 msgid ""
 "Doğukan; finansal teknolojiler hukuku, kişisel veri hukuku ve elektronik "
 "ticaret hukuku alanlarında, kurumsal müvekkillerinin hukuka uyum "
@@ -619,7 +619,7 @@ msgstr ""
 " experience in litigation, in the fields of real estate law, corporate "
 "and commercial law, contract law and intellectual property law."
 
-#: app/data.py:248
+#: app/data.py:247
 msgid ""
 "Doğukan; girişimcilik ve iş alanında faaliyet gösteren sivil toplum "
 "kuruluşlarında yönetici ve üye sıfatları ile aktif olarak çalışmalar "
@@ -628,15 +628,16 @@ msgstr ""
 "Doğukan is actively working as a chairman and member in NGOs operating in"
 " the field of entrepreneurship and business."
 
-#: app/data.py:255
+#: app/data.py:254
 msgid "Hayrullah Kefoğlu Anadolu Lisesi"
 msgstr "Hayrullah Kefoglu Anatolian High School"
 
-#: app/templates/about.html:7 app/templates/header.html:3
+#: app/templates/about.html:4 app/templates/about.html:9
+#: app/templates/header.html:2
 msgid "Hakkımızda"
 msgstr "About us"
 
-#: app/templates/about.html:9
+#: app/templates/about.html:11
 msgid ""
 "Helvacı Laik Aşar olarak, dinamik ve dijitalleşmeye uyum sağlamış\n"
 "        profesyonel kadromuz ile ulusal ve uluslararası faaliyet gösteren"
@@ -671,7 +672,7 @@ msgstr ""
 " real estate law. Additionally, we represent our individual and corporate"
 " clients in litigation, arbitration, and enforcement proceedings."
 
-#: app/templates/about.html:24
+#: app/templates/about.html:22
 msgid ""
 "Ayrıca ödeme hizmetleri, e-ticaret, eğitim teknolojileri, yeni nesil\n"
 "        medya, internet teknolojileri, veri analizi ve güvenliği gibi "
@@ -688,20 +689,20 @@ msgstr ""
 "media, internet technologies, and data analysis and security in the "
 "fields of fin-tech law, personal data law and e-commerce law."
 
-#: app/templates/about.html:35
+#: app/templates/about.html:32
 msgid "Başarı ve çözüm odaklı hukuk hizmeti"
 msgstr "Success and solution-oriented legal service"
 
-#: app/templates/about.html:38
+#: app/templates/about.html:35
 msgid ""
 "Bireysel ve kurumsal müvekkillerimizin ihtiyaçlarına odaklanan\n"
-"                    bir yaklaşımla, en uygun ve geniş kapsamlı hukuk "
+"                bir yaklaşımla, en uygun ve geniş kapsamlı hukuk "
 "hizmetini vermek için\n"
-"                    çalışıyoruz. Ticari ve sektörel bilgi birikimimizi; "
+"                çalışıyoruz. Ticari ve sektörel bilgi birikimimizi; "
 "yaratıcı, hızlı ve\n"
-"                    yenilikçi çözümlerle destekleyerek müvekkillerimiz "
-"için en etkin ve\n"
-"                    faydalı sonucu hedefliyoruz."
+"                yenilikçi çözümlerle destekleyerek müvekkillerimiz için "
+"en etkin ve\n"
+"                faydalı sonucu hedefliyoruz."
 msgstr ""
 "We endeavor to provide the most appropriate and comprehensive legal "
 "service with an approach that focuses on the needs of our individual and "
@@ -709,20 +710,20 @@ msgstr ""
 "by supporting our commercial and sectoral knowledge with creative, fast, "
 "and innovative solutions."
 
-#: app/templates/about.html:49
+#: app/templates/about.html:44
 msgid "Yenilikçi ve kolektif düşünceyi merkeze alan bir felsefe"
 msgstr "A philosophy that centred on innovative and collective thinking"
 
-#: app/templates/about.html:53
+#: app/templates/about.html:47
 msgid ""
 "Yenilikçi ve kolektif düşünce anlayışını benimseyerek teknoloji,\n"
-"                    girişimcilik ve iş dünyası ile kamu kurumlarının iş "
+"                girişimcilik ve iş dünyası ile kamu kurumlarının iş "
 "birliğine yönelik\n"
-"                    faaliyetlere önem veriyoruz. Disiplinler üstü "
-"fikirler yaratmayı\n"
-"                    hedefliyor; bu hedefimizin, hukuki danışmanlık "
-"hizmeti verme\n"
-"                    anlayışını değiştireceğine inanıyoruz."
+"                faaliyetlere önem veriyoruz. Disiplinler üstü fikirler "
+"yaratmayı\n"
+"                hedefliyor; bu hedefimizin, hukuki danışmanlık hizmeti "
+"verme\n"
+"                anlayışını değiştireceğine inanıyoruz."
 msgstr ""
 "By adopting an innovative and collective attitude of mind, we attach "
 "importance to activities aimed at technology, entrepreneurship and "
@@ -730,22 +731,22 @@ msgstr ""
 " create transdisciplinary ideas. We believe that this aim will change the"
 " understanding of providing legal consultancy services."
 
-#: app/templates/about.html:64
+#: app/templates/about.html:56
 msgid "Dinamik ve uzman kadro"
 msgstr "Dynamic and expert team"
 
-#: app/templates/about.html:67
+#: app/templates/about.html:59
 msgid ""
 "Dijitalleşme ile yenilikçi düşünceyi merkeze alan;\n"
-"                    müvekkillerimizin faaliyet gösterdikleri alanlar ile "
+"                müvekkillerimizin faaliyet gösterdikleri alanlar ile "
 "ilgili ticari,\n"
-"                    ekonomik ve sektörel gelişmeleri takip eden; değişen "
+"                ekonomik ve sektörel gelişmeleri takip eden; değişen "
 "ihtiyaçlara\n"
-"                    yönelik hızlı geri dönüş yapabilme ve cevap verebilme"
-" kabiliyetine\n"
-"                    sahip; şeffaf, hesap verilebilir ve ulaşılabilir "
-"olmaktan asla taviz\n"
-"                    vermeyen uzman kadromuz ile hizmet vermekteyiz."
+"                yönelik hızlı geri dönüş yapabilme ve cevap verebilme "
+"kabiliyetine\n"
+"                sahip; şeffaf, hesap verilebilir ve ulaşılabilir olmaktan"
+" asla taviz\n"
+"                vermeyen uzman kadromuz ile hizmet vermekteyiz."
 msgstr ""
 "We have adopted being transparent, accountable, and accessible as our "
 "primary principle, with our expert team that focuses on digitalization "
@@ -753,11 +754,15 @@ msgstr ""
 " and sectoral developments related to the fields in which our clients "
 "operate, we can take quick actions towards their changing needs."
 
-#: app/templates/areas.html:7 app/templates/header.html:4
+#: app/templates/areas.html:7 app/templates/header.html:3
 msgid "Çalışma Alanlarımız"
 msgstr "Practice Areas"
 
-#: app/templates/career.html:9 app/templates/header.html:7
+#: app/templates/base.html:9
+msgid "Anasayfa"
+msgstr "Home"
+
+#: app/templates/career.html:9 app/templates/header.html:6
 msgid "Kariyer"
 msgstr "Careers"
 
@@ -840,7 +845,7 @@ msgstr ""
 "described in <a href='/serve_document/privacy_policy'>Privacy and Cookie "
 "Notice (Privacy Notice)</a> notified to me."
 
-#: app/templates/contact.html:10 app/templates/header.html:8
+#: app/templates/contact.html:10 app/templates/header.html:7
 msgid "İletişim"
 msgstr "Contact"
 
@@ -874,70 +879,62 @@ msgstr "Phone Number"
 
 #: app/templates/contact.html:77
 msgid ""
-"Kişisel verilerimin Aydınlatma Metni’nde açıklanan şart ve koşullarda "
-"işlenmesini\n"
+"Kişisel verilerimin <a "
+"href='/serve_document/privacy_policy_contact'>Aydınlatma\n"
+"                                Metni</a>’nde açıklanan şart ve "
+"koşullarda\n"
+"                            işlenmesini\n"
 "                            kabul\n"
 "                            ediyorum."
 msgstr ""
 "I accept the processing of my personal data in the terms and conditions "
-"described in Privacy and Cookie Notice."
+"described in <a href='/serve_document/privacy_policy_contact'>Privacy and"
+" Cookie Notice</a>."
 
-#: app/templates/contact.html:86
+#: app/templates/contact.html:88
 msgid "Talebiniz"
 msgstr "Request"
 
-#: app/templates/contact.html:95
+#: app/templates/contact.html:97
 msgid "Gönder"
 msgstr "Send"
 
-#: app/templates/footer.html:17
-msgid "Türkçe"
-msgstr "Turkish"
-
-#: app/templates/footer.html:41
+#: app/templates/footer.html:34
 msgid "Kullanım Koşulları"
 msgstr "Terms of Use Privacy and Cookie Notice"
 
-#: app/templates/footer.html:43
+#: app/templates/footer.html:36
 msgid "Gizlilik Politikası"
 msgstr "Privacy Policy"
 
-#: app/templates/header.html:2
-msgid "Anasayfa"
-msgstr "Home"
-
-#: app/templates/header.html:5 app/templates/team.html:8
+#: app/templates/header.html:4 app/templates/team.html:8
 msgid "Ekibimiz"
 msgstr "Our Team"
 
-#: app/templates/header.html:6 app/templates/news.html:8
+#: app/templates/header.html:5 app/templates/news.html:8
 msgid "Haberler & Yayınlar"
 msgstr "News & Publications"
 
-#: app/templates/homepage.html:9
+#: app/templates/homepage.html:9 app/templates/news.html:11
 msgid "Haberler"
 msgstr "News"
 
-#: app/templates/homepage.html:12
+#: app/templates/homepage.html:12 app/templates/news.html:14
 msgid "Yayınlar"
 msgstr "Publications"
 
-#: app/templates/news.html:11
-msgid "News"
-msgstr ""
+#: app/templates/resume.html:18
+msgid "Yabancı Dil"
+msgstr "Foreign Language"
 
-#: app/templates/news.html:14
-msgid "Publications"
-msgstr ""
-
-#: app/templates/resume.html:27
+#: app/templates/resume.html:31
 msgid "Çalışma Alanları"
 msgstr "Practice Areas"
 
-#: app/templates/resume.html:38
+#: app/templates/resume.html:42
 msgid "Biyografi"
 msgstr "Biography"
 
-#: app/templates/resume.html:47
+#: app/templates/resume.html:51
 msgid "Eğitim"
 msgstr "Education"

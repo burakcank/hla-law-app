@@ -40,5 +40,6 @@ class DevConfig(Config):
     MAIL_USERNAME = environ.get("MAIL_USERNAME")
     MAIL_PASSWORD = environ.get("MAIL_PASSWORD")
     MAIL_USE_SSL = environ.get("MAIL_USE_SSL")
+    MAIL_USE_TLS = environ.get("MAIL_USE_TLS")
     MAIL_DEFAULT_SENDER = environ.get("MAIL_DEFAULT_SENDER")
     USE_CREDENTIALS = True

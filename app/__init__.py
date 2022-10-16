@@ -1,5 +1,4 @@
 import pathlib
-import sqlite3
 
 import aspose.words as aw
 from bs4 import BeautifulSoup
@@ -8,8 +7,11 @@ from flask_babel import Babel, request
 from flask_mailing import Mail, Message
 from flask_session import Session
 from sassutils.wsgi import SassMiddleware
+from sqlalchemy.orm import Session
 
 from app.data import areas_data, team_data
+from app.db import engine
+from app.models import EmailRequest
 
 app = Flask(__name__)
 
@@ -92,6 +94,9 @@ def serve_document(doc_type):
     elif doc_type == "career_notice":
         doc_name = f"Kariyer Aydınlatma Metni {lang}"
         strip_paragraphs = [0, 1, -3, -2, -1]
+    elif doc_type == "privacy_policy_contact":
+        doc_name = f"İletişim Formu Aydınlatma Metni {lang}"
+        strip_paragraphs = [0, 1, -3, -2, -1]
 
     html_file = pathlib.Path(f"{app.root_path}/static/files/html/{doc_name}.html")
     if not html_file.is_file():
@@ -121,8 +126,17 @@ async def send_mail():
         )
 
         await mail.send_message(msg)
+        email_request = EmailRequest(
+            sent_to=mail_data["email"],
+            sent_from="info@hla-law.com",
+            content=mail_data["request"],
+        )
+        with Session(engine) as session:
+            session.add(email_request)
+            session.commit()
     except Exception as ex:
         print(ex)
+
     return redirect(request.referrer)
 
 
