@@ -1,5 +1,4 @@
 {% set navigation_bar = [
-("/", "homepage", _("Anasayfa")),
 ("/about", "about", _("Hakkımızda")),
 ("/areas", "areas", _("Çalışma Alanlarımız")),
 ("/team", "team", _("Ekibimiz")),
@@ -7,13 +6,13 @@
 ("/career", "career", _("Kariyer")),
 ("/contact", "contact", _("İletişim")),
 ] %}
-{% set active_page = active_page|default("homepage") %}
 
 <header>
     <nav class="navbar is-spaced has-shadow" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <span class="navbar-item">
-                <img src="{{ url_for('static', filename='images/header-logo.svg') }}" alt="header-logo" />
+                <a href="{{ url_for('homepage') }}"><img
+                        src="{{ url_for('static', filename='images/header-logo.svg') }}" alt="header-logo" /></a>
             </span>
 
             <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasic">
@@ -28,6 +27,10 @@
                 {% for href, id, caption in navigation_bar %}
                 <a href="{{ href|e }}" class="navbar-item {{ 'is-active' if id == active_page }}">{{ caption }}</a>
                 {% endfor %}
+                <span class="languages">
+                    <a href="/language/en">EN</a>
+                    <a href="/language/tr">TR</a>
+                </span>
             </div>
         </div>
     </nav>

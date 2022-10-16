@@ -1,10 +1,11 @@
 import pathlib
+import sqlite3
 
 import aspose.words as aw
 from bs4 import BeautifulSoup
 from flask import Flask, redirect, render_template, session, url_for
 from flask_babel import Babel, request
-from flask_mailman import Mail
+from flask_mailing import Mail, Message
 from flask_session import Session
 from sassutils.wsgi import SassMiddleware
 
@@ -22,7 +23,7 @@ app.config.from_object("config.DevConfig")
 
 babel = Babel(app)
 Session(app)
-Mail(app)
+mail = Mail(app)
 
 
 @app.route("/")
@@ -81,7 +82,7 @@ def set_language(language=None):
 @app.route("/serve_document/<doc_type>")
 def serve_document(doc_type):
     doc_name = None
-    lang = session.get("language", "tr").upper()
+    lang = session.get("language", "en").upper()
     if doc_type == "legal_notice":
         doc_name = f"Kullanım Koşulları {lang}"
         strip_paragraphs = [0]
@@ -108,9 +109,20 @@ def serve_document(doc_type):
     return render_template("document.html", html_content=html_content)
 
 
-@app.route("/send_mail")
-def send_mail():
-    mail_data = request.form.get_json()
+@app.route("/send_mail", methods=["POST"])
+async def send_mail():
+    mail_data = request.form.to_dict()
+    try:
+
+        msg = Message(
+            subject="Example",
+            body=mail_data["request"],
+            recipients=[mail_data["email"]],
+        )
+
+        await mail.send_message(msg)
+    except Exception as ex:
+        print(ex)
     return redirect(request.referrer)
 
 
@@ -118,7 +130,7 @@ def send_mail():
 def get_locale():
     # if the user has set up the language manually it will be stored in the session,
     # so we use the locale from the user settings
-    language = session.get("language", "tr")
+    language = session.get("language", "en")
     if language is not None:
         return language
 

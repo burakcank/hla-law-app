@@ -14,12 +14,11 @@
         <div class="column is-9">
             <p class="member-name subtitle is-3">{{ member["name"] }}</p>
             <p class="member-title">{{ member["title"] }}</p>
-            <p class="member-city">{{ member["city"] }}</p>
             <p class="member-email"><i class="fa-solid fa-envelope"></i>{{ member["email"] }}</p>
             <p class="member-foreign-language-label">{{ _("Yabancı Dil") }}</p>
             <p class="member-foreign-language">{{ member["foreign-language"] }}</p>
             <p class="member-social-media">
-                <a href="{{ member['linkedin-url'] }}">
+                <a target="_blank" href="{{ member['linkedin-url'] }}">
                     <i class="fab fa-linkedin fa-2xl"></i>
                 </a>
             </p>
@@ -29,7 +28,7 @@
     <hr>
 
     <div class="block">
-        <h1 class="subtitle is-3">{{ _("Çalışma Alanları") }}</h1>
+        <h1 class="subtitle is-4">{{ _("Çalışma Alanları") }}</h1>
         <ul>
             {% for area in member["areas"] %}
             <li>{{ area }}</li>
@@ -40,7 +39,7 @@
     <hr>
 
     <div class="block">
-        <h1 class="subtitle is-3">{{ _("Biyografi") }}</h1>
+        <h1 class="subtitle is-4">{{ _("Biyografi") }}</h1>
         {% for section in member["biography"] %}
         <p class="block">{{ section }}</p>
         {% endfor %}
@@ -49,7 +48,7 @@
     <hr>
 
     <div class="block">
-        <h1 class="subtitle is-3">{{ _("Eğitim") }}</h1>
+        <h1 class="subtitle is-4">{{ _("Eğitim") }}</h1>
         <ul>
             {% for education in member["education"] %}
             <li>{{ education }}</li>

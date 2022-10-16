@@ -46,27 +46,27 @@
     <hr>
 
     <h1 class="subtitle is-4 has-text-centered">{{ _("Bize Ulaşın") }}</h1>
-    <form action="{{ url_for('send_mail') }}">
+    <form action="{{ url_for('send_mail') }}" method="post">
         <div class="columns">
             <div class="column">
                 <div class="field">
                     <label class="label">{{ _("Adınız Soyadınız") }}</label>
                     <div class="control">
-                        <input class="input" type="text">
+                        <input class="input" type="text" name="name_surname">
                     </div>
                 </div>
 
                 <div class="field">
                     <label class="label">{{ _("E-Posta Adresiniz") }}</label>
                     <div class="control">
-                        <input class="input" type="email" value="">
+                        <input class="input" type="email" value="" name="email">
                     </div>
                 </div>
 
                 <div class="field">
                     <label class="label">{{ _("Cep Telefonunuz") }}</label>
                     <div class="control">
-                        <input class="input" type="text">
+                        <input class="input" type="text" name="phone">
                     </div>
                 </div>
 
@@ -85,7 +85,7 @@
                 <div class="field">
                     <label class="label">{{ _("Talebiniz") }}</label>
                     <div class="control">
-                        <textarea class="textarea"></textarea>
+                        <textarea class="textarea" name="request"></textarea>
                     </div>
                 </div>
             </div>

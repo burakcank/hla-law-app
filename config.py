@@ -35,3 +35,10 @@ class DevConfig(Config):
     DEBUG = True
     TESTING = True
     DATABASE_URI = environ.get("DEV_DATABASE_URI")
+    MAIL_SERVER = environ.get("MAIL_SERVER")
+    MAIL_PORT = int(environ.get("MAIL_PORT"))
+    MAIL_USERNAME = environ.get("MAIL_USERNAME")
+    MAIL_PASSWORD = environ.get("MAIL_PASSWORD")
+    MAIL_USE_SSL = environ.get("MAIL_USE_SSL")
+    MAIL_DEFAULT_SENDER = environ.get("MAIL_DEFAULT_SENDER")
+    USE_CREDENTIALS = True
