@@ -1,7 +1,8 @@
 flask
 flask-babel
 flask-mailing
-flask-session
+flask-session2
+flask-sqlalchemy
 python-dotenv
 libsass
 aspose-words

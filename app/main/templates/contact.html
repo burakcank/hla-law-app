@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% set active_page = "contact" %}
 
-{% set API_KEY = config["GOOGLE_MAPS_API_KEY"] %}
+{% block title %}{{ _("İletişim") }}{% endblock %}
 
 {% block body %}
 <img class="page-image" src="{{ url_for('static', filename='images/contact.jpeg') }}" alt="page-image">
@@ -10,14 +10,17 @@
     <h1 class="subtitle is-3 has-text-centered">{{ _("İletişim") }}</h1>
     <div class="columns">
         <div class="column">
-            <!-- <iframe width="800" height="450" style="border:0" loading="lazy" allowfullscreen
+            {% if config.get("GOOGLE_MAPS_API_KEY") %}
+            <iframe width="800" height="450" style="border:0" loading="lazy" allowfullscreen
                 referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed/v1/place?key={{API_KEY}}
             &q=AND Pastel T3 Blok K: 18 D:160 Kartal / İstanbul 34870, Türkiye">
-            </iframe> -->
+            </iframe>
+            {% else %}
             <iframe width="800" height="450" style="border:0" loading="lazy" allowfullscreen
                 referrerpolicy="no-referrer-when-downgrade"
                 src="{{ url_for('static', filename='images/fake-googlemaps.jpeg') }}">
             </iframe>
+            {% endif %}
         </div>
         <div class="column contact-section">
             <div class="block">
@@ -46,7 +49,7 @@
     <hr>
 
     <h1 class="subtitle is-4 has-text-centered">{{ _("Bize Ulaşın") }}</h1>
-    <form action="{{ url_for('send_mail') }}" method="post">
+    <form action="{{ url_for('main_bp.send_mail') }}" method="post">
         <div class="columns">
             <div class="column">
                 <div class="field">
@@ -73,7 +76,7 @@
                 <div class="field">
                     <div class="control">
                         <label class="checkbox">
-                            <input type="checkbox">
+                            <input type="checkbox" required>
                             {{ _("Kişisel verilerimin <a href='/serve_document/privacy_policy_contact'>Aydınlatma
                                 Metni</a>’nde açıklanan şart ve koşullarda
                             işlenmesini

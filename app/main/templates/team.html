@@ -1,6 +1,8 @@
 {% extends "base.html" %}
 {% set active_page = "team" %}
 
+{% block title %}{{ _("Ekibimiz") }}{% endblock %}
+
 {% block body %}
 <img class="page-image" src="{{ url_for('static', filename='images/team.jpeg') }}" alt="page-image" />
 

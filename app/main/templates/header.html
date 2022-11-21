@@ -1,17 +1,17 @@
 {% set navigation_bar = [
-("/about", "about", _("Hakkımızda")),
-("/areas", "areas", _("Çalışma Alanlarımız")),
-("/team", "team", _("Ekibimiz")),
-("/news", "news", _("Haberler & Yayınlar")),
-("/career", "career", _("Kariyer")),
-("/contact", "contact", _("İletişim")),
+(url_for("main_bp.about"), "about", _("Hakkımızda")),
+(url_for("main_bp.areas"), "areas", _("Çalışma Alanlarımız")),
+(url_for("main_bp.team"), "team", _("Ekibimiz")),
+(url_for("main_bp.news"), "news", _("Haberler & Yayınlar")),
+(url_for("main_bp.career"), "career", _("Kariyer")),
+(url_for("main_bp.contact"), "contact", _("İletişim")),
 ] %}
 
 <header>
     <nav class="navbar is-spaced has-shadow" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <span class="navbar-item">
-                <a href="{{ url_for('homepage') }}"><img
+                <a href="{{ url_for('main_bp.homepage') }}"><img
                         src="{{ url_for('static', filename='images/header-logo.svg') }}" alt="header-logo" /></a>
             </span>
 

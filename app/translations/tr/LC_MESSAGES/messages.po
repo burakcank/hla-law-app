@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-10-16 22:29+0300\n"
+"POT-Creation-Date: 2022-11-22 01:11+0300\n"
 "PO-Revision-Date: 2022-10-03 23:23+0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: tr\n"
@@ -421,12 +421,24 @@ msgstr ""
 msgid "Hayrullah Kefoğlu Anadolu Lisesi"
 msgstr ""
 
-#: app/templates/about.html:4 app/templates/about.html:9
-#: app/templates/header.html:2
+#: app/error/templates/404.html:5
+msgid "Böyle bir sayfa bulunmamaktadır."
+msgstr ""
+
+#: app/error/templates/500.html:5
+msgid "Bir hatayla karşılaşıldı."
+msgstr ""
+
+#: app/main/views.py:143
+msgid "Talebiniz alınmıştır, en kısa zamanda size geri döneceğiz. Teşekkürler."
+msgstr ""
+
+#: app/main/templates/about.html:4 app/main/templates/about.html:9
+#: app/main/templates/header.html:2
 msgid "Hakkımızda"
 msgstr ""
 
-#: app/templates/about.html:11
+#: app/main/templates/about.html:11
 msgid ""
 "Helvacı Laik Aşar olarak, dinamik ve dijitalleşmeye uyum sağlamış\n"
 "        profesyonel kadromuz ile ulusal ve uluslararası faaliyet gösteren"
@@ -436,7 +448,7 @@ msgid ""
 "        vermekteyiz."
 msgstr ""
 
-#: app/templates/about.html:15
+#: app/main/templates/about.html:15
 msgid ""
 "Bilişim ve internet teknolojileri hukuku başta olmak üzere; şirketler\n"
 "        ve ticaret hukuku, sözleşmeler hukuku, iş ve sosyal güvenlik "
@@ -451,7 +463,7 @@ msgid ""
 "        ediyoruz."
 msgstr ""
 
-#: app/templates/about.html:22
+#: app/main/templates/about.html:22
 msgid ""
 "Ayrıca ödeme hizmetleri, e-ticaret, eğitim teknolojileri, yeni nesil\n"
 "        medya, internet teknolojileri, veri analizi ve güvenliği gibi "
@@ -463,11 +475,11 @@ msgid ""
 "        mevzuata uyum süreçlerinin tamamlanmasında aktif rol oynuyoruz."
 msgstr ""
 
-#: app/templates/about.html:32
+#: app/main/templates/about.html:32
 msgid "Başarı ve çözüm odaklı hukuk hizmeti"
 msgstr ""
 
-#: app/templates/about.html:35
+#: app/main/templates/about.html:35
 msgid ""
 "Bireysel ve kurumsal müvekkillerimizin ihtiyaçlarına odaklanan\n"
 "                bir yaklaşımla, en uygun ve geniş kapsamlı hukuk "
@@ -479,11 +491,11 @@ msgid ""
 "                faydalı sonucu hedefliyoruz."
 msgstr ""
 
-#: app/templates/about.html:44
+#: app/main/templates/about.html:44
 msgid "Yenilikçi ve kolektif düşünceyi merkeze alan bir felsefe"
 msgstr ""
 
-#: app/templates/about.html:47
+#: app/main/templates/about.html:47
 msgid ""
 "Yenilikçi ve kolektif düşünce anlayışını benimseyerek teknoloji,\n"
 "                girişimcilik ve iş dünyası ile kamu kurumlarının iş "
@@ -495,11 +507,11 @@ msgid ""
 "                anlayışını değiştireceğine inanıyoruz."
 msgstr ""
 
-#: app/templates/about.html:56
+#: app/main/templates/about.html:56
 msgid "Dinamik ve uzman kadro"
 msgstr ""
 
-#: app/templates/about.html:59
+#: app/main/templates/about.html:59
 msgid ""
 "Dijitalleşme ile yenilikçi düşünceyi merkeze alan;\n"
 "                müvekkillerimizin faaliyet gösterdikleri alanlar ile "
@@ -513,19 +525,24 @@ msgid ""
 "                vermeyen uzman kadromuz ile hizmet vermekteyiz."
 msgstr ""
 
-#: app/templates/areas.html:7 app/templates/header.html:3
+#: app/main/templates/areas.html:4 app/main/templates/resume.html:31
+msgid "Çalışma Alanları"
+msgstr ""
+
+#: app/main/templates/areas.html:9 app/main/templates/header.html:3
 msgid "Çalışma Alanlarımız"
 msgstr ""
 
-#: app/templates/base.html:9
+#: app/main/templates/base.html:9
 msgid "Anasayfa"
 msgstr ""
 
-#: app/templates/career.html:9 app/templates/header.html:6
+#: app/main/templates/career.html:5 app/main/templates/career.html:11
+#: app/main/templates/header.html:6
 msgid "Kariyer"
 msgstr ""
 
-#: app/templates/career.html:11
+#: app/main/templates/career.html:13
 msgid ""
 "Helvacı Laik Aşar olarak; hukuk hizmeti vermenin ötesinde disiplinler\n"
 "        üstü fikirler yaratarak daha iyi bir geleceği mümkün kılmak için "
@@ -537,7 +554,7 @@ msgid ""
 "        faaliyetler yürütüyor ve bu tarz faaliyetleri destekliyoruz."
 msgstr ""
 
-#: app/templates/career.html:18
+#: app/main/templates/career.html:20
 msgid ""
 "Daha iyi bir gelecek fikri için bizimle çalışan ekip arkadaşlarımızın\n"
 "        da aynı felsefeye sahip olmasına önem veriyor ve onlarla beraber "
@@ -545,7 +562,7 @@ msgid ""
 "        fikrimizi daha ileriye taşımak için çabalıyoruz."
 msgstr ""
 
-#: app/templates/career.html:23
+#: app/main/templates/career.html:25
 msgid ""
 "Müvekkillerimizin faaliyet gösterdikleri alanlara ilgi duyan, sektörel\n"
 "        gelişmeleri yakından takip eden, dijitalleşmeye ve inovatif "
@@ -558,7 +575,7 @@ msgid ""
 "duyacağız."
 msgstr ""
 
-#: app/templates/career.html:30
+#: app/main/templates/career.html:32
 msgid ""
 "İyi ve akıcı bir şekilde yazılı ve sözlü İngilizce dilini kullanma\n"
 "        yeteneğine sahip adayların CV ve motivasyon mektuplarını info"
@@ -566,7 +583,7 @@ msgid ""
 "        adresimize göndermelerini rica etmekteyiz. "
 msgstr ""
 
-#: app/templates/career.html:36
+#: app/main/templates/career.html:38
 msgid ""
 "Kişisel verilerinizin işlenmesi hakkında\n"
 "        <a href='/serve_document/career_notice'>Çalışan Adayı ve Stajyer "
@@ -574,7 +591,7 @@ msgid ""
 "        için tıklayınız."
 msgstr ""
 
-#: app/templates/career.html:41
+#: app/main/templates/career.html:43
 msgid ""
 "Kişisel verilerimin tarafıma bildirilen\n"
 "        <a href='/serve_document/privacy_policy'>Gizlilik ve Çerez "
@@ -582,39 +599,40 @@ msgid ""
 "        açıklanan şart ve koşullarda işlenmesini kabul ediyorum."
 msgstr ""
 
-#: app/templates/contact.html:10 app/templates/header.html:7
+#: app/main/templates/contact.html:4 app/main/templates/contact.html:10
+#: app/main/templates/header.html:7
 msgid "İletişim"
 msgstr ""
 
-#: app/templates/contact.html:24
+#: app/main/templates/contact.html:27
 msgid "Adres"
 msgstr ""
 
-#: app/templates/contact.html:31
+#: app/main/templates/contact.html:34
 msgid "Telefon"
 msgstr ""
 
-#: app/templates/contact.html:38
+#: app/main/templates/contact.html:41
 msgid "E-Posta"
 msgstr ""
 
-#: app/templates/contact.html:48
+#: app/main/templates/contact.html:51
 msgid "Bize Ulaşın"
 msgstr ""
 
-#: app/templates/contact.html:53
+#: app/main/templates/contact.html:56
 msgid "Adınız Soyadınız"
 msgstr ""
 
-#: app/templates/contact.html:60
+#: app/main/templates/contact.html:63
 msgid "E-Posta Adresiniz"
 msgstr ""
 
-#: app/templates/contact.html:67
+#: app/main/templates/contact.html:70
 msgid "Cep Telefonunuz"
 msgstr ""
 
-#: app/templates/contact.html:77
+#: app/main/templates/contact.html:80
 msgid ""
 "Kişisel verilerimin <a "
 "href='/serve_document/privacy_policy_contact'>Aydınlatma\n"
@@ -625,55 +643,53 @@ msgid ""
 "                            ediyorum."
 msgstr ""
 
-#: app/templates/contact.html:88
+#: app/main/templates/contact.html:91
 msgid "Talebiniz"
 msgstr ""
 
-#: app/templates/contact.html:97
+#: app/main/templates/contact.html:100
 msgid "Gönder"
 msgstr ""
 
-#: app/templates/footer.html:34
+#: app/main/templates/footer.html:34
 msgid "Kullanım Koşulları"
 msgstr ""
 
-#: app/templates/footer.html:36
+#: app/main/templates/footer.html:37
 msgid "Gizlilik Politikası"
 msgstr ""
 
-#: app/templates/header.html:4 app/templates/team.html:8
+#: app/main/templates/header.html:4 app/main/templates/team.html:4
+#: app/main/templates/team.html:10
 msgid "Ekibimiz"
 msgstr ""
 
-#: app/templates/header.html:5 app/templates/news.html:8
+#: app/main/templates/header.html:5 app/main/templates/news.html:4
+#: app/main/templates/news.html:10
 msgid "Haberler & Yayınlar"
 msgstr ""
 
-#: app/templates/homepage.html:10
+#: app/main/templates/homepage.html:9
 msgid "En Son Haberler"
 msgstr ""
 
-#: app/templates/news.html:11
+#: app/main/templates/news.html:13
 msgid "Haberler"
 msgstr ""
 
-#: app/templates/news.html:14
+#: app/main/templates/news.html:16
 msgid "Yayınlar"
 msgstr ""
 
-#: app/templates/resume.html:18
+#: app/main/templates/resume.html:18
 msgid "Yabancı Dil"
 msgstr ""
 
-#: app/templates/resume.html:31
-msgid "Çalışma Alanları"
-msgstr ""
-
-#: app/templates/resume.html:42
+#: app/main/templates/resume.html:42
 msgid "Biyografi"
 msgstr ""
 
-#: app/templates/resume.html:51
+#: app/main/templates/resume.html:51
 msgid "Eğitim"
 msgstr ""
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-10-16 22:29+0300\n"
+"POT-Creation-Date: 2022-11-22 01:11+0300\n"
 "PO-Revision-Date: 2022-10-03 23:23+0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -632,12 +632,24 @@ msgstr ""
 msgid "Hayrullah Kefoğlu Anadolu Lisesi"
 msgstr "Hayrullah Kefoglu Anatolian High School"
 
-#: app/templates/about.html:4 app/templates/about.html:9
-#: app/templates/header.html:2
+#: app/error/templates/404.html:5
+msgid "Böyle bir sayfa bulunmamaktadır."
+msgstr "This page does not exist."
+
+#: app/error/templates/500.html:5
+msgid "Bir hatayla karşılaşıldı."
+msgstr "An error occured."
+
+#: app/main/views.py:143
+msgid "Talebiniz alınmıştır, en kısa zamanda size geri döneceğiz. Teşekkürler."
+msgstr "Your request has been received. We will get back to you as soon as we can. Thank you."
+
+#: app/main/templates/about.html:4 app/main/templates/about.html:9
+#: app/main/templates/header.html:2
 msgid "Hakkımızda"
 msgstr "About us"
 
-#: app/templates/about.html:11
+#: app/main/templates/about.html:11
 msgid ""
 "Helvacı Laik Aşar olarak, dinamik ve dijitalleşmeye uyum sağlamış\n"
 "        profesyonel kadromuz ile ulusal ve uluslararası faaliyet gösteren"
@@ -651,7 +663,7 @@ msgstr ""
 " and internationally with our dynamic and professional team who have "
 "adapted to digitalization."
 
-#: app/templates/about.html:15
+#: app/main/templates/about.html:15
 msgid ""
 "Bilişim ve internet teknolojileri hukuku başta olmak üzere; şirketler\n"
 "        ve ticaret hukuku, sözleşmeler hukuku, iş ve sosyal güvenlik "
@@ -672,7 +684,7 @@ msgstr ""
 " real estate law. Additionally, we represent our individual and corporate"
 " clients in litigation, arbitration, and enforcement proceedings."
 
-#: app/templates/about.html:22
+#: app/main/templates/about.html:22
 msgid ""
 "Ayrıca ödeme hizmetleri, e-ticaret, eğitim teknolojileri, yeni nesil\n"
 "        medya, internet teknolojileri, veri analizi ve güvenliği gibi "
@@ -689,11 +701,11 @@ msgstr ""
 "media, internet technologies, and data analysis and security in the "
 "fields of fin-tech law, personal data law and e-commerce law."
 
-#: app/templates/about.html:32
+#: app/main/templates/about.html:32
 msgid "Başarı ve çözüm odaklı hukuk hizmeti"
 msgstr "Success and solution-oriented legal service"
 
-#: app/templates/about.html:35
+#: app/main/templates/about.html:35
 msgid ""
 "Bireysel ve kurumsal müvekkillerimizin ihtiyaçlarına odaklanan\n"
 "                bir yaklaşımla, en uygun ve geniş kapsamlı hukuk "
@@ -710,11 +722,11 @@ msgstr ""
 "by supporting our commercial and sectoral knowledge with creative, fast, "
 "and innovative solutions."
 
-#: app/templates/about.html:44
+#: app/main/templates/about.html:44
 msgid "Yenilikçi ve kolektif düşünceyi merkeze alan bir felsefe"
 msgstr "A philosophy that centred on innovative and collective thinking"
 
-#: app/templates/about.html:47
+#: app/main/templates/about.html:47
 msgid ""
 "Yenilikçi ve kolektif düşünce anlayışını benimseyerek teknoloji,\n"
 "                girişimcilik ve iş dünyası ile kamu kurumlarının iş "
@@ -731,11 +743,11 @@ msgstr ""
 " create transdisciplinary ideas. We believe that this aim will change the"
 " understanding of providing legal consultancy services."
 
-#: app/templates/about.html:56
+#: app/main/templates/about.html:56
 msgid "Dinamik ve uzman kadro"
 msgstr "Dynamic and expert team"
 
-#: app/templates/about.html:59
+#: app/main/templates/about.html:59
 msgid ""
 "Dijitalleşme ile yenilikçi düşünceyi merkeze alan;\n"
 "                müvekkillerimizin faaliyet gösterdikleri alanlar ile "
@@ -754,19 +766,24 @@ msgstr ""
 " and sectoral developments related to the fields in which our clients "
 "operate, we can take quick actions towards their changing needs."
 
-#: app/templates/areas.html:7 app/templates/header.html:3
+#: app/main/templates/areas.html:4 app/main/templates/resume.html:31
+msgid "Çalışma Alanları"
+msgstr "Practice Areas"
+
+#: app/main/templates/areas.html:9 app/main/templates/header.html:3
 msgid "Çalışma Alanlarımız"
 msgstr "Practice Areas"
 
-#: app/templates/base.html:9
+#: app/main/templates/base.html:9
 msgid "Anasayfa"
 msgstr "Home"
 
-#: app/templates/career.html:9 app/templates/header.html:6
+#: app/main/templates/career.html:5 app/main/templates/career.html:11
+#: app/main/templates/header.html:6
 msgid "Kariyer"
 msgstr "Careers"
 
-#: app/templates/career.html:11
+#: app/main/templates/career.html:13
 msgid ""
 "Helvacı Laik Aşar olarak; hukuk hizmeti vermenin ötesinde disiplinler\n"
 "        üstü fikirler yaratarak daha iyi bir geleceği mümkün kılmak için "
@@ -783,7 +800,7 @@ msgstr ""
 "activities for entrepreneurship, public and legal cooperation and support"
 " such activities."
 
-#: app/templates/career.html:18
+#: app/main/templates/career.html:20
 msgid ""
 "Daha iyi bir gelecek fikri için bizimle çalışan ekip arkadaşlarımızın\n"
 "        da aynı felsefeye sahip olmasına önem veriyor ve onlarla beraber "
@@ -794,7 +811,7 @@ msgstr ""
 "who work with us have the same philosophy and we endeavour to move this "
 "idea forward with them."
 
-#: app/templates/career.html:23
+#: app/main/templates/career.html:25
 msgid ""
 "Müvekkillerimizin faaliyet gösterdikleri alanlara ilgi duyan, sektörel\n"
 "        gelişmeleri yakından takip eden, dijitalleşmeye ve inovatif "
@@ -812,7 +829,7 @@ msgstr ""
 " thinking, are open to the idea of ​​interdisciplinary and inter-"
 "institutional cooperation and can adapt to our corporate culture."
 
-#: app/templates/career.html:30
+#: app/main/templates/career.html:32
 msgid ""
 "İyi ve akıcı bir şekilde yazılı ve sözlü İngilizce dilini kullanma\n"
 "        yeteneğine sahip adayların CV ve motivasyon mektuplarını info"
@@ -823,7 +840,7 @@ msgstr ""
 " spoken the English language fluently and well, send their CV and "
 "motivation letters to info@hla-law.com."
 
-#: app/templates/career.html:36
+#: app/main/templates/career.html:38
 msgid ""
 "Kişisel verilerinizin işlenmesi hakkında\n"
 "        <a href='/serve_document/career_notice'>Çalışan Adayı ve Stajyer "
@@ -834,7 +851,7 @@ msgstr ""
 "Candidate and Trainee Candidate Privacy Notice (Privacy Notice)</a> about"
 " the processing of your personal data."
 
-#: app/templates/career.html:41
+#: app/main/templates/career.html:43
 msgid ""
 "Kişisel verilerimin tarafıma bildirilen\n"
 "        <a href='/serve_document/privacy_policy'>Gizlilik ve Çerez "
@@ -845,39 +862,40 @@ msgstr ""
 "described in <a href='/serve_document/privacy_policy'>Privacy and Cookie "
 "Notice (Privacy Notice)</a> notified to me."
 
-#: app/templates/contact.html:10 app/templates/header.html:7
+#: app/main/templates/contact.html:4 app/main/templates/contact.html:10
+#: app/main/templates/header.html:7
 msgid "İletişim"
 msgstr "Contact"
 
-#: app/templates/contact.html:24
+#: app/main/templates/contact.html:27
 msgid "Adres"
 msgstr "Address"
 
-#: app/templates/contact.html:31
+#: app/main/templates/contact.html:34
 msgid "Telefon"
 msgstr "Phone"
 
-#: app/templates/contact.html:38
+#: app/main/templates/contact.html:41
 msgid "E-Posta"
 msgstr "E-mail"
 
-#: app/templates/contact.html:48
+#: app/main/templates/contact.html:51
 msgid "Bize Ulaşın"
 msgstr "Contact us"
 
-#: app/templates/contact.html:53
+#: app/main/templates/contact.html:56
 msgid "Adınız Soyadınız"
 msgstr "Name Surname"
 
-#: app/templates/contact.html:60
+#: app/main/templates/contact.html:63
 msgid "E-Posta Adresiniz"
 msgstr "E-mail Address"
 
-#: app/templates/contact.html:67
+#: app/main/templates/contact.html:70
 msgid "Cep Telefonunuz"
 msgstr "Phone Number"
 
-#: app/templates/contact.html:77
+#: app/main/templates/contact.html:80
 msgid ""
 "Kişisel verilerimin <a "
 "href='/serve_document/privacy_policy_contact'>Aydınlatma\n"
@@ -891,54 +909,52 @@ msgstr ""
 "described in <a href='/serve_document/privacy_policy_contact'>Privacy and"
 " Cookie Notice</a>."
 
-#: app/templates/contact.html:88
+#: app/main/templates/contact.html:91
 msgid "Talebiniz"
 msgstr "Request"
 
-#: app/templates/contact.html:97
+#: app/main/templates/contact.html:100
 msgid "Gönder"
 msgstr "Send"
 
-#: app/templates/footer.html:34
+#: app/main/templates/footer.html:34
 msgid "Kullanım Koşulları"
 msgstr "Terms of Use Privacy and Cookie Notice"
 
-#: app/templates/footer.html:36
+#: app/main/templates/footer.html:37
 msgid "Gizlilik Politikası"
 msgstr "Privacy Policy"
 
-#: app/templates/header.html:4 app/templates/team.html:8
+#: app/main/templates/header.html:4 app/main/templates/team.html:4
+#: app/main/templates/team.html:10
 msgid "Ekibimiz"
 msgstr "Our Team"
 
-#: app/templates/header.html:5 app/templates/news.html:8
+#: app/main/templates/header.html:5 app/main/templates/news.html:4
+#: app/main/templates/news.html:10
 msgid "Haberler & Yayınlar"
 msgstr "News & Publications"
 
-#: app/templates/homepage.html:10
+#: app/main/templates/homepage.html:9
 msgid "En Son Haberler"
 msgstr "Latest News"
 
-#: app/templates/news.html:11
+#: app/main/templates/news.html:13
 msgid "Haberler"
 msgstr "News"
 
-#: app/templates/news.html:14
+#: app/main/templates/news.html:16
 msgid "Yayınlar"
 msgstr "Publications"
 
-#: app/templates/resume.html:18
+#: app/main/templates/resume.html:18
 msgid "Yabancı Dil"
 msgstr "Foreign Language"
 
-#: app/templates/resume.html:31
-msgid "Çalışma Alanları"
-msgstr "Practice Areas"
-
-#: app/templates/resume.html:42
+#: app/main/templates/resume.html:42
 msgid "Biyografi"
 msgstr "Biography"
 
-#: app/templates/resume.html:51
+#: app/main/templates/resume.html:51
 msgid "Eğitim"
 msgstr "Education"

@@ -1,6 +1,8 @@
 {% extends "base.html" %}
 {% set active_page = "career" %}
-{% set privacy_policy_doc = url_for("serve_document", doc_type="privacy_policy") %}
+{% set privacy_policy_doc = url_for("main_bp.serve_document", doc_type="privacy_policy") %}
+
+{% block title %}{{ _("Kariyer") }}{% endblock %}
 
 {% block body %}
 <img class="page-image" src="{{ url_for('static', filename='images/career.jpeg') }}" alt="page-image" />

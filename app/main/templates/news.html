@@ -1,6 +1,8 @@
 {% extends "base.html" %}
 {% set active_page = "news" %}
 
+{% block title %}{{ _("Haberler & Yayınlar") }}{% endblock %}
+
 {% block body %}
 <img class="page-image" src="{{ url_for('static', filename='images/news.jpeg') }}" alt="page-image">
 
