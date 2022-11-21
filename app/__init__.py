@@ -52,6 +52,9 @@ def create_app(config_object: str = "ProdConfig") -> Flask:
     app.register_blueprint(error_bp)
     app.register_blueprint(main_bp)
 
+    with app.app_context():
+        db.create_all()
+
     @babel.localeselector
     def get_locale():
         # If the user has set up the language manually it will be stored in the session,
