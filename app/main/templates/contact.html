@@ -16,10 +16,7 @@
             &q=AND Pastel T3 Blok K: 18 D:160 Kartal / İstanbul 34870, Türkiye">
             </iframe>
             {% else %}
-            <iframe width="800" height="450" style="border:0" loading="lazy" allowfullscreen
-                referrerpolicy="no-referrer-when-downgrade"
-                src="{{ url_for('static', filename='images/fake-googlemaps.jpeg') }}">
-            </iframe>
+            <img src="{{ url_for('static', filename='images/fake-googlemaps.jpeg') }}" alt="map-image">
             {% endif %}
         </div>
         <div class="column contact-section">
