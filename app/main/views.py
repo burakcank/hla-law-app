@@ -116,18 +116,14 @@ def serve_document(doc_type):
         # The file does not exist.
         abort(404)
 
-    html_file = pathlib.Path(
-        f"{current_app.root_path}/static/files/html/{doc_name}.html"
-    )
+    html_file = pathlib.Path(f"{current_app.root_path}/static/files/html/{doc_name}.html")
     # If the already converted html file does not exist, convert and save it.
     if not html_file.is_file():
         doc = aw.Document(f"{current_app.root_path}/static/files/{doc_name}.docx")
         doc.save(f"{current_app.root_path}/static/files/html/{doc_name}.html")
 
     # Open the converted html document for stripping.
-    with open(
-        f"{current_app.root_path}/static/files/html/{doc_name}.html"
-    ) as html_file:
+    with open(f"{current_app.root_path}/static/files/html/{doc_name}.html") as html_file:
         soup = BeautifulSoup(html_file)
 
     # Remove the watermark from aspose.
@@ -154,9 +150,7 @@ def send_mail():
             content=mail_data["request"],
         )
         flash(
-            lazy_gettext(
-                "Talebiniz alınmıştır, en kısa zamanda size geri döneceğiz. Teşekkürler."
-            )
+            lazy_gettext("Talebiniz alınmıştır, en kısa zamanda size geri döneceğiz. Teşekkürler.")
         )
         db.session.add(email_request)
         db.session.commit()
