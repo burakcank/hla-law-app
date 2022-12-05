@@ -20,6 +20,16 @@ def homepage():
     return render_template("homepage.html", news_data=news_data)
 
 
+@main_bp.route("/new/<int:new_id>")
+def new(new_id):
+    """Page for each individual new."""
+    try:
+        new = news_data[new_id]
+    except IndexError:
+        abort(404)
+    return render_template("new.html", new=new)
+
+
 @main_bp.route("/about")
 def about():
     """Render about page."""

@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block body %}
+<img class="page-image" src="https://picsum.photos/1000/400" alt="page-image">
+
+<div class="container section">
+    <h1 class="is-size-3 is-size-4-mobile block">{{ new["title"] }}</h1>
+    <div class="block">
+        <span class="tag is-light are-medium">{{ new["tag"] }}</span> - {{ new["date"] }}
+    </div>
+    <div class="block">
+        {{ new["content"]|safe }}
+    </div>
+</div>
+{% endblock %}

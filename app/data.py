@@ -258,23 +258,59 @@ team_data = [
 
 news_data = [
     {
+        "id": 0,
         "title": "MASAK Tarafından Kripto Varlık Hizmet Sağlayıcılara Yönelik Şüpheli İşlem Bildirimi Rehberi’nin Yayımlanması Hakkında Duyuru",
         "date": "18.04.2022",
-        "content": """MASAK tarafından, kripto varlık hizmet sağlayıcıların elektronik ortamda şüpheli işlem bildirimi gönderebilmelerine ilişkin usul ve esasların düzenlenmesi amacı ile “Şüpheli İşlem Bildirimi Rehberi” (“Rehber”) yayımlanmıştır.
-Rehber içerisinde öncelikle şüpheli işlem bildirimlerinin kâğıt ortamında ve elektronik ortamda gönderimine dair süreçler anlatılmış, daha sonra şüpheli işlem bildirim formlarının nasıl düzenleneceğine dair detaylı bilgilere yer verilmiştir.
-Kripto varlık hizmet sağlayıcılar, 18/04/2022 tarihinden itibaren şüpheli işlem bildirimlerini Rehber’de belirtilen esas ve usuller çerçevesinde göndereceklerdir.
-Şüpheli işlemler, yükümlüler tarafından; şüpheli işlemin gerçekleştiğine ilişkin şüphenin oluştuğu tarihten itibaren en geç on iş günü içinde, gecikmesinde sakınca bulunan hallerde ise derhal MASAK Başkanlığı’na bildireceklerdir.
-Rehber ve ilgili formlara buradan ulaşabilirsiniz.""",
+        "content": (
+            """
+<div class="content">
+    <p>MASAK tarafından, kripto varlık hizmet sağlayıcıların elektronik ortamda şüpheli işlem bildirimi
+        gönderebilmelerine
+        ilişkin usul ve esasların düzenlenmesi amacı ile "Şüpheli İşlem Bildirimi Rehberi" ("Rehber") yayımlanmıştır.
+    </p>
+    <p>Rehber içerisinde öncelikle şüpheli işlem bildirimlerinin kağıt ortamında ve elektronik ortamda gönderimine dair
+        süreçler anlatılmış, daha sonra şüpheli işlem bildirim formlarının nasıl düzenleneceğine dair detaylı bilgilere
+        yer
+        verilmiştir.</p>
+    <p>Kripto varlık hizmet sağlayıcılar, 18/04/2022 tarihinden itibaren şüpheli işlem bildirimlerini Rehber’de
+        belirtilen
+        esas ve usuller çerçevesinde göndereceklerdir.</p>
+    <p>Şüpheli işlemler, yükümlüler tarafından; şüpheli işlemin gerçekleştiğine ilişkin şüphenin oluştuğu tarihten
+        itibaren
+        en geç on iş günü içinde, gecikmesinde sakınca bulunan hallerde ise derhal MASAK Başkanlığı’na bildireceklerdir.
+    </p>
+    <p>Rehber ve ilgili formlara buradan ulaşabilirsiniz.</p>
+</div>
+"""
+        ),
         "tag": "Finans Teknolojileri Hukuku",
     },
     {
+        "id": 1,
         "title": "Bankacılık Düzenleme ve Denetleme Kurumu Tarafından İlk Dijital Banka Kuruluş İzninin Verilmesi",
         "date": "22.04.2022",
-        "content": """22.04.2022 tarihli Resmi Gazete’de yayımlanan Bankacılık Düzenleme ve Denetleme Kurulu’nun 21.04.2022 tarihli kararına göre, Bankacılık Düzenleme ve Denetleme Kurumu (“BDDK”) tarafından, ilk dijital bankacılık izni verilmiştir.
-Söz konusu karara göre BDDK tarafından; Hayat Holding A.Ş., Hayat Kimya Sanayi A.Ş.,  As Tüketim Malları Ticaret A.Ş., Kastamonu Entegre Ağaç Sanayi ve Ticaret A.Ş., ve Limaş Liman İşletmeciliği A.Ş.'nin ortaklığında, 1.5 milyar TL sermayeli ve Hayat Katılım Bankası A.Ş. unvanlı dijital katılım bankası kurulmasına izin verilmiştir.
-Dijital Bankaların Faaliyet Esasları ile Servis Modeli Bankacılığı Hakkında Yönetmelik (“Yönetmelik”) 01.01.2022 tarihinde yürürlüğe girmişti. Yönetmelik kapsamında dijital banka; bankacılık hizmetlerini fiziksel şubeler yerine elektronik bankacılık hizmetleri dağıtım kanalları aracılığıyla sunan kredi kuruluşu şeklinde tanımlanmıştı.
-Yönetmelik’in yürürlüğe girmesi ile birlikte, Hayat Katılım Bankası A.Ş., elektronik hizmet dağıtım kanalları aracılığı ile uzaktan bankacılık faaliyetleri gösterebilecek ilk şubesiz katılım bankası olarak dijital bankacılık izni almış bulunmaktadır.
-Dijital bankacılık faaliyetinin esaslarını düzenleyen Yönetmelik kapsamındaki bilgi notumuza buradan ulaşabilirsiniz.""",
+        "content": (
+            """
+        <div class="content">
+    <p>22.04.2022 tarihli Resmi Gazete’de yayımlanan Bankacılık Düzenleme ve Denetleme Kurulu’nun 21.04.2022 tarihli
+        kararına göre, Bankacılık Düzenleme ve Denetleme Kurumu (“BDDK”) tarafından, ilk dijital bankacılık izni
+        verilmiştir.</p>
+    <p>Söz konusu karara göre BDDK tarafından; Hayat Holding A.Ş., Hayat Kimya Sanayi A.Ş., As Tüketim Malları Ticaret
+        A.Ş., Kastamonu Entegre Ağaç Sanayi ve Ticaret A.Ş., ve Limaş Liman İşletmeciliği A.Ş.'nin ortaklığında, 1.5
+        milyar TL sermayeli ve Hayat Katılım Bankası A.Ş. unvanlı dijital katılım bankası kurulmasına izin verilmiştir.
+    </p>
+    <p>Dijital Bankaların Faaliyet Esasları ile Servis Modeli Bankacılığı Hakkında Yönetmelik (“Yönetmelik”) 01.01.2022
+        tarihinde yürürlüğe girmişti. Yönetmelik kapsamında dijital banka; bankacılık hizmetlerini fiziksel şubeler
+        yerine elektronik bankacılık hizmetleri dağıtım kanalları aracılığıyla sunan kredi kuruluşu şeklinde
+        tanımlanmıştı.</p>
+    <p>Yönetmelik’in yürürlüğe girmesi ile birlikte, Hayat Katılım Bankası A.Ş., elektronik hizmet dağıtım kanalları
+        aracılığı ile uzaktan bankacılık faaliyetleri gösterebilecek ilk şubesiz katılım bankası olarak dijital
+        bankacılık izni almış bulunmaktadır.</p>
+    <p>Dijital bankacılık faaliyetinin esaslarını düzenleyen Yönetmelik kapsamındaki bilgi notumuza buradan
+        ulaşabilirsiniz.</p>
+</div>
+"""
+        ),
         "tag": "Finans Teknolojileri Hukuku",
     },
 ]

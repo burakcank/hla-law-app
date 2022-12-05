@@ -3,31 +3,29 @@
 {% block body %}
 <video class="page-image" autoplay muted loop src="{{ url_for('static', filename='videos/home-video.mp4') }}"></video>
 <div class="container section">
-    <div class="columns">
-        <div class="column">
-            <div class="subtitle is-3 has-text-centered">
-                {{ _("En Son Haberler") }}
-            </div>
+    <div class="subtitle is-3 has-text-centered">
+        {{ _("En Son Haberler") }}
+    </div>
 
-            <div class="news-section">
-                {% for new in news_data %}
-                <div class="news-card">
-                    <img src="{{ url_for('static', filename='images/placeholder.jpg') }}" alt="news-image">
-                    <div class="news-content">
-                        <div class="news-title">
-                            {{ new["title"] }}
-                        </div>
-                        <div class="news-date">
-                            {{ new["date"] }}
-                        </div>
-                        <div class="news-tag">
-                            {{ new["tag"] }}
-                        </div>
-                    </div>
-                </div>
-                {% endfor %}
+    {% for new in news_data %}
+    <article class="media">
+        <figure class="media-left">
+            <p class="image is-64x64">
+                <img src="{{ url_for('static', filename='images/placeholder.jpg') }}" alt="news-image">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <p>
+                    <a href="{{ url_for('main_bp.new', new_id=new.id) }}">
+                        {{ new["title"] }}
+                    </a>
+                    <br>
+                    <span class="tag is-light">{{ new["tag"] }}</span> - {{ new["date"] }}
+                </p>
             </div>
         </div>
-    </div>
+    </article>
+    {% endfor %}
 </div>
 {% endblock %}

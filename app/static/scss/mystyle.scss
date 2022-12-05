@@ -289,32 +289,3 @@ body {
         margin-bottom: unset;
     }
 }
-
-.news-section {
-    .news-card {
-        display: flex;
-        margin: 1rem;
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-        border-radius: 0.5rem;
-        overflow: auto;
-
-        img {
-            width: 8rem;
-            object-fit: cover;
-            filter: brightness(0.5);
-        }
-
-        .news-date {
-            text-align: right;
-        }
-
-        .news-tag {
-            text-align: right;
-        }
-
-        .news-content {
-            width: 100%;
-            padding: 1rem;
-        }
-    }
-}
