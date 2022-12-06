@@ -15,6 +15,9 @@ class Config:
     # If this key is not set, then google maps will show as image under contact page.
     GOOGLE_MAPS_API_KEY = environ.get("GOOGLE_MAPS_API_KEY")
 
+    # Unsplash access key
+    UNSPLASH_ACCESS_KEY = environ.get("UNSPLASH_ACCESS_KEY")
+
     MAIL_SERVER = environ.get("MAIL_SERVER")
     MAIL_PORT = int(environ.get("MAIL_PORT"))
     MAIL_USERNAME = environ.get("MAIL_USERNAME")
