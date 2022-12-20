@@ -1,4 +1,9 @@
-@import url("https://fonts.cdnfonts.com/css/century-gothic");
+// Include Century Gothic font from fonts folder.
+@font-face {
+    font-family: "Century Gothic";
+    src: local("Century Gothic"),
+        url("../fonts/century-gothic/CenturyGothic.ttf") format("truetype");
+}
 
 // Set brand colors.
 $darkred: #a00000;
