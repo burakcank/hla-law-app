@@ -1,11 +1,11 @@
-@import "http://fonts.cdnfonts.com/css/century-gothic";
+@import url("https://fonts.cdnfonts.com/css/century-gothic");
 
 // Set brand colors.
-$darkred: #A00000;
-$davysgrey: #2A2A2A;
-$cadetblue: #51A3A3;
-$persianorange: #CB904D;
-$arylideyellow: #DFCC74;
+$darkred: #a00000;
+$davysgrey: #2a2a2a;
+$cadetblue: #51a3a3;
+$persianorange: #cb904d;
+$arylideyellow: #dfcc74;
 
 // Update Bulma's global variables.
 $family-sans-serif: "Century Gothic", sans-serif;
