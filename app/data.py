@@ -274,7 +274,7 @@ news_data = [
         <li>Münhasıran ödeme hesabına ilişkin bilgilerin çevrim içi platformlarda sunulması hizmetini sunanlar hariç olmak üzere diğer ödeme kuruluşları için asgari öz sermaye yükümlülüğü tutarı 5 milyon TL'den 9 milyon TL'ye ve,</li>
         <li>Elektronik para kuruluşları için asgari öz sermaye yükümlülüğü tutarı 13 milyon TL'den 25 milyon TL'ye yükseltilmiştir.</li>
     </ul>
-    <p>Ödeme ve elektronik para kuruluşlarının yeni yükümlülükleri 1 Nisan 2022 tarihinde yürürlüğe girecektir. Tebliğe <a href='https://www.resmigazete.gov.tr/eskiler/2022/01/20220122-21.htm'>buradan</a> ulaşabilirsiniz.</p>
+    <p>Ödeme ve elektronik para kuruluşlarının yeni yükümlülükleri 1 Nisan 2022 tarihinde yürürlüğe girecektir. Tebliğe <a target="_blank" href="https://www.resmigazete.gov.tr/eskiler/2022/01/20220122-21.htm">buradan</a> ulaşabilirsiniz.</p>
 </div>
 """
         ),
@@ -297,7 +297,7 @@ news_data = [
         <li>Para transferlerinde 2.000 TL olan FAST işlem tutar limiti, 21.02.2022 tarihi itibarıyla 5.000 TL’ye yükseltilecektir.</li>
     </ul>
     <p>Bununla beraber, FAST aracılığıyla yapılan ödeme miktarının günlük ortalama 3,5 milyona; hızlı bir şekilde FAST ödemesi yapılabilmesine olanak sağlayan Kolay Adresleme Sistemine kaydolan kullanıcı sayısının ise 15,5 milyona ulaşmış olduğu da belirtilmiştir.</p>
-    <p>Basın duyurusuna <a href='https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Duyurular/Basin/2022/DUY2022-13'>buradan</a> ulaşabilirsiniz.</p>
+    <p>Basın duyurusuna <a target="_blank" href="https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Duyurular/Basin/2022/DUY2022-13">buradan</a> ulaşabilirsiniz.</p>
 </div>
 """
         ),
@@ -317,7 +317,7 @@ news_data = [
     <p>Rehber içerisinde öncelikle şüpheli işlem bildirimlerinin elektronik ortamda gönderimine dair süreçler anlatılmış, daha sonra şüpheli işlem bildirim formlarının nasıl düzenleneceğine dair detaylı bilgilere yer verilmiştir.</p>
     <p>Kripto varlık hizmet sağlayıcılar, 18/04/2022 tarihinden itibaren şüpheli işlem bildirimlerini Rehber’de belirtilen esas ve usuller çerçevesinde göndereceklerdir.</p>
     <p>Şüpheli işlemler, yükümlüler tarafından; şüpheli işlemin gerçekleştiğine ilişkin şüphenin oluştuğu tarihten itibaren en geç on iş günü içinde MASAK Başkanlığı’na bildireceklerdir.</p>
-    <p>Rehber ve ilgili formlara <a href='https://ms.hmb.gov.tr/uploads/sites/12/2022/04/KVHS-Rehberi-16.04.2022.pdf'>buradan</a> ulaşabilirsiniz.</p>
+    <p>Rehber ve ilgili formlara <a target="_blank" href="https://ms.hmb.gov.tr/uploads/sites/12/2022/04/KVHS-Rehberi-16.04.2022.pdf">buradan</a> ulaşabilirsiniz.</p>
 </div>
 """
         ),
@@ -337,7 +337,7 @@ news_data = [
     <p>Söz konusu karara göre BDDK tarafından; Hayat Holding A.Ş., Hayat Kimya Sanayi A.Ş., As Tüketim Malları Ticaret A.Ş., Kastamonu Entegre Ağaç Sanayi ve Ticaret A.Ş., ve Limaş Liman İşletmeciliği A.Ş.'nin ortaklığında, 1.5 milyar TL sermayeli ve Hayat Katılım Bankası A.Ş. unvanlı dijital katılım bankası kurulmasına izin verilmiştir.</p>
     <p>Dijital Bankaların Faaliyet Esasları ile Servis Modeli Bankacılığı Hakkında Yönetmelik (“Yönetmelik”) 01.01.2022 tarihinde yürürlüğe girmişti. Yönetmelik kapsamında dijital banka; bankacılık hizmetlerini fiziksel şubeler yerine elektronik bankacılık hizmetleri dağıtım kanalları aracılığıyla sunan kredi kuruluşu şeklinde tanımlanmıştı.</p>
     <p>Yönetmelik’in yürürlüğe girmesi ile birlikte, Hayat Katılım Bankası A.Ş., elektronik hizmet dağıtım kanalları aracılığı ile uzaktan bankacılık faaliyetleri gösterebilecek ilk şubesiz katılım bankası olarak dijital bankacılık izni almış bulunmaktadır.</p>
-    <p>Dijital Bankaların Faaliyet Esasları ile Servis Modeli Bankacılığı Hakkında Yönetmelik’e <a href='https://www.resmigazete.gov.tr/eskiler/2021/12/20211229-6.htm'>buradan</a> ulaşabilirsiniz.</p>
+    <p>Dijital Bankaların Faaliyet Esasları ile Servis Modeli Bankacılığı Hakkında Yönetmelik’e <a target="_blank" href="https://www.resmigazete.gov.tr/eskiler/2021/12/20211229-6.htm">buradan</a> ulaşabilirsiniz.</p>
 </div>
 """
         ),
