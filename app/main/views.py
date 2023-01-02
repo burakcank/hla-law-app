@@ -64,7 +64,7 @@ def team(member=None):
 @main_bp.route("/news")
 def news():
     """Render news page."""
-    return render_template("news.html")
+    return render_template("news.html", news_data=news_data)
 
 
 @main_bp.route("/career")

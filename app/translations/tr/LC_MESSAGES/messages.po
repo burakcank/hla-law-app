@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-11-22 01:11+0300\n"
+"POT-Creation-Date: 2023-01-02 15:02+0300\n"
 "PO-Revision-Date: 2022-10-03 23:23+0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: tr\n"
@@ -34,6 +34,7 @@ msgid ""
 msgstr ""
 
 #: app/data.py:16 app/data.py:163 app/data.py:198 app/data.py:234
+#: app/data.py:282 app/data.py:305 app/data.py:325 app/data.py:345
 msgid "Finans Teknolojileri Hukuku"
 msgstr ""
 
@@ -421,6 +422,142 @@ msgstr ""
 msgid "Hayrullah Kefoğlu Anadolu Lisesi"
 msgstr ""
 
+#: app/data.py:262
+msgid ""
+"Ödeme ve Elektronik Para Kuruluşlarının Asgari Öz Sermaye Yükümlülüğü "
+"Tutarlarının Artırılmasına Yönelik TCMB Tebliği Hakkında Duyuru"
+msgstr ""
+
+#: app/data.py:266
+msgid ""
+"\n"
+"<div class=\"content\">\n"
+"    <p>22.01.2022 tarihli Resmi Gazete'de yayımlanan tebliğ ile Türkiye "
+"Cumhuriyeti Merkez Bankası (“TCMB”) tarafından ödeme ve elektronik para "
+"kuruluşlarının asgari öz sermaye yükümlülüğü tutarları "
+"arttırılmıştır.</p>\n"
+"    <p>Ödeme Hizmetleri ve Elektronik Para İhracı ile Ödeme Hizmeti "
+"Sağlayıcıları Hakkında Yönetmelik kapsamında TCMB, ödeme ve elektronik "
+"para kuruluşlarının asgari özkaynak yükümlülüğü için belirlenen "
+"tutarları, Türkiye İstatistik Kurumu tarafından yayımlanan fiyat "
+"endekslerindeki yıllık değişimler göz önünde bulundurularak her yıl Ocak "
+"ayında tekrar değerlendirme yetkisine sahiptir.</p>\n"
+"    <p>Tebliğ ile;</p>\n"
+"    <ul>\n"
+"        <li>Fatura ödemelerine aracılık edilmesine yönelik hizmetler "
+"sunan ödeme kuruluşları için asgari öz sermaye yükümlülüğü tutarı 3 "
+"milyon TL'den 5.5 milyon TL'ye,</li>\n"
+"        <li>Münhasıran ödeme hesabına ilişkin bilgilerin çevrim içi "
+"platformlarda sunulması hizmetini sunanlar hariç olmak üzere diğer ödeme "
+"kuruluşları için asgari öz sermaye yükümlülüğü tutarı 5 milyon TL'den 9 "
+"milyon TL'ye ve,</li>\n"
+"        <li>Elektronik para kuruluşları için asgari öz sermaye "
+"yükümlülüğü tutarı 13 milyon TL'den 25 milyon TL'ye yükseltilmiştir.</li>"
+"\n"
+"    </ul>\n"
+"    <p>Ödeme ve elektronik para kuruluşlarının yeni yükümlülükleri 1 "
+"Nisan 2022 tarihinde yürürlüğe girecektir. Tebliğe <a "
+"href='https://www.resmigazete.gov.tr/eskiler/2022/01/20220122-21.htm'>buradan</a>"
+" ulaşabilirsiniz.</p>\n"
+"</div>\n"
+msgstr ""
+
+#: app/data.py:286
+msgid ""
+"TCMB Tarafından FAST ve TR Karekod Sistemlerinin Kullanılması Hakkında "
+"Basın Duyurusu"
+msgstr ""
+
+#: app/data.py:290
+msgid ""
+"\n"
+"<div class=\"content\">\n"
+"    <p>Türkiye Cumhuriyet Merkez Bankası (TCMB) 14.02.2022 tarihinde, "
+"FAST (Fonların Anlık ve Sürekli Transferi) ve TR Karekod kullanılarak "
+"yapılacak para transferlerine yönelik basın duyurusu yayınlamıştır.</p>\n"
+"    <p>Söz konusu basın duyurusuna göre:</p>\n"
+"    <ul>\n"
+"        <li>“TR Karekod” kullanılarak gerçekleştirilecek iş yeri "
+"ödemelerinde tek seferde 10.000 TL’ye kadar işlem yapılabilecektir.</li>"
+"\n"
+"        <li>Para transferlerinde 2.000 TL olan FAST işlem tutar limiti, "
+"21.02.2022 tarihi itibarıyla 5.000 TL’ye yükseltilecektir.</li>\n"
+"    </ul>\n"
+"    <p>Bununla beraber, FAST aracılığıyla yapılan ödeme miktarının günlük"
+" ortalama 3,5 milyona; hızlı bir şekilde FAST ödemesi yapılabilmesine "
+"olanak sağlayan Kolay Adresleme Sistemine kaydolan kullanıcı sayısının "
+"ise 15,5 milyona ulaşmış olduğu da belirtilmiştir.</p>\n"
+"    <p>Basın duyurusuna <a "
+"href='https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Duyurular/Basin/2022/DUY2022-13'>buradan</a>"
+" ulaşabilirsiniz.</p>\n"
+"</div>\n"
+msgstr ""
+
+#: app/data.py:309
+msgid ""
+"MASAK Tarafından Kripto Varlık Hizmet Sağlayıcılara Yönelik Şüpheli İşlem"
+" Bildirimi Rehberi’nin Yayımlanması"
+msgstr ""
+
+#: app/data.py:313
+msgid ""
+"\n"
+"<div class=\"content\">\n"
+"    <p>MASAK tarafından, kripto varlık hizmet sağlayıcıların elektronik "
+"ortamda şüpheli işlem bildirimi gönderebilmelerine ilişkin usul ve "
+"esasların düzenlenmesi amacı ile “Şüpheli İşlem Bildirimi Rehberi” "
+"(“Rehber”) yayımlanmıştır.</p>\n"
+"    <p>Rehber içerisinde öncelikle şüpheli işlem bildirimlerinin "
+"elektronik ortamda gönderimine dair süreçler anlatılmış, daha sonra "
+"şüpheli işlem bildirim formlarının nasıl düzenleneceğine dair detaylı "
+"bilgilere yer verilmiştir.</p>\n"
+"    <p>Kripto varlık hizmet sağlayıcılar, 18/04/2022 tarihinden itibaren "
+"şüpheli işlem bildirimlerini Rehber’de belirtilen esas ve usuller "
+"çerçevesinde göndereceklerdir.</p>\n"
+"    <p>Şüpheli işlemler, yükümlüler tarafından; şüpheli işlemin "
+"gerçekleştiğine ilişkin şüphenin oluştuğu tarihten itibaren en geç on iş "
+"günü içinde MASAK Başkanlığı’na bildireceklerdir.</p>\n"
+"    <p>Rehber ve ilgili formlara <a "
+"href='https://ms.hmb.gov.tr/uploads/sites/12/2022/04/KVHS-"
+"Rehberi-16.04.2022.pdf'>buradan</a> ulaşabilirsiniz.</p>\n"
+"</div>\n"
+msgstr ""
+
+#: app/data.py:329
+msgid ""
+"Bankacılık Düzenleme ve Denetleme Kurumu Tarafından İlk Dijital Banka "
+"Kuruluş İzninin Verilmesi"
+msgstr ""
+
+#: app/data.py:333
+msgid ""
+"\n"
+"<div class=\"content\">\n"
+"    <p>22.04.2022 tarihli Resmi Gazete’de yayımlanan Bankacılık Düzenleme"
+" ve Denetleme Kurulu’nun 21.04.2022 tarihli kararı ile Bankacılık "
+"Düzenleme ve Denetleme Kurumu (“BDDK”) tarafından ilk dijital bankacılık "
+"izni verilmiştir.</p>\n"
+"    <p>Söz konusu karara göre BDDK tarafından; Hayat Holding A.Ş., Hayat "
+"Kimya Sanayi A.Ş., As Tüketim Malları Ticaret A.Ş., Kastamonu Entegre "
+"Ağaç Sanayi ve Ticaret A.Ş., ve Limaş Liman İşletmeciliği A.Ş.'nin "
+"ortaklığında, 1.5 milyar TL sermayeli ve Hayat Katılım Bankası A.Ş. "
+"unvanlı dijital katılım bankası kurulmasına izin verilmiştir.</p>\n"
+"    <p>Dijital Bankaların Faaliyet Esasları ile Servis Modeli Bankacılığı"
+" Hakkında Yönetmelik (“Yönetmelik”) 01.01.2022 tarihinde yürürlüğe "
+"girmişti. Yönetmelik kapsamında dijital banka; bankacılık hizmetlerini "
+"fiziksel şubeler yerine elektronik bankacılık hizmetleri dağıtım "
+"kanalları aracılığıyla sunan kredi kuruluşu şeklinde tanımlanmıştı.</p>\n"
+"    <p>Yönetmelik’in yürürlüğe girmesi ile birlikte, Hayat Katılım "
+"Bankası A.Ş., elektronik hizmet dağıtım kanalları aracılığı ile uzaktan "
+"bankacılık faaliyetleri gösterebilecek ilk şubesiz katılım bankası olarak"
+" dijital bankacılık izni almış bulunmaktadır.</p>\n"
+"    <p>Dijital Bankaların Faaliyet Esasları ile Servis Modeli Bankacılığı"
+" Hakkında Yönetmelik’e <a "
+"href='https://www.resmigazete.gov.tr/eskiler/2021/12/20211229-6.htm'>buradan</a>"
+" ulaşabilirsiniz.</p>\n"
+"</div>\n"
+msgstr ""
+
 #: app/error/templates/404.html:5
 msgid "Böyle bir sayfa bulunmamaktadır."
 msgstr ""
@@ -429,7 +566,7 @@ msgstr ""
 msgid "Bir hatayla karşılaşıldı."
 msgstr ""
 
-#: app/main/views.py:143
+#: app/main/views.py:153
 msgid "Talebiniz alınmıştır, en kısa zamanda size geri döneceğiz. Teşekkürler."
 msgstr ""
 
@@ -538,7 +675,7 @@ msgid "Anasayfa"
 msgstr ""
 
 #: app/main/templates/career.html:5 app/main/templates/career.html:11
-#: app/main/templates/header.html:6
+#: app/main/templates/header.html:9
 msgid "Kariyer"
 msgstr ""
 
@@ -554,7 +691,7 @@ msgid ""
 "        faaliyetler yürütüyor ve bu tarz faaliyetleri destekliyoruz."
 msgstr ""
 
-#: app/main/templates/career.html:20
+#: app/main/templates/career.html:18
 msgid ""
 "Daha iyi bir gelecek fikri için bizimle çalışan ekip arkadaşlarımızın\n"
 "        da aynı felsefeye sahip olmasına önem veriyor ve onlarla beraber "
@@ -562,7 +699,7 @@ msgid ""
 "        fikrimizi daha ileriye taşımak için çabalıyoruz."
 msgstr ""
 
-#: app/main/templates/career.html:25
+#: app/main/templates/career.html:21
 msgid ""
 "Müvekkillerimizin faaliyet gösterdikleri alanlara ilgi duyan, sektörel\n"
 "        gelişmeleri yakından takip eden, dijitalleşmeye ve inovatif "
@@ -575,7 +712,7 @@ msgid ""
 "duyacağız."
 msgstr ""
 
-#: app/main/templates/career.html:32
+#: app/main/templates/career.html:26
 msgid ""
 "İyi ve akıcı bir şekilde yazılı ve sözlü İngilizce dilini kullanma\n"
 "        yeteneğine sahip adayların CV ve motivasyon mektuplarını info"
@@ -583,7 +720,7 @@ msgid ""
 "        adresimize göndermelerini rica etmekteyiz. "
 msgstr ""
 
-#: app/main/templates/career.html:38
+#: app/main/templates/career.html:32
 msgid ""
 "Kişisel verilerinizin işlenmesi hakkında\n"
 "        <a href='/serve_document/career_notice'>Çalışan Adayı ve Stajyer "
@@ -591,48 +728,40 @@ msgid ""
 "        için tıklayınız."
 msgstr ""
 
-#: app/main/templates/career.html:43
-msgid ""
-"Kişisel verilerimin tarafıma bildirilen\n"
-"        <a href='/serve_document/privacy_policy'>Gizlilik ve Çerez "
-"Politikası'nda (Gizlilik Politikası)</a>\n"
-"        açıklanan şart ve koşullarda işlenmesini kabul ediyorum."
-msgstr ""
-
 #: app/main/templates/contact.html:4 app/main/templates/contact.html:10
-#: app/main/templates/header.html:7
+#: app/main/templates/header.html:10
 msgid "İletişim"
 msgstr ""
 
-#: app/main/templates/contact.html:27
+#: app/main/templates/contact.html:24
 msgid "Adres"
 msgstr ""
 
-#: app/main/templates/contact.html:34
+#: app/main/templates/contact.html:31
 msgid "Telefon"
 msgstr ""
 
-#: app/main/templates/contact.html:41
+#: app/main/templates/contact.html:38
 msgid "E-Posta"
 msgstr ""
 
-#: app/main/templates/contact.html:51
+#: app/main/templates/contact.html:48
 msgid "Bize Ulaşın"
 msgstr ""
 
-#: app/main/templates/contact.html:56
+#: app/main/templates/contact.html:53
 msgid "Adınız Soyadınız"
 msgstr ""
 
-#: app/main/templates/contact.html:63
+#: app/main/templates/contact.html:60
 msgid "E-Posta Adresiniz"
 msgstr ""
 
-#: app/main/templates/contact.html:70
+#: app/main/templates/contact.html:67
 msgid "Cep Telefonunuz"
 msgstr ""
 
-#: app/main/templates/contact.html:80
+#: app/main/templates/contact.html:77
 msgid ""
 "Kişisel verilerimin <a "
 "href='/serve_document/privacy_policy_contact'>Aydınlatma\n"
@@ -643,11 +772,11 @@ msgid ""
 "                            ediyorum."
 msgstr ""
 
-#: app/main/templates/contact.html:91
+#: app/main/templates/contact.html:88
 msgid "Talebiniz"
 msgstr ""
 
-#: app/main/templates/contact.html:100
+#: app/main/templates/contact.html:97
 msgid "Gönder"
 msgstr ""
 
@@ -669,7 +798,7 @@ msgstr ""
 msgid "Haberler & Yayınlar"
 msgstr ""
 
-#: app/main/templates/homepage.html:9
+#: app/main/templates/homepage.html:7
 msgid "En Son Haberler"
 msgstr ""
 
@@ -677,7 +806,7 @@ msgstr ""
 msgid "Haberler"
 msgstr ""
 
-#: app/main/templates/news.html:16
+#: app/main/templates/news.html:37
 msgid "Yayınlar"
 msgstr ""
 
@@ -751,4 +880,157 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Publications"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Kişisel verilerimin tarafıma bildirilen\n"
+#~ "        <a href='/serve_document/privacy_policy'>Gizlilik"
+#~ " ve Çerez Politikası'nda (Gizlilik "
+#~ "Politikası)</a>\n"
+#~ "        açıklanan şart ve koşullarda işlenmesini kabul ediyorum."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "\n"
+#~ "<div class=\"content\">\n"
+#~ "    <p>22.01.2022 tarihli Resmi Gazete'de "
+#~ "yayımlanan tebliğ ile Türkiye Cumhuriyeti "
+#~ "Merkez Bankası (“TCMB”) tarafından ödeme "
+#~ "ve elektronik para kuruluşlarının asgari "
+#~ "öz sermaye yükümlülüğü tutarları "
+#~ "arttırılmıştır.</p>\n"
+#~ "    <p>Ödeme Hizmetleri ve Elektronik "
+#~ "Para İhracı ile Ödeme Hizmeti "
+#~ "Sağlayıcıları Hakkında Yönetmelik kapsamında "
+#~ "TCMB, ödeme ve elektronik para "
+#~ "kuruluşlarının asgari özkaynak yükümlülüğü "
+#~ "için belirlenen tutarları, Türkiye İstatistik"
+#~ " Kurumu tarafından yayımlanan fiyat "
+#~ "endekslerindeki yıllık değişimler göz önünde"
+#~ " bulundurularak her yıl Ocak ayında "
+#~ "tekrar değerlendirme yetkisine sahiptir.</p>\n"
+#~ "    <p>Tebliğ ile;</p>\n"
+#~ "    <ul>\n"
+#~ "        <li>Fatura ödemelerine aracılık "
+#~ "edilmesine yönelik hizmetler sunan ödeme "
+#~ "kuruluşları için asgari öz sermaye "
+#~ "yükümlülüğü tutarı 3 milyon TL'den 5.5"
+#~ " milyon TL'ye,</li>\n"
+#~ "        <li>Münhasıran ödeme hesabına ilişkin"
+#~ " bilgilerin çevrim içi platformlarda "
+#~ "sunulması hizmetini sunanlar hariç olmak "
+#~ "üzere diğer ödeme kuruluşları için "
+#~ "asgari öz sermaye yükümlülüğü tutarı 5"
+#~ " milyon TL'den 9 milyon TL'ye "
+#~ "ve,</li>\n"
+#~ "        <li>Elektronik para kuruluşları için"
+#~ " asgari öz sermaye yükümlülüğü tutarı "
+#~ "13 milyon TL'den 25 milyon TL'ye "
+#~ "yükseltilmiştir.</li>\n"
+#~ "    </ul>\n"
+#~ "    <p>Ödeme ve elektronik para "
+#~ "kuruluşlarının yeni yükümlülükleri 1 Nisan "
+#~ "2022 tarihinde yürürlüğe girecektir. Tebliğe"
+#~ " buradan ulaşabilirsiniz.</p>\n"
+#~ "</div>\n"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "\n"
+#~ "<div class=\"content\">\n"
+#~ "    <p>Türkiye Cumhuriyet Merkez Bankası "
+#~ "(TCMB) 14.02.2022 tarihinde, FAST (Fonların"
+#~ " Anlık ve Sürekli Transferi) ve TR"
+#~ " Karekod kullanılarak yapılacak para "
+#~ "transferlerine yönelik basın duyurusu "
+#~ "yayınlamıştır.</p>\n"
+#~ "    <p>Söz konusu basın duyurusuna göre:</p>\n"
+#~ "    <ul>\n"
+#~ "        <li>“TR Karekod” kullanılarak "
+#~ "gerçekleştirilecek iş yeri ödemelerinde tek"
+#~ " seferde 10.000 TL’ye kadar işlem "
+#~ "yapılabilecektir.</li>\n"
+#~ "        <li>Para transferlerinde 2.000 TL "
+#~ "olan FAST işlem tutar limiti, 21.02.2022"
+#~ " tarihi itibarıyla 5.000 TL’ye "
+#~ "yükseltilecektir.</li>\n"
+#~ "    </ul>\n"
+#~ "    <p>Bununla beraber, FAST aracılığıyla "
+#~ "yapılan ödeme miktarının günlük ortalama "
+#~ "3,5 milyona; hızlı bir şekilde FAST "
+#~ "ödemesi yapılabilmesine olanak sağlayan Kolay"
+#~ " Adresleme Sistemine kaydolan kullanıcı "
+#~ "sayısının ise 15,5 milyona ulaşmış "
+#~ "olduğu da belirtilmiştir.</p>\n"
+#~ "    <p>Basın duyurusuna buradan ulaşabilirsiniz.</p>\n"
+#~ "</div>\n"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "\n"
+#~ "<div class=\"content\">\n"
+#~ "    <p>MASAK tarafından, kripto varlık "
+#~ "hizmet sağlayıcıların elektronik ortamda "
+#~ "şüpheli işlem bildirimi gönderebilmelerine "
+#~ "ilişkin usul ve esasların düzenlenmesi "
+#~ "amacı ile “Şüpheli İşlem Bildirimi "
+#~ "Rehberi” (“Rehber”) yayımlanmıştır.</p>\n"
+#~ "    <p>Rehber içerisinde öncelikle şüpheli "
+#~ "işlem bildirimlerinin elektronik ortamda "
+#~ "gönderimine dair süreçler anlatılmış, daha "
+#~ "sonra şüpheli işlem bildirim formlarının "
+#~ "nasıl düzenleneceğine dair detaylı bilgilere"
+#~ " yer verilmiştir.</p>\n"
+#~ "    <p>Kripto varlık hizmet sağlayıcılar, "
+#~ "18/04/2022 tarihinden itibaren şüpheli işlem"
+#~ " bildirimlerini Rehber’de belirtilen esas "
+#~ "ve usuller çerçevesinde göndereceklerdir.</p>\n"
+#~ ""
+#~ "    <p>Şüpheli işlemler, yükümlüler "
+#~ "tarafından; şüpheli işlemin gerçekleştiğine "
+#~ "ilişkin şüphenin oluştuğu tarihten itibaren"
+#~ " en geç on iş günü içinde MASAK"
+#~ " Başkanlığı’na bildireceklerdir.</p>\n"
+#~ "    <p>Rehber ve ilgili formlara buradan ulaşabilirsiniz.</p>\n"
+#~ "</div>\n"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "\n"
+#~ "<div class=\"content\">\n"
+#~ "    <p>22.04.2022 tarihli Resmi Gazete’de "
+#~ "yayımlanan Bankacılık Düzenleme ve Denetleme"
+#~ " Kurulu’nun 21.04.2022 tarihli kararı ile"
+#~ " Bankacılık Düzenleme ve Denetleme Kurumu"
+#~ " (“BDDK”) tarafından ilk dijital bankacılık"
+#~ " izni verilmiştir.</p>\n"
+#~ "    <p>Söz konusu karara göre BDDK "
+#~ "tarafından; Hayat Holding A.Ş., Hayat "
+#~ "Kimya Sanayi A.Ş., As Tüketim Malları"
+#~ " Ticaret A.Ş., Kastamonu Entegre Ağaç "
+#~ "Sanayi ve Ticaret A.Ş., ve Limaş "
+#~ "Liman İşletmeciliği A.Ş.'nin ortaklığında, 1.5"
+#~ " milyar TL sermayeli ve Hayat Katılım"
+#~ " Bankası A.Ş. unvanlı dijital katılım "
+#~ "bankası kurulmasına izin verilmiştir.</p>\n"
+#~ "    <p>Dijital Bankaların Faaliyet Esasları"
+#~ " ile Servis Modeli Bankacılığı Hakkında "
+#~ "Yönetmelik (“Yönetmelik”) 01.01.2022 tarihinde "
+#~ "yürürlüğe girmişti. Yönetmelik kapsamında "
+#~ "dijital banka; bankacılık hizmetlerini "
+#~ "fiziksel şubeler yerine elektronik bankacılık"
+#~ " hizmetleri dağıtım kanalları aracılığıyla "
+#~ "sunan kredi kuruluşu şeklinde "
+#~ "tanımlanmıştı.</p>\n"
+#~ "    <p>Yönetmelik’in yürürlüğe girmesi ile "
+#~ "birlikte, Hayat Katılım Bankası A.Ş., "
+#~ "elektronik hizmet dağıtım kanalları aracılığı"
+#~ " ile uzaktan bankacılık faaliyetleri "
+#~ "gösterebilecek ilk şubesiz katılım bankası "
+#~ "olarak dijital bankacılık izni almış "
+#~ "bulunmaktadır.</p>\n"
+#~ "    <p>Dijital Bankaların Faaliyet Esasları"
+#~ " ile Servis Modeli Bankacılığı Hakkında "
+#~ "Yönetmelik’e buradan ulaşabilirsiniz.</p>\n"
+#~ "</div>\n"
 #~ msgstr ""

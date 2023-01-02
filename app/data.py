@@ -259,58 +259,89 @@ team_data = [
 news_data = [
     {
         "id": 0,
-        "title": "MASAK Tarafından Kripto Varlık Hizmet Sağlayıcılara Yönelik Şüpheli İşlem Bildirimi Rehberi’nin Yayımlanması Hakkında Duyuru",
-        "date": "18.04.2022",
-        "content": (
+        "title": lazy_gettext(
+            "Ödeme ve Elektronik Para Kuruluşlarının Asgari Öz Sermaye Yükümlülüğü Tutarlarının Artırılmasına Yönelik TCMB Tebliği Hakkında Duyuru"
+        ),
+        "date": "14.02.2022",
+        "content": lazy_gettext(
             """
 <div class="content">
-    <p>MASAK tarafından, kripto varlık hizmet sağlayıcıların elektronik ortamda şüpheli işlem bildirimi
-        gönderebilmelerine
-        ilişkin usul ve esasların düzenlenmesi amacı ile "Şüpheli İşlem Bildirimi Rehberi" ("Rehber") yayımlanmıştır.
-    </p>
-    <p>Rehber içerisinde öncelikle şüpheli işlem bildirimlerinin kağıt ortamında ve elektronik ortamda gönderimine dair
-        süreçler anlatılmış, daha sonra şüpheli işlem bildirim formlarının nasıl düzenleneceğine dair detaylı bilgilere
-        yer
-        verilmiştir.</p>
-    <p>Kripto varlık hizmet sağlayıcılar, 18/04/2022 tarihinden itibaren şüpheli işlem bildirimlerini Rehber’de
-        belirtilen
-        esas ve usuller çerçevesinde göndereceklerdir.</p>
-    <p>Şüpheli işlemler, yükümlüler tarafından; şüpheli işlemin gerçekleştiğine ilişkin şüphenin oluştuğu tarihten
-        itibaren
-        en geç on iş günü içinde, gecikmesinde sakınca bulunan hallerde ise derhal MASAK Başkanlığı’na bildireceklerdir.
-    </p>
-    <p>Rehber ve ilgili formlara buradan ulaşabilirsiniz.</p>
+    <p>22.01.2022 tarihli Resmi Gazete'de yayımlanan tebliğ ile Türkiye Cumhuriyeti Merkez Bankası (“TCMB”) tarafından ödeme ve elektronik para kuruluşlarının asgari öz sermaye yükümlülüğü tutarları arttırılmıştır.</p>
+    <p>Ödeme Hizmetleri ve Elektronik Para İhracı ile Ödeme Hizmeti Sağlayıcıları Hakkında Yönetmelik kapsamında TCMB, ödeme ve elektronik para kuruluşlarının asgari özkaynak yükümlülüğü için belirlenen tutarları, Türkiye İstatistik Kurumu tarafından yayımlanan fiyat endekslerindeki yıllık değişimler göz önünde bulundurularak her yıl Ocak ayında tekrar değerlendirme yetkisine sahiptir.</p>
+    <p>Tebliğ ile;</p>
+    <ul>
+        <li>Fatura ödemelerine aracılık edilmesine yönelik hizmetler sunan ödeme kuruluşları için asgari öz sermaye yükümlülüğü tutarı 3 milyon TL'den 5.5 milyon TL'ye,</li>
+        <li>Münhasıran ödeme hesabına ilişkin bilgilerin çevrim içi platformlarda sunulması hizmetini sunanlar hariç olmak üzere diğer ödeme kuruluşları için asgari öz sermaye yükümlülüğü tutarı 5 milyon TL'den 9 milyon TL'ye ve,</li>
+        <li>Elektronik para kuruluşları için asgari öz sermaye yükümlülüğü tutarı 13 milyon TL'den 25 milyon TL'ye yükseltilmiştir.</li>
+    </ul>
+    <p>Ödeme ve elektronik para kuruluşlarının yeni yükümlülükleri 1 Nisan 2022 tarihinde yürürlüğe girecektir. Tebliğe <a href='https://www.resmigazete.gov.tr/eskiler/2022/01/20220122-21.htm'>buradan</a> ulaşabilirsiniz.</p>
 </div>
 """
         ),
-        "tag": "Finans Teknolojileri Hukuku",
+        "news_link": "https://www.resmigazete.gov.tr/eskiler/2022/01/20220122-21.htm",
+        "tag": lazy_gettext("Finans Teknolojileri Hukuku"),
     },
     {
         "id": 1,
-        "title": "Bankacılık Düzenleme ve Denetleme Kurumu Tarafından İlk Dijital Banka Kuruluş İzninin Verilmesi",
-        "date": "22.04.2022",
-        "content": (
+        "title": lazy_gettext(
+            "TCMB Tarafından FAST ve TR Karekod Sistemlerinin Kullanılması Hakkında Basın Duyurusu"
+        ),
+        "date": "14.02.2022",
+        "content": lazy_gettext(
             """
-        <div class="content">
-    <p>22.04.2022 tarihli Resmi Gazete’de yayımlanan Bankacılık Düzenleme ve Denetleme Kurulu’nun 21.04.2022 tarihli
-        kararına göre, Bankacılık Düzenleme ve Denetleme Kurumu (“BDDK”) tarafından, ilk dijital bankacılık izni
-        verilmiştir.</p>
-    <p>Söz konusu karara göre BDDK tarafından; Hayat Holding A.Ş., Hayat Kimya Sanayi A.Ş., As Tüketim Malları Ticaret
-        A.Ş., Kastamonu Entegre Ağaç Sanayi ve Ticaret A.Ş., ve Limaş Liman İşletmeciliği A.Ş.'nin ortaklığında, 1.5
-        milyar TL sermayeli ve Hayat Katılım Bankası A.Ş. unvanlı dijital katılım bankası kurulmasına izin verilmiştir.
-    </p>
-    <p>Dijital Bankaların Faaliyet Esasları ile Servis Modeli Bankacılığı Hakkında Yönetmelik (“Yönetmelik”) 01.01.2022
-        tarihinde yürürlüğe girmişti. Yönetmelik kapsamında dijital banka; bankacılık hizmetlerini fiziksel şubeler
-        yerine elektronik bankacılık hizmetleri dağıtım kanalları aracılığıyla sunan kredi kuruluşu şeklinde
-        tanımlanmıştı.</p>
-    <p>Yönetmelik’in yürürlüğe girmesi ile birlikte, Hayat Katılım Bankası A.Ş., elektronik hizmet dağıtım kanalları
-        aracılığı ile uzaktan bankacılık faaliyetleri gösterebilecek ilk şubesiz katılım bankası olarak dijital
-        bankacılık izni almış bulunmaktadır.</p>
-    <p>Dijital bankacılık faaliyetinin esaslarını düzenleyen Yönetmelik kapsamındaki bilgi notumuza buradan
-        ulaşabilirsiniz.</p>
+<div class="content">
+    <p>Türkiye Cumhuriyet Merkez Bankası (TCMB) 14.02.2022 tarihinde, FAST (Fonların Anlık ve Sürekli Transferi) ve TR Karekod kullanılarak yapılacak para transferlerine yönelik basın duyurusu yayınlamıştır.</p>
+    <p>Söz konusu basın duyurusuna göre:</p>
+    <ul>
+        <li>“TR Karekod” kullanılarak gerçekleştirilecek iş yeri ödemelerinde tek seferde 10.000 TL’ye kadar işlem yapılabilecektir.</li>
+        <li>Para transferlerinde 2.000 TL olan FAST işlem tutar limiti, 21.02.2022 tarihi itibarıyla 5.000 TL’ye yükseltilecektir.</li>
+    </ul>
+    <p>Bununla beraber, FAST aracılığıyla yapılan ödeme miktarının günlük ortalama 3,5 milyona; hızlı bir şekilde FAST ödemesi yapılabilmesine olanak sağlayan Kolay Adresleme Sistemine kaydolan kullanıcı sayısının ise 15,5 milyona ulaşmış olduğu da belirtilmiştir.</p>
+    <p>Basın duyurusuna <a href='https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Duyurular/Basin/2022/DUY2022-13'>buradan</a> ulaşabilirsiniz.</p>
 </div>
 """
         ),
-        "tag": "Finans Teknolojileri Hukuku",
+        "news_link": "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Duyurular/Basin/2022/DUY2022-13",
+        "tag": lazy_gettext("Finans Teknolojileri Hukuku"),
+    },
+    {
+        "id": 2,
+        "title": lazy_gettext(
+            "MASAK Tarafından Kripto Varlık Hizmet Sağlayıcılara Yönelik Şüpheli İşlem Bildirimi Rehberi’nin Yayımlanması"
+        ),
+        "date": "18.04.2022",
+        "content": lazy_gettext(
+            """
+<div class="content">
+    <p>MASAK tarafından, kripto varlık hizmet sağlayıcıların elektronik ortamda şüpheli işlem bildirimi gönderebilmelerine ilişkin usul ve esasların düzenlenmesi amacı ile “Şüpheli İşlem Bildirimi Rehberi” (“Rehber”) yayımlanmıştır.</p>
+    <p>Rehber içerisinde öncelikle şüpheli işlem bildirimlerinin elektronik ortamda gönderimine dair süreçler anlatılmış, daha sonra şüpheli işlem bildirim formlarının nasıl düzenleneceğine dair detaylı bilgilere yer verilmiştir.</p>
+    <p>Kripto varlık hizmet sağlayıcılar, 18/04/2022 tarihinden itibaren şüpheli işlem bildirimlerini Rehber’de belirtilen esas ve usuller çerçevesinde göndereceklerdir.</p>
+    <p>Şüpheli işlemler, yükümlüler tarafından; şüpheli işlemin gerçekleştiğine ilişkin şüphenin oluştuğu tarihten itibaren en geç on iş günü içinde MASAK Başkanlığı’na bildireceklerdir.</p>
+    <p>Rehber ve ilgili formlara <a href='https://ms.hmb.gov.tr/uploads/sites/12/2022/04/KVHS-Rehberi-16.04.2022.pdf'>buradan</a> ulaşabilirsiniz.</p>
+</div>
+"""
+        ),
+        "news_link": "https://ms.hmb.gov.tr/uploads/sites/12/2022/04/KVHS-Rehberi-16.04.2022.pdf",
+        "tag": lazy_gettext("Finans Teknolojileri Hukuku"),
+    },
+    {
+        "id": 3,
+        "title": lazy_gettext(
+            "Bankacılık Düzenleme ve Denetleme Kurumu Tarafından İlk Dijital Banka Kuruluş İzninin Verilmesi"
+        ),
+        "date": "22.04.2022",
+        "content": lazy_gettext(
+            """
+<div class="content">
+    <p>22.04.2022 tarihli Resmi Gazete’de yayımlanan Bankacılık Düzenleme ve Denetleme Kurulu’nun 21.04.2022 tarihli kararı ile Bankacılık Düzenleme ve Denetleme Kurumu (“BDDK”) tarafından ilk dijital bankacılık izni verilmiştir.</p>
+    <p>Söz konusu karara göre BDDK tarafından; Hayat Holding A.Ş., Hayat Kimya Sanayi A.Ş., As Tüketim Malları Ticaret A.Ş., Kastamonu Entegre Ağaç Sanayi ve Ticaret A.Ş., ve Limaş Liman İşletmeciliği A.Ş.'nin ortaklığında, 1.5 milyar TL sermayeli ve Hayat Katılım Bankası A.Ş. unvanlı dijital katılım bankası kurulmasına izin verilmiştir.</p>
+    <p>Dijital Bankaların Faaliyet Esasları ile Servis Modeli Bankacılığı Hakkında Yönetmelik (“Yönetmelik”) 01.01.2022 tarihinde yürürlüğe girmişti. Yönetmelik kapsamında dijital banka; bankacılık hizmetlerini fiziksel şubeler yerine elektronik bankacılık hizmetleri dağıtım kanalları aracılığıyla sunan kredi kuruluşu şeklinde tanımlanmıştı.</p>
+    <p>Yönetmelik’in yürürlüğe girmesi ile birlikte, Hayat Katılım Bankası A.Ş., elektronik hizmet dağıtım kanalları aracılığı ile uzaktan bankacılık faaliyetleri gösterebilecek ilk şubesiz katılım bankası olarak dijital bankacılık izni almış bulunmaktadır.</p>
+    <p>Dijital Bankaların Faaliyet Esasları ile Servis Modeli Bankacılığı Hakkında Yönetmelik’e <a href='https://www.resmigazete.gov.tr/eskiler/2021/12/20211229-6.htm'>buradan</a> ulaşabilirsiniz.</p>
+</div>
+"""
+        ),
+        "news_link": "https://www.resmigazete.gov.tr/eskiler/2021/12/20211229-6.htm",
+        "tag": lazy_gettext("Finans Teknolojileri Hukuku"),
     },
 ]

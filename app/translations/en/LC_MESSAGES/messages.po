@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-11-22 01:11+0300\n"
+"POT-Creation-Date: 2023-01-02 15:02+0300\n"
 "PO-Revision-Date: 2022-10-03 23:23+0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -41,6 +41,7 @@ msgstr ""
 "dispute resolution methods. "
 
 #: app/data.py:16 app/data.py:163 app/data.py:198 app/data.py:234
+#: app/data.py:282 app/data.py:305 app/data.py:325 app/data.py:345
 msgid "Finans Teknolojileri Hukuku"
 msgstr "Fin-tech Law"
 
@@ -632,6 +633,225 @@ msgstr ""
 msgid "Hayrullah Kefoğlu Anadolu Lisesi"
 msgstr "Hayrullah Kefoglu Anatolian High School"
 
+#: app/data.py:262
+msgid ""
+"Ödeme ve Elektronik Para Kuruluşlarının Asgari Öz Sermaye Yükümlülüğü "
+"Tutarlarının Artırılmasına Yönelik TCMB Tebliği Hakkında Duyuru"
+msgstr ""
+"Announcement of the Secondary Regulation of CBRT on Minimum Equity "
+"Requirements of Payment and Electronic Money Institutions"
+
+#: app/data.py:266
+msgid ""
+"\n"
+"<div class=\"content\">\n"
+"    <p>22.01.2022 tarihli Resmi Gazete'de yayımlanan tebliğ ile Türkiye "
+"Cumhuriyeti Merkez Bankası (“TCMB”) tarafından ödeme ve elektronik para "
+"kuruluşlarının asgari öz sermaye yükümlülüğü tutarları "
+"arttırılmıştır.</p>\n"
+"    <p>Ödeme Hizmetleri ve Elektronik Para İhracı ile Ödeme Hizmeti "
+"Sağlayıcıları Hakkında Yönetmelik kapsamında TCMB, ödeme ve elektronik "
+"para kuruluşlarının asgari özkaynak yükümlülüğü için belirlenen "
+"tutarları, Türkiye İstatistik Kurumu tarafından yayımlanan fiyat "
+"endekslerindeki yıllık değişimler göz önünde bulundurularak her yıl Ocak "
+"ayında tekrar değerlendirme yetkisine sahiptir.</p>\n"
+"    <p>Tebliğ ile;</p>\n"
+"    <ul>\n"
+"        <li>Fatura ödemelerine aracılık edilmesine yönelik hizmetler "
+"sunan ödeme kuruluşları için asgari öz sermaye yükümlülüğü tutarı 3 "
+"milyon TL'den 5.5 milyon TL'ye,</li>\n"
+"        <li>Münhasıran ödeme hesabına ilişkin bilgilerin çevrim içi "
+"platformlarda sunulması hizmetini sunanlar hariç olmak üzere diğer ödeme "
+"kuruluşları için asgari öz sermaye yükümlülüğü tutarı 5 milyon TL'den 9 "
+"milyon TL'ye ve,</li>\n"
+"        <li>Elektronik para kuruluşları için asgari öz sermaye "
+"yükümlülüğü tutarı 13 milyon TL'den 25 milyon TL'ye yükseltilmiştir.</li>"
+"\n"
+"    </ul>\n"
+"    <p>Ödeme ve elektronik para kuruluşlarının yeni yükümlülükleri 1 "
+"Nisan 2022 tarihinde yürürlüğe girecektir. Tebliğe <a "
+"href='https://www.resmigazete.gov.tr/eskiler/2022/01/20220122-21.htm'>buradan</a>"
+" ulaşabilirsiniz.</p>\n"
+"</div>\n"
+msgstr ""
+"\n"
+"<div class=\"content\">\n"
+"    <p>With the communique published in the Official Gazette dated "
+"January 22, 2022, the Central Bank of the Republic of Turkey (“CBRT”) "
+"increased the minimum equity requirements of payment and electronic money"
+" institutions.</p>\n"
+"    <p>Under the Regulation on Payment Services and Electronic Money "
+"Issuance, CBRT has the authority to reevaluate the amounts determined for"
+" the minimum equity requirements of payment and electronic money "
+"institutions in January each year, considering the annual changes in the "
+"price indexes published by the Turkish Statistical Institute,</p>\n"
+"    <p>With the communique;</p>\n"
+"    <ul>\n"
+"        <li>The requirements of payment service providers dealing with "
+"invoice collection were increased from TRY 3 million  to TRY 5.5 "
+"million.</li>\n"
+"        <li>The requirements of other payment service providers were "
+"increased from TRY 5 million to TRY 9 million.</li>\n"
+"        <li>The requirements of electronic money issuers were increased "
+"from TRY 13 million to TRY 25 million.</li>\n"
+"    </ul>\n"
+"    <p>The mentioned requirements for payment and electronic money "
+"institutions shall enter into force as of April 1, 2022. You may view the"
+" communique <a href='https://www.resmigazete.gov.tr/eskiler/2022/01/20220122-21.htm'>here</a>.</p>\n"
+"</div>\n"
+
+#: app/data.py:286
+msgid ""
+"TCMB Tarafından FAST ve TR Karekod Sistemlerinin Kullanılması Hakkında "
+"Basın Duyurusu"
+msgstr "Press Release on the Use of FAST and TR QR Code Systems by CBRT"
+
+#: app/data.py:290
+msgid ""
+"\n"
+"<div class=\"content\">\n"
+"    <p>Türkiye Cumhuriyet Merkez Bankası (TCMB) 14.02.2022 tarihinde, "
+"FAST (Fonların Anlık ve Sürekli Transferi) ve TR Karekod kullanılarak "
+"yapılacak para transferlerine yönelik basın duyurusu yayınlamıştır.</p>\n"
+"    <p>Söz konusu basın duyurusuna göre:</p>\n"
+"    <ul>\n"
+"        <li>“TR Karekod” kullanılarak gerçekleştirilecek iş yeri "
+"ödemelerinde tek seferde 10.000 TL’ye kadar işlem yapılabilecektir.</li>"
+"\n"
+"        <li>Para transferlerinde 2.000 TL olan FAST işlem tutar limiti, "
+"21.02.2022 tarihi itibarıyla 5.000 TL’ye yükseltilecektir.</li>\n"
+"    </ul>\n"
+"    <p>Bununla beraber, FAST aracılığıyla yapılan ödeme miktarının günlük"
+" ortalama 3,5 milyona; hızlı bir şekilde FAST ödemesi yapılabilmesine "
+"olanak sağlayan Kolay Adresleme Sistemine kaydolan kullanıcı sayısının "
+"ise 15,5 milyona ulaşmış olduğu da belirtilmiştir.</p>\n"
+"    <p>Basın duyurusuna <a "
+"href='https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Duyurular/Basin/2022/DUY2022-13'>buradan</a>"
+" ulaşabilirsiniz.</p>\n"
+"</div>\n"
+msgstr ""
+"\n"
+"<div class=\"content\">\n"
+"    <p>Central Bank of the Republic of Turkey (CBRT) has published a "
+"press release relating to money transfers to be done by using FAST "
+"(Instant and Continuous Transfer of Funds) and TR QR Code on "
+"14.02.2022.</p>\n"
+"    <p>According to this press release:</p>\n"
+"    <ul>\n"
+"        <li>In business payments to be made using the “TR QR Code”, up to"
+" TRY 10.000 can be paid at one time.</li>\n"
+"        <li>the FAST transaction amount limit for money transfers, which "
+"is currently TRY 2,000, will be raised to TRY 5,000 as of 21 February "
+"2022.</li>\n"
+"    </ul>\n"
+"    <p>In addition, it is stated that the daily average of the payment "
+"made by using FAST has reached 3,5 million and that number of users "
+"registered in the Easy Addressing System has reached 15,5 million in this"
+" press release.</p>\n"
+"    <p>You may find the press release <a href='https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Duyurular/Basin/2022/DUY2022-13'>here</a>.</p>\n"
+"</div>\n"
+
+#: app/data.py:309
+msgid ""
+"MASAK Tarafından Kripto Varlık Hizmet Sağlayıcılara Yönelik Şüpheli İşlem"
+" Bildirimi Rehberi’nin Yayımlanması"
+msgstr ""
+"Publication of the Suspicious Transaction Reporting Guide for Crypto "
+"Asset Service Providers by MASAK"
+
+#: app/data.py:313
+msgid ""
+"\n"
+"<div class=\"content\">\n"
+"    <p>MASAK tarafından, kripto varlık hizmet sağlayıcıların elektronik "
+"ortamda şüpheli işlem bildirimi gönderebilmelerine ilişkin usul ve "
+"esasların düzenlenmesi amacı ile “Şüpheli İşlem Bildirimi Rehberi” "
+"(“Rehber”) yayımlanmıştır.</p>\n"
+"    <p>Rehber içerisinde öncelikle şüpheli işlem bildirimlerinin "
+"elektronik ortamda gönderimine dair süreçler anlatılmış, daha sonra "
+"şüpheli işlem bildirim formlarının nasıl düzenleneceğine dair detaylı "
+"bilgilere yer verilmiştir.</p>\n"
+"    <p>Kripto varlık hizmet sağlayıcılar, 18/04/2022 tarihinden itibaren "
+"şüpheli işlem bildirimlerini Rehber’de belirtilen esas ve usuller "
+"çerçevesinde göndereceklerdir.</p>\n"
+"    <p>Şüpheli işlemler, yükümlüler tarafından; şüpheli işlemin "
+"gerçekleştiğine ilişkin şüphenin oluştuğu tarihten itibaren en geç on iş "
+"günü içinde MASAK Başkanlığı’na bildireceklerdir.</p>\n"
+"    <p>Rehber ve ilgili formlara <a "
+"href='https://ms.hmb.gov.tr/uploads/sites/12/2022/04/KVHS-Rehberi-16.04.2022.pdf'>buradan</a> ulaşabilirsiniz.</p>\n"
+"</div>\n"
+msgstr ""
+"\n"
+"<div class=\"content\">\n"
+"    <p>The Suspicious Transaction Reporting Guide (“Guide”) was published"
+" by the Turkish Financial Crimes Investigation Board (“MASAK”) to "
+"regulate the procedures and principles for crypto asset service providers"
+" to send suspicious transaction report electronically.</p>\n"
+"    <p>The Guide contains detailed information on the processes for "
+"sending suspicious transaction reports electronically, and on how to "
+"arrange suspicious transaction reporting forms.</p>\n"
+"    <p>As of 18/04/2022, crypto asset service providers will send "
+"suspicious transaction reports within the scope of the principles and "
+"procedures specified in the Guide.</p>\n"
+"    <p>Suspicious transactions will be reported to Masak within ten "
+"working days from the date of suspicion regarding the suspicious "
+"transaction by the obligates.</p>\n"
+"    <p>You may find the Guide and regarding forms <a href='https://ms.hmb.gov.tr/uploads/sites/12/2022/04/KVHS-Rehberi-16.04.2022.pdf'>here</a>.</p>\n"
+"</div>\n"
+
+#: app/data.py:329
+msgid ""
+"Bankacılık Düzenleme ve Denetleme Kurumu Tarafından İlk Dijital Banka "
+"Kuruluş İzninin Verilmesi"
+msgstr ""
+"First Digital Bank License was Granted by the Banking Regulation and "
+"Supervision Agency"
+
+#: app/data.py:333
+msgid ""
+"\n"
+"<div class=\"content\">\n"
+"    <p>22.04.2022 tarihli Resmi Gazete’de yayımlanan Bankacılık Düzenleme"
+" ve Denetleme Kurulu’nun 21.04.2022 tarihli kararı ile Bankacılık "
+"Düzenleme ve Denetleme Kurumu (“BDDK”) tarafından ilk dijital bankacılık "
+"izni verilmiştir.</p>\n"
+"    <p>Söz konusu karara göre BDDK tarafından; Hayat Holding A.Ş., Hayat "
+"Kimya Sanayi A.Ş., As Tüketim Malları Ticaret A.Ş., Kastamonu Entegre "
+"Ağaç Sanayi ve Ticaret A.Ş., ve Limaş Liman İşletmeciliği A.Ş.'nin "
+"ortaklığında, 1.5 milyar TL sermayeli ve Hayat Katılım Bankası A.Ş. "
+"unvanlı dijital katılım bankası kurulmasına izin verilmiştir.</p>\n"
+"    <p>Dijital Bankaların Faaliyet Esasları ile Servis Modeli Bankacılığı"
+" Hakkında Yönetmelik (“Yönetmelik”) 01.01.2022 tarihinde yürürlüğe "
+"girmişti. Yönetmelik kapsamında dijital banka; bankacılık hizmetlerini "
+"fiziksel şubeler yerine elektronik bankacılık hizmetleri dağıtım "
+"kanalları aracılığıyla sunan kredi kuruluşu şeklinde tanımlanmıştı.</p>\n"
+"    <p>Yönetmelik’in yürürlüğe girmesi ile birlikte, Hayat Katılım "
+"Bankası A.Ş., elektronik hizmet dağıtım kanalları aracılığı ile uzaktan "
+"bankacılık faaliyetleri gösterebilecek ilk şubesiz katılım bankası olarak"
+" dijital bankacılık izni almış bulunmaktadır.</p>\n"
+"    <p>Dijital Bankaların Faaliyet Esasları ile Servis Modeli Bankacılığı"
+" Hakkında Yönetmelik’e <a "
+"href='https://www.resmigazete.gov.tr/eskiler/2021/12/20211229-6.htm'>buradan</a>"
+" ulaşabilirsiniz.</p>\n"
+"</div>\n"
+msgstr ""
+"\n"
+"<div class=\"content\">\n"
+"    <p>The Regulation on the Operating Principles of Digital Banks and "
+"Service Model Banking (“Regulation”) drafted by the Banking Regulation "
+"and Supervision Agency (“BRSA”), has entered into force on 1 January "
+"2022. </p>\n"
+"    <p>Within the scope of the Regulation, the term ‘digital bank’ is "
+"defined as “credit institution that provides banking services through "
+"electronic banking services distribution channels instead of physical "
+"branches.”</p>\n"
+"    <p>After the Regulation entered into force, the decision of the "
+"Banking Regulation and Supervision Board dated April 21, 2022, was "
+"published in the official gazette on April 22, 2022, that Hayat Katılım "
+"Bankası A.Ş to obtain the first digital bank license in Turkey.</p>\n"
+"    <p>You may find The Regulation <a href='https://www.resmigazete.gov.tr/eskiler/2021/12/20211229-6.htm'>here</a>.</p>\n"
+"</div>\n"
+
 #: app/error/templates/404.html:5
 msgid "Böyle bir sayfa bulunmamaktadır."
 msgstr "This page does not exist."
@@ -640,9 +860,11 @@ msgstr "This page does not exist."
 msgid "Bir hatayla karşılaşıldı."
 msgstr "An error occured."
 
-#: app/main/views.py:143
+#: app/main/views.py:153
 msgid "Talebiniz alınmıştır, en kısa zamanda size geri döneceğiz. Teşekkürler."
-msgstr "Your request has been received. We will get back to you as soon as we can. Thank you."
+msgstr ""
+"Your request has been received. We will get back to you as soon as we "
+"can. Thank you."
 
 #: app/main/templates/about.html:4 app/main/templates/about.html:9
 #: app/main/templates/header.html:2
@@ -779,7 +1001,7 @@ msgid "Anasayfa"
 msgstr "Home"
 
 #: app/main/templates/career.html:5 app/main/templates/career.html:11
-#: app/main/templates/header.html:6
+#: app/main/templates/header.html:9
 msgid "Kariyer"
 msgstr "Careers"
 
@@ -800,7 +1022,7 @@ msgstr ""
 "activities for entrepreneurship, public and legal cooperation and support"
 " such activities."
 
-#: app/main/templates/career.html:20
+#: app/main/templates/career.html:18
 msgid ""
 "Daha iyi bir gelecek fikri için bizimle çalışan ekip arkadaşlarımızın\n"
 "        da aynı felsefeye sahip olmasına önem veriyor ve onlarla beraber "
@@ -811,7 +1033,7 @@ msgstr ""
 "who work with us have the same philosophy and we endeavour to move this "
 "idea forward with them."
 
-#: app/main/templates/career.html:25
+#: app/main/templates/career.html:21
 msgid ""
 "Müvekkillerimizin faaliyet gösterdikleri alanlara ilgi duyan, sektörel\n"
 "        gelişmeleri yakından takip eden, dijitalleşmeye ve inovatif "
@@ -829,7 +1051,7 @@ msgstr ""
 " thinking, are open to the idea of ​​interdisciplinary and inter-"
 "institutional cooperation and can adapt to our corporate culture."
 
-#: app/main/templates/career.html:32
+#: app/main/templates/career.html:26
 msgid ""
 "İyi ve akıcı bir şekilde yazılı ve sözlü İngilizce dilini kullanma\n"
 "        yeteneğine sahip adayların CV ve motivasyon mektuplarını info"
@@ -840,7 +1062,7 @@ msgstr ""
 " spoken the English language fluently and well, send their CV and "
 "motivation letters to info@hla-law.com."
 
-#: app/main/templates/career.html:38
+#: app/main/templates/career.html:32
 msgid ""
 "Kişisel verilerinizin işlenmesi hakkında\n"
 "        <a href='/serve_document/career_notice'>Çalışan Adayı ve Stajyer "
@@ -851,51 +1073,40 @@ msgstr ""
 "Candidate and Trainee Candidate Privacy Notice (Privacy Notice)</a> about"
 " the processing of your personal data."
 
-#: app/main/templates/career.html:43
-msgid ""
-"Kişisel verilerimin tarafıma bildirilen\n"
-"        <a href='/serve_document/privacy_policy'>Gizlilik ve Çerez "
-"Politikası'nda (Gizlilik Politikası)</a>\n"
-"        açıklanan şart ve koşullarda işlenmesini kabul ediyorum."
-msgstr ""
-"I accept the processing of my personal data in the terms and conditions "
-"described in <a href='/serve_document/privacy_policy'>Privacy and Cookie "
-"Notice (Privacy Notice)</a> notified to me."
-
 #: app/main/templates/contact.html:4 app/main/templates/contact.html:10
-#: app/main/templates/header.html:7
+#: app/main/templates/header.html:10
 msgid "İletişim"
 msgstr "Contact"
 
-#: app/main/templates/contact.html:27
+#: app/main/templates/contact.html:24
 msgid "Adres"
 msgstr "Address"
 
-#: app/main/templates/contact.html:34
+#: app/main/templates/contact.html:31
 msgid "Telefon"
 msgstr "Phone"
 
-#: app/main/templates/contact.html:41
+#: app/main/templates/contact.html:38
 msgid "E-Posta"
 msgstr "E-mail"
 
-#: app/main/templates/contact.html:51
+#: app/main/templates/contact.html:48
 msgid "Bize Ulaşın"
 msgstr "Contact us"
 
-#: app/main/templates/contact.html:56
+#: app/main/templates/contact.html:53
 msgid "Adınız Soyadınız"
 msgstr "Name Surname"
 
-#: app/main/templates/contact.html:63
+#: app/main/templates/contact.html:60
 msgid "E-Posta Adresiniz"
 msgstr "E-mail Address"
 
-#: app/main/templates/contact.html:70
+#: app/main/templates/contact.html:67
 msgid "Cep Telefonunuz"
 msgstr "Phone Number"
 
-#: app/main/templates/contact.html:80
+#: app/main/templates/contact.html:77
 msgid ""
 "Kişisel verilerimin <a "
 "href='/serve_document/privacy_policy_contact'>Aydınlatma\n"
@@ -909,11 +1120,11 @@ msgstr ""
 "described in <a href='/serve_document/privacy_policy_contact'>Privacy and"
 " Cookie Notice</a>."
 
-#: app/main/templates/contact.html:91
+#: app/main/templates/contact.html:88
 msgid "Talebiniz"
 msgstr "Request"
 
-#: app/main/templates/contact.html:100
+#: app/main/templates/contact.html:97
 msgid "Gönder"
 msgstr "Send"
 
@@ -935,7 +1146,7 @@ msgstr "Our Team"
 msgid "Haberler & Yayınlar"
 msgstr "News & Publications"
 
-#: app/main/templates/homepage.html:9
+#: app/main/templates/homepage.html:7
 msgid "En Son Haberler"
 msgstr "Latest News"
 
@@ -943,7 +1154,7 @@ msgstr "Latest News"
 msgid "Haberler"
 msgstr "News"
 
-#: app/main/templates/news.html:16
+#: app/main/templates/news.html:37
 msgid "Yayınlar"
 msgstr "Publications"
 
@@ -958,3 +1169,17 @@ msgstr "Biography"
 #: app/main/templates/resume.html:51
 msgid "Eğitim"
 msgstr "Education"
+
+#~ msgid ""
+#~ "Kişisel verilerimin tarafıma bildirilen\n"
+#~ "        <a href='/serve_document/privacy_policy'>Gizlilik"
+#~ " ve Çerez Politikası'nda (Gizlilik "
+#~ "Politikası)</a>\n"
+#~ "        açıklanan şart ve koşullarda işlenmesini kabul ediyorum."
+#~ msgstr ""
+#~ "I accept the processing of my "
+#~ "personal data in the terms and "
+#~ "conditions described in <a "
+#~ "href='/serve_document/privacy_policy'>Privacy and Cookie"
+#~ " Notice (Privacy Notice)</a> notified to"
+#~ " me."
